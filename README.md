@@ -25,3 +25,13 @@
 * `br` 줄바꿈태그(블록 태그 내에서만 사용해야 한다)(inline)
 * `strong` 경고 등 심각성이 있는 강조표시태그(블록 내 사용, 제목사용안함)(inline)
 * `em` 문맥 내 강조표시태그(블록 내 사용, 제목사용안함)(inline)
+* `blockquote` 긴 인용문(block)
+* `q` 짧은 인용문(inline)
+* `blockquote, q의 cite속성` 
+* `sup, sub` 위첨자, 아래첨자(inline)
+* `code` 컴퓨터가 지원하는 다양한 명령어를 표시하는 태그(inline)
+* `mark` 형광펜 강조 태그(inline)
+* `&lt;`,`&gt;`,`&copy;` 특수문자태그(<,>,저작권표시)(inline)
+* `hr` 수평선(주석과 같이 태그 구조 이해에 주로 사용한다)(block)
+* `address` 연락처, 회사소개, 고객센터 등 표시태그(다른 블록을 자식, 자손으로 배치할 수 없다)(block)
+* `del`,`s` 문자 삭제 or 교체 태그(inline)
