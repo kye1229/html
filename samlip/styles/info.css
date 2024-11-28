@@ -22,52 +22,99 @@
 #wrap header .right_menu ul li {}
 #wrap header .right_menu ul li a {}
 #wrap header .right_menu ul li a img {}
+/* =================================메인시작 */
 #wrap main {
     background-color: beige;
 }
 #wrap main .path{
     background-color: #f9f9f9;
+    padding:11.5px 80px 11.5px 0;
+    text-align: right;
 }
 #wrap main .path a {
-    font-size:0.88em;
-    line-height:1.04em;
+    font-size:0.88rem;
 }
 #wrap main .path em {
+    font-size:0.88rem;
     font-weight:600;
 }
+#wrap .main .path .img {
+    margin:0 12px;
+}
 #wrap main h1 {
-    font-size:3.13em;
-    font-weight:700;
+    margin:44px 49px;
+    text-align: center;
+    font-size:3.13rem; font-weight:700;
 }
 #wrap main > p {
-    font-size:1.13em;
+    font-size:1.13rem;
+    text-align: center;
+    margin-bottom:47px;
+    color: #555;
 }
 #wrap main .bg {
     background-color: #f9f9f9;
+    text-align: center;
+    padding:100px 0;
 }
 #wrap main .bg p {
-    font-size: 1.13em;
+    font-size: 1.13rem;
     line-height:1.5;
+    margin-bottom:60px;
 }
 #wrap main .bg h2 {
-    font-size:1.38em;
+    font-size:1.38rem;
+    margin-bottom:20px; 
     font-weight:600;
+    color:#36B4E5
 }
+#wrap main .bg p:nth-child(5) {margin-bottom:50px;}
 #wrap main .bg p em {
-    font-size:1.88em;
+    font-size:1.88rem;
     font-weight:500;
 }
 #wrap main .bg .goal_contents {
     background-color: yellow;
+    margin-bottom:60px;
 }
-#wrap main .bg .goal_contents li {}
-#wrap main .bg .goal_contents li img {}
-#wrap main .bg .goal_contents li span {}
+#wrap main .bg .goal_contents li {
+    display:inline-block;
+    width:250px; height:250px;
+    border-radius:50%;
+    margin-left:-10px;
+    font-size:1.63rem;
+    font-weight:500;
+    padding-top:80.5px;
+}
+#wrap main .bg .goal_contents li:nth-child(1) {
+    background-color: #36B4E5;
+}
+#wrap main .bg .goal_contents li:nth-child(2) {
+    background-color:#fff;
+}
+#wrap main .bg .goal_contents li:nth-child(2) span {color:#000}
+#wrap main .bg .goal_contents li:nth-child(3) {
+    background-color:#F3C300;
+}
+#wrap main .bg .goal_contents li * {display:block;} /* *모든대상* */
+#wrap main .bg .goal_contents li img {
+    display:inline-block;
+}
+#wrap main .bg .goal_contents li span {
+    line-height:1.5;
+    font-size:1.63rem;
+    font-weight:500;
+    margin-top:10px;
+    color:#fff;
+}
 #wrap main .bg .strategy_contents {
     background-color:lime;
 }
 #wrap main .bg .strategy_contents dl {
     background-color: #eee;
+    width:180px; height:180px;
+    border-radius: 50%;
+    display:inline-block;
 }
 #wrap main .bg .strategy_contents dl dt {}
 #wrap main .bg .strategy_contents dl dd {}

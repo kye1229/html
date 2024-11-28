@@ -1,0 +1,209 @@
+#wrap {}
+#wrap main {
+    background-color:#fff;
+}
+#wrap main .path {
+    background-color: #f9f9f9;
+    padding:11.5px 80px 11.5px 0;
+    text-align: right;
+}
+#wrap main path a {
+    font-size:0.88rem;
+}
+#wrap main path img {}
+#wrap main path em {
+    font-size:0.88rem;
+    font-weight:600;
+}
+#wrap main h1 {
+    font-size:3.13rem;
+    font-weight:700;
+    letter-spacing:-0.02%;
+    text-align: center;
+    margin-top:50px;
+
+}
+#wrap main > p {
+    font-size: 1.19rem;
+    font-weight: 500;
+    letter-spacing:-0.02%;
+    text-align:center;
+    margin:25px 0 50px 0;
+}
+#wrap main .bg {
+    background-color: #f9f9f9;
+    padding:70px 0;
+}
+/* ===============================종합식품사업 */
+#wrap main .bg .manage_introduce {
+    width:1140px;
+    margin:0 auto;
+}
+#wrap main .bg .manage_introduce > p {
+    width:657px;
+    display:inline-block;
+}
+#wrap main .bg .manage_introduce > p img {
+}
+#wrap main .bg .manage_introduce .manage_detail {
+    width:358px;
+    display:inline-block;
+    margin-left:20px;
+}
+#wrap main .bg .manage_introduce .manage_detail .number {
+    font-size:6.25rem;
+    font-weight:700;
+    color:rgba(0,0,0,0.1)
+}
+#wrap main .bg .manage_introduce .manage_detail h2 {
+    font-size:1.88rem;
+    font-weight:600;
+    letter-spacing:-0.02rem;
+    margin-top:-70px;
+
+}
+#wrap main .bg .manage_introduce .manage_detail > p {
+    letter-spacing:-0.01rem;
+    margin-top:23px;
+    line-height:1.7;
+    color:#555
+}
+/* ==========================점포사업 */
+#wrap main .bg .business {
+    width:1140px;
+    margin:0 auto;
+    margin-top:70px;
+    padding-left:101px;
+}
+#wrap main .bg .business .business_detail {
+    width:358px;
+    display:inline-block;
+    margin-right:20px;
+}
+#wrap main .bg .business .business_detail .number {
+    font-size:6.25rem;
+    font-weight:700;
+    color:rgba(0,0,0,0.1)
+}
+#wrap main .bg .business .business_detail h2 {
+    font-size:1.88rem;
+    font-weight:600;
+    letter-spacing:-0.02rem;
+    margin-top:-70px;
+}
+#wrap main .bg .business .business_detail > p {
+    letter-spacing:-0.01rem;
+    margin-top:23px;
+    line-height:1.7;
+    color:#555
+}
+#wrap main .bg .business > p {
+    width:657px;
+    display:inline-block;
+}
+#wrap main .bg .business > p img {}
+/* =======================컨세션사업 */
+#wrap main .bg .concession {
+    width:1140px;
+    margin:0 auto;
+    margin-top:70px;
+}
+#wrap main .bg .concession p {
+    width:657px;
+    display:inline-block;
+}
+#wrap main .bg .concession p img {}
+#wrap main .bg .concession .concession_detail {
+    width:358px;
+    display:inline-block;
+    padding-right:101px;
+    margin-left:20px;
+}
+#wrap main .bg .concession .concession_detail .number {
+    font-size:6.25rem;
+    font-weight:700;
+    color:rgba(0,0,0,0.1)
+}
+#wrap main .bg .concession .concession_detail h2 {
+    font-size:1.88rem;
+    font-weight:600;
+    letter-spacing:-0.02rem;
+    margin-top:-70px;
+
+}
+#wrap main .bg .concession .concession_detail > p {
+    letter-spacing:-0.01rem;
+    margin-top:23px;
+    line-height:1.7;
+    width:358px;
+    color:#555
+}
+/* =============================서비스사업 */
+#wrap main .bg .service {
+    width:1140px;
+    margin:0 auto;
+    padding-left:101px;
+    margin-top:70px;
+}
+#wrap main .bg .service .service_detail {
+    width:358px;
+    display:inline-block;
+}
+#wrap main .bg .service .service_detail .number {
+    font-size:6.25rem;
+    font-weight:700;
+    color:rgba(0,0,0,0.1)
+}
+#wrap main .bg .service .service_detail h2 {
+    font-size:1.88rem;
+    font-weight:600;
+    letter-spacing:-0.02rem;
+    margin-top:-70px;
+}
+#wrap main .bg .service .service_detail p {
+    letter-spacing:-0.01rem;
+    margin-top:23px;
+    line-height:1.7;
+    color:#555
+}
+#wrap main .bg .service > p {
+    width:657px;
+    display:inline-block;
+    margin-left:20px;
+}
+#wrap main .bg .service > p img {}
+/* =======================수출사업 */
+#wrap main .bg .export {
+    width:1140px;
+    margin:0 auto;
+    padding-right:101px;
+    margin-top:70px;
+}
+#wrap main .bg .export p {
+    width:657px;
+    display:inline-block;
+}
+#wrap main .bg .export p img {}
+#wrap main .bg .export .export_detail {
+    width:358px;
+    display:inline-block;
+    margin-left:20px;
+}
+#wrap main .bg .export .export_detail .number {
+    font-size:6.25rem;
+    font-weight:700;
+    color:rgba(0,0,0,0.1)
+}
+#wrap main .bg .export .export_detail h2 {
+    font-size:1.88rem;
+    font-weight:600;
+    letter-spacing:-0.02rem;
+    margin-top:-70px
+}
+#wrap main .bg .export .export_detail > p {
+    letter-spacing:-0.01rem;
+    margin-top:23px;
+    line-height:1.7;
+    width:358px;
+    color:#555
+}
