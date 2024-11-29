@@ -40,6 +40,8 @@
 }
 #wrap .main .path .img {
     margin:0 12px;
+    position:relative;
+    top:3.3px;
 }
 #wrap main h1 {
     margin:44px 49px;
@@ -108,13 +110,22 @@
     color:#fff;
 }
 #wrap main .bg .strategy_contents {
-    background-color:lime;
+    /*overflow:hidden;*/
+    background-color: aqua;
+    width:max-content; margin:0 auto;
+}
+#wrap main .bg .strategy_contents::after {
+    clear:both; display:block; content:'';
 }
 #wrap main .bg .strategy_contents dl {
     background-color: #eee;
     width:180px; height:180px;
     border-radius: 50%;
-    display:inline-block;
+    margin-left:-10px;
+    /* padding-top:47.5px; */
+    padding:47.5px 15px 0 15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    float:left;
 }
 #wrap main .bg .strategy_contents dl dt {}
 #wrap main .bg .strategy_contents dl dd {}
