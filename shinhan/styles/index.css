@@ -42,10 +42,14 @@
 #wrap main .container .contents {
     width:1440px; height:100vh;
     margin:0 auto;
-    background-color: rgba(255,255,255,0.3); /* 제거용 */
 }
 #wrap main .container .contents .txt {
-    background-color: orange;
+    background-color:aqua;
+}
+#wrap main .container .contents .txt .sub_title {
+    font-size:1.56rem; font-weight:600; color:#fff;
+    margin:20px 0;
+    letter-spacing: -0.02rem;
 }
 #wrap main .container .contents .txt h1 {
     font-size:4.38rem; font-weight:700;
@@ -103,51 +107,41 @@
 #wrap main .pay .contents .scroll .scroll_bg .bar {
     display:inline-block; background-color: #fff; width:8px; height:8px; border-radius: 50%; position:relative; left:2px; top:-5px;
 }
-/* =========================================1행 */
+/* =========================================2행 */
 #wrap main .service {
-    background-color: aqua;
     background-image:url(../images/row2.jpg);
     background-size:cover;
 }
 #wrap main .service .contents {
-    background-color: pink;
     width:1440px; height:100vh;
     margin:0 auto;
     overflow:hidden;
-    position:relative;
 }
 #wrap main .service .contents .txt {
-    background-color: lime;
     float:left;
     padding-top:311px;
 }
-#wrap main .service .contents .txt .sub_title {
-    font-size:1.56rem; font-weight:600; color:#fff;
-    margin:20px 0;
-    letter-spacing: -0.02rem;
-}
 #wrap main .service .contents .txt h1 {}
-#wrap main .service .contents .txt > p {
-    width:507px;
-}
+#wrap main .service .contents .txt > p {}
 #wrap main .service .contents .card {
-    background-color:chocolate;
-    float:right; letter-spacing: -0.02rem;
+    float:right;
 }
 #wrap main .service .contents .card .box1 {
-    background-color: yellow;
     width:331px;
     display:inline-block;
     background-image:url(../images/card_bg1.jpg);
     background-size:331px auto;
-    background-repeat:repeat-x;
+    background-repeat:no_repeat;
     padding-top:200px;
     border-radius:25px;
     position:relative; top:157px;
+    overflow:hidden;
+    margin-right:22px;
 }
 #wrap main .service .contents .card .box1 .txt1 {
     background-color:#fff;
     padding:30px 20px 20px;
+    letter-spacing: -0.02rem;
 }
 #wrap main .service .contents .card .box1 .txt1 h2 {
     font-size:1.56rem; font-weight:600;
@@ -155,25 +149,27 @@
 #wrap main .service .contents .card .box1 .txt1 > p {
     line-height:1.5; margin:35px 0;
 }
-#wrap main .service .contents .card .box1 .txt1 {
-
-}
-
 #wrap main .service .contents .card .box1 .txt1 a {
+    overflow:hidden;
+    display:block;
+    border-top:1px solid #000;
+    padding:10px 0;
 }
 #wrap main .service .contents .card .box1 .txt1 a > p {line-height:1.5;}
+#wrap main .service .contents .card .box1 .txt1 a > p:nth-child(1) {font-weight:600; float:left;}
+#wrap main .service .contents .card .box1 .txt1 a > p:nth-child(2) {float:right;}
 #wrap main .service .contents .card .box1 .txt1 a p img{}
 #wrap main .service .contents .card .box2 {
-    background-color: beige;
     background-image:url(../images/card_bg2.jpg);
     background-size:331px auto;
-    background-repeat:repeat-x;
+    background-repeat:no_repeat;
     width:331px;
     opacity: 0.6;
     display:inline-block;
     padding-top:200px;
     border-radius:25px;
     position:relative; top:311px;
+    overflow:hidden;
 }
 #wrap main .service .contents .card .box2 .txt2 {
     background-color:#fff;
@@ -185,17 +181,103 @@
 #wrap main .service .contents .card .box2 .txt2 > p {
     line-height:1.5; margin:35px 0;
 }
-#wrap main .service .contents .card .box2 .txt2 h2 a {
+#wrap main .service .contents .card .box2 .txt2 a {
     border-top: 1px solid #000;
     overflow:hidden;
+    display:block;
+    padding:10px 0;
 }
-#wrap main .service .contents .card .box2 .txt2 h2 a > p {
-    line-height:1.5; float:left;
+#wrap main .service .contents .card .box2 .txt2 a > p {
+    line-height:1.5;
 }
-#wrap main .service .contents .card .box2 .txt2 h2 a > p:nth-child(1) {float:left;}
-#wrap main .service .contents .card .box2 .txt2 h2 a > p:nth-child(2) {float:right;}
-#wrap main .service .contents .card .box2 .txt2 h2 a > p img {}
-/* =========================================2행 */
-#wrap main .different {}
-#wrap main .question {}
+#wrap main .service .contents .card .box2 .txt2 a > p:nth-child(1) {font-weight: 600; float:left;}
+#wrap main .service .contents .card .box2 .txt2 a > p:nth-child(2) {float:right;}
+#wrap main .service .contents .card .box2 .txt2 a > p img {}
+/* =========================================3행 */
+#wrap main .different {
+    background-image:url(../images/row3.jpg);
+    background-size: cover;
+}
+#wrap main .different .contents {}
+#wrap main .different .contents .txt {
+    text-align:center;
+    padding-top:162px;
+}
+#wrap main .different .contents .txt .sub_title {}
+#wrap main .different .contents .txt h1 {}
+#wrap main .different .contents .txt h1 span {}
+#wrap main .different .contents .txt h1+p {}
+#wrap main .different .contents ol {
+    overflow:hidden;
+}
+#wrap main .different .contents ol li {
+    width:290px; height:290px; border-radius: 50%;
+    border:20px solid rgba(255,255,255,0.5);
+    position:relative;/* after가상요소의 부모설정 */
+    float:left;
+    margin-right:93.33px;
+}
+#wrap main .different .contents ol li::after {
+    content:'';
+    display:block;
+    background-color: #fff;
+    width:250px; height:250px;
+    border-radius:50%;
+    position:absolute; left:0; top:0; z-index:100;
+}
+#wrap main .different .contents ol li:nth-child(4) {margin:0;}
+#wrap main .different .contents ol li > * {
+    position:relative; z-index:200;
+    font-size:1.56rem;
+    font-weight:600;
+    text-align:center;
+}
+#wrap main .different .contents ol li .num {
+    background-color:#5E91FF;
+    border-radius:20px;
+    width:70px;
+    color:#fff;
+    padding:8.5px 20px;
+}
+#wrap main .different .contents ol li h2 {
+    line-height:1.3;
+    letter-spacing: -0.02rem;
+}
+/* ===========================================4행 자주 묻는 질문 */
+#wrap main .question {
+}
+#wrap main .question .contents {padding-top:231px;}
+#wrap main .question .contents .txt {
+    margin-bottom:54px;
+}
+#wrap main .question .contents .txt .sub_title {
+    color:#5E91FF;
+}
+#wrap main .question .contents .txt h1 {
+    color:#000;
+}
+#wrap main .question .contents .q_contents {
+}
+#wrap main .question .contents .q_contents a {
+    overflow:hidden; display:block;
+    padding:20px; margin-bottom:20px;
+    background-color: #eee; border-radius:10px;
+}
+#wrap main .question .contents .q_contents a:nth-child(3) {margin-bottom:0;}
+#wrap main .question .contents .q_contents a .q_left {
+    float:left;
+}
+#wrap main .question .contents .q_contents a .q_left .category {
+    font-size:1.25rem; line-height:1.5;
+}
+#wrap main .question .contents .q_contents a .q_left img{
+    margin:0 24px; position:relative; top:3px;
+}
+#wrap main .question .contents .q_contents a .q_left em{
+    font-size:1.56rem; font-weight:500;
+}
+#wrap main .question .contents .q_down {
+    float:right; 
+}
+#wrap main .question .contents .q_down img {}
 #wrap footer {}
