@@ -83,6 +83,7 @@ main .tab_wrap #upFrm .user_id .input_id .id_block {
     background-color:#fff; padding:25px 40px;
     border-radius:36.5px; float:left; width:340px;
 }
+main .tab_wrap #upFrm .user_id .input_id .id_block::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .user_id .input_id .id_block input[name=user_id] {
     color:#aaa; letter-spacing:-0.02em; height:16px; 
 }
@@ -107,6 +108,7 @@ main .tab_wrap #upFrm .user_pw .input_pw {
     background-color:#fff; border-radius:36.5px; padding:25px 40px;
     margin-bottom:10px; 
 }
+main .tab_wrap #upFrm .user_pw .input_pw::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .user_pw .input_pw input[name=user_pw] {
     color:#aaa; letter-spacing:-0.02em; height:16px; width:100%;
 }
@@ -114,44 +116,46 @@ main .tab_wrap #upFrm .user_pw .input_pw_cf {
     background-color:#fff; border-radius:36.5px; padding:25px 40px;
     margin-bottom:10px; 
 }
+main .tab_wrap #upFrm .user_pw .input_pw_cf::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .user_pw .input_pw_cf input {width:100%;}
 main .tab_wrap #upFrm .user_pw .detail {
     color:#6c6c6c; letter-spacing:-0.02em; font-size:0.88rem;
     margin-left:10px;
 }
-main .tab-wrap #upFrm .us_email
-main .tab_wrap #upFrm .us_email .user_email {
+main .tab-wrap #upFrm .user_email {
     background-color: purple;
     margin-bottom:10px;
-    overflow:hidden; 
-}
+}    
 main .tab_wrap #upFrm .user_email h2 {
     font-size:1.25rem; font-weight:700; letter-spacing:-0.02em;
     color:#fff;
     margin:50px 0 10px 10px;
 }
-main .tab_wrap #upFrm .user_email .user_email {
-    float:left;
+main .tab_wrap #upFrm .us_email {overflow:hidden;}
+main .tab_wrap #upFrm .us_email .input_email {
 }
-main .tab_wrap #upFrm .user_email .user_email input[name=user_email] {
-    padding:25px 40px; border-radius:36.5px; width:230px;
+main .tab_wrap #upFrm .us_email .input_email::placeholder {
+    color:#aaa; float:left;
 }
-main .tab_wrap #upFrm .user_email .user_email span {
+main .tab_wrap #upFrm .us_email .input_email input[name=user_email] {
+    padding:23px 40px; border-radius:36.5px;  width:230px; float:left;
+}
+main .tab_wrap #upFrm .user_email .us_email .input_email span {
     font-size:1.25rem; color:#fff; letter-spacing:-0.02em; margin:10px;
-    position:relative; top:20px;
+    position:relative; top:15px; font-size:20px; float:left;
 }
-main .tab_wrap #upFrm .user_email .select_email {
-    float:right;
+main .tab_wrap #upFrm .user_email .us_email .select_email {
+    float:right; 
 }
-main .tab_wrap #upFrm .user_email .select_email .email_option {
-    background-color:#1ED760; padding:25px 40px; background-image:url(../images/keyboard_arrow_down.png); background-repeat:no-repeat; background-position:75%;
+main .tab_wrap #upFrm .user_email .us_email .select_email select[name=email_option] {
+    background-color:#1ED760; padding:25px 40px; background-image:url(../images/keyboard_arrow_down.png); background-repeat:no-repeat; background-position:85%; width:230px;
     border-radius:36.5px; color:#fff; letter-spacing:-0.02em; font-weight:600;
 }
-main .tab_wrap #upFrm .user_email .select_email .email_option option {background-color:#fff; color:#000;}
-main .tab_wrap #upFrm .user_email .select_email .email_option option:nth-child(1) {color:#aaa;}
+main .tab_wrap #upFrm .user_email .us_email .select_email .email_option option {background-color:#fff; color:#000;}
+main .tab_wrap #upFrm .user_email .us_email .select_email .email_option option:nth-child(1) {color:#aaa;}
 main .tab_wrap #upFrm .user_email .detail {
     color:#6c6c6c; letter-spacing:-0.02em; font-size:0.88rem;
-    margin-left:10px;
+    margin-left:10px; margin-top:10px;
 }
 main .tab_wrap #upFrm .ph_number {
     background-color: blue;
@@ -161,9 +165,18 @@ main .tab_wrap #upFrm .ph_number h2 {
     color:#fff;
     margin:50px 0 10px;
 }
-main .tab_wrap #upFrm .ph_number .ph_num {}
-main .tab_wrap #upFrm .ph_number .ph_num .user_number {}
+main .tab_wrap #upFrm .ph_number .ph_num {overflow:hidden;}
+main .tab_wrap #upFrm .ph_number .ph_num .user_number {
+    background-color:#fff; border-radius:36.5px; padding:23px 40px; margin-bottom:10px; float:left;
+    letter-spacing:-0.02em; width:338px;
+}
+main .tab_wrap #upFrm .ph_number .ph_num .user_number::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .ph_number .ph_num .user_number input[user=us_ph_num] {}
+main .tab_wrap #upFrm .ph_number .ph_num .get_code {
+    float:right; background-color:#1ED760; border-radius:36.5px; width:152px;
+    padding:25px 40px;
+}
+main .tab_wrap #upFrm .ph_number .ph_num .get_code .get_code_btn {color:#fff;}
 main .tab_wrap #upFrm .signup_btn {
     background-color: yellow;
 }
