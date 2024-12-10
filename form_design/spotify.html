@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | Spotify</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/spotify_logo.png" type="image/x-icon">
+    <link href="./styles/reset.css" rel="stylesheet">
+    <link href="./styles/spotify.css" rel="stylesheet">
+    <style>
+        /* 선택자연습용(주로 input에서 많이 사용) */
+        /* input[name*=am] {background-color: aqua;} */
+    </style>
+</head>
+<body>
+    <main>
+        <h1><a href="#"><img src="./images/g10.png" alt="spotify"></a></h1>
+        <div class="tab_menu">
+            <a href="#" class="active">SIGN IN</a>
+            <a href="#">SIGN UP</a>
+        </div>
+        <div class="tab_wrap">
+            <!-- SING IN 클릭 시 출력 내용 -->
+            <form action="#" method="post" id="inFrm">
+                <ul>
+                    <li><input type="text" name="user_name" placeholder="Username"></li>
+                    <li><input type="password" name="user_pw" placeholder="Password"></li>
+                </ul>
+                <div class="stay_in">
+                    <input type="checkbox" name="login_stay" value="stay_on" id="stay_on">
+                    <label for="stay_on">stay signed in</label>
+                </div>
+                <p class="btn"><button type="submit" class="sign_in_btn">SIGN IN</button></p>
+                <a href="#" class="forget_pw">Forget Password?</a>
+            </form>
+            <!-- SING UP 클릭 시 출력 내용 -->
+            <form action="#" method="post" id="upFrm">
+                <div class="user_id">
+                    <h2>ID</h2>
+                    <div class="input_id">
+                        <p class="id_block"><input type="text" name="user_id" placeholder="User ID"></p>
+                        <p class="id_btn"><button type="button" class="id_check_btn">Check ID</button></p>
+                    </div>
+                    <p class="detail">4-12 characters/English lowercase letters<br>
+                    (number combination available)</p>
+                </div>
+            <div class="user_pw">
+                <h2>PW</h2>
+                <p class="input_pw"><input type="password" name="user_pw" placeholder="Password"></p>
+                <p class="input_pw_cf"><input type="password" name="user_pw_cf" placeholder="Password Confirm"></p>
+                <p class="detail">8-20 characters/a combination of two or more upper case letters,<br>
+                    lower case letters, numbers, and special characters</p>
+            </div>
+            <div class="user_email">
+                <h2>Email</h2>
+                <div class="us_email">
+                    <p class="user_email"><input type="email" name="user_email" placeholder="email"><span>@</span></p>
+                    <p class="select_email">
+                        <select class="email_option">
+                            <option value="select">Select</option>
+                            <option value="naver">naver.com</option>
+                            <option value="nate">nate.com</option>
+                            <option value="daum">daum.net</option>
+                            <option value="google">gmail.com</option>
+                        </select>
+                    </p>
+                </div>
+                <p class="detail">
+                    To make your account more secure, please sign up and proceed<br>
+                    with  email authentication at<br>
+                    [My Information > Modify Member Information].
+                </p>
+            </div>
+            <div class="ph_number">
+                <h2>Phone Number</h2>
+                <div class="ph_num">
+                    <p class="user_number"><input type="number" name="us_ph_num" placeholder="Phone Number"></p>
+                    <p><button type="button" class="get_code_btn">Get Code</button></p>
+                </div>
+            </div>
+            <p class="signup_btn"><button type="submit" class="sign_up">Sign Up</button></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
