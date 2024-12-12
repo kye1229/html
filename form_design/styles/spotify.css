@@ -1,6 +1,6 @@
 body {background-color: #222;}
 main {
-    width:500px;
+    width:500px; padding-bottom:80px;
     /* 부모의 너비값 고정이 되어있을 경우, 그 자식, 자손 중 블록에 해당하는 모든 요소는 부모의 너비(w:100%)만큼 자동으로 크기를 인식하기 때문에 필요한 경우가 아니라면 너비를 입력하지 않아도 된다. */
     margin:97px auto 0;}
 main h1 {text-align: center; margin:0 0 87px;}
@@ -66,9 +66,7 @@ main .tab_wrap #inFrm .forget_pw {
     margin:14px 0 0;
 }
 /* sign up클릭 시 나오는 내용 스타일 */
-main .tab_wrap #upFrm {
-    background-color: aqua;
-}
+main .tab_wrap #upFrm {}
 main .tab_wrap #upFrm .user_id {
 }
 main .tab_wrap #upFrm .user_id h2 {
@@ -85,7 +83,7 @@ main .tab_wrap #upFrm .user_id .input_id .id_block {
 }
 main .tab_wrap #upFrm .user_id .input_id .id_block::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .user_id .input_id .id_block input[name=user_id] {
-    color:#aaa; letter-spacing:-0.02em; height:16px; 
+    letter-spacing:-0.02em; height:16px; 
 }
 main .tab_wrap #upFrm .user_id .input_id .id_btn {
     background-color:#1ED760; padding:25px 40px;
@@ -96,7 +94,7 @@ main .tab_wrap #upFrm .user_id .input_id .id_btn .id_check_btn {
 }
 main .tab_wrap #upFrm .user_id .detail {
     color:#6c6c6c; letter-spacing:-0.02em; font-size:0.88rem;
-    margin-left:10px;
+    margin-left:10px; line-height: 1.2;
 }
 main .tab_wrap #upFrm .user_pw {}
 main .tab_wrap #upFrm .user_pw h2 {
@@ -110,7 +108,7 @@ main .tab_wrap #upFrm .user_pw .input_pw {
 }
 main .tab_wrap #upFrm .user_pw .input_pw::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .user_pw .input_pw input[name=user_pw] {
-    color:#aaa; letter-spacing:-0.02em; height:16px; width:100%;
+    letter-spacing:-0.02em; height:16px; width:100%;
 }
 main .tab_wrap #upFrm .user_pw .input_pw_cf {
     background-color:#fff; border-radius:36.5px; padding:25px 40px;
@@ -120,10 +118,9 @@ main .tab_wrap #upFrm .user_pw .input_pw_cf::placeholder {color:#aaa;}
 main .tab_wrap #upFrm .user_pw .input_pw_cf input {width:100%;}
 main .tab_wrap #upFrm .user_pw .detail {
     color:#6c6c6c; letter-spacing:-0.02em; font-size:0.88rem;
-    margin-left:10px;
+    margin-left:10px; line-height: 1.2;
 }
 main .tab-wrap #upFrm .user_email {
-    background-color: purple;
     margin-bottom:10px;
 }    
 main .tab_wrap #upFrm .user_email h2 {
@@ -155,11 +152,9 @@ main .tab_wrap #upFrm .user_email .us_email .select_email .email_option option {
 main .tab_wrap #upFrm .user_email .us_email .select_email .email_option option:nth-child(1) {color:#aaa;}
 main .tab_wrap #upFrm .user_email .detail {
     color:#6c6c6c; letter-spacing:-0.02em; font-size:0.88rem;
-    margin-left:10px; margin-top:10px;
+    margin-left:10px; margin-top:10px; line-height: 1.2;
 }
-main .tab_wrap #upFrm .ph_number {
-    background-color: blue;
-}
+main .tab_wrap #upFrm .ph_number {}
 main .tab_wrap #upFrm .ph_number h2 {
     font-size:1.25rem; font-weight:700; letter-spacing:-0.02em;
     color:#fff;
@@ -167,7 +162,7 @@ main .tab_wrap #upFrm .ph_number h2 {
 }
 main .tab_wrap #upFrm .ph_number .ph_num {overflow:hidden;}
 main .tab_wrap #upFrm .ph_number .ph_num .user_number {
-    background-color:#fff; border-radius:36.5px; padding:23px 40px; margin-bottom:10px; float:left;
+    background-color:#fff; border-radius:36.5px; padding:21px 40px; margin-bottom:10px; float:left;
     letter-spacing:-0.02em; width:338px;
 }
 main .tab_wrap #upFrm .ph_number .ph_num .user_number::placeholder {color:#aaa;}
@@ -176,8 +171,12 @@ main .tab_wrap #upFrm .ph_number .ph_num .get_code {
     float:right; background-color:#1ED760; border-radius:36.5px; width:152px;
     padding:25px 40px;
 }
-main .tab_wrap #upFrm .ph_number .ph_num .get_code .get_code_btn {color:#fff;}
+main .tab_wrap #upFrm .ph_number .ph_num .get_code .get_code_btn {color:#fff; font-weight:600;}
 main .tab_wrap #upFrm .signup_btn {
-    background-color: yellow;
+    margin-top:60px;
+    background-color:#1ED760; text-align:center;
+    padding:25px 40px; border-radius:36.5px;
 }
-main .tab_wrap #upFrm .sign_up_btn .sign_up {}
+main .tab_wrap #upFrm .signup_btn .sign_up {
+    color:#fff; font-weight:600; letter-spacing:-0.02em;
+}
