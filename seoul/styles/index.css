@@ -67,7 +67,7 @@ header .bottom .lang .lang_btn {
     width:30px; height:29px; font-size:0.81rem;
 }
 /* ==============================================main */
-main {background-color:hotpink;}
+main {}
 /* ==============================================main 1.상단 이벤트+공지사항 배너 */
 main .visual_container {
     width:1152px; margin:0 auto;
@@ -107,42 +107,41 @@ main .visual_container .traffic {}
 main .visual_container .traffic a {}
 main .visual_container .traffic a img {}
 /* ==============================================main 2 ~ 5 **공통제목디자인** */
-main > * .title {}
+main > * {width:1152px; margin:50px auto 0;}
+main > * .title {
+    border-bottom:1px solid #ccc;
+    padding-bottom:20px;
+    display:flex; flex-flow:row nowrap;
+    justify-content: space-between; align-items:center;
+}
 main > * .title h1 {
     font-size:1.44rem; letter-spacing: -0.02em; font-weight:500;
 }
 main > * .title .more_view {
-    padding:10px; border:1px solid #aaa; background-color:#fff;
+    padding:10px; border:1px solid #aaa; letter-spacing: -0.02em;
 }
 /* ==============================================main 2. 주요 서비스 */ 
-main .service_container {
-    width:1152px; margin:0 auto;
-}
-main .service_container .title {
-    display:flex;
-    justify-content: space-between;
-    border-bottom:1px solid #ccc;
-    padding-bottom:20px;
-}
+main .service_container {}
+main .service_container .title {}
 main .service_container .title h1 {}
 main .service_container .title .more_view {}
 main .service_container .contents {
     display:flex;
-    flex-flow:row nowrap; justify-content: space-between;
-    width:1152px;
+    flex-flow:row nowrap;
 }
 main .service_container .contents a {
     display:flex;
     flex-flow:column nowrap;
-    padding:20px; width:calc(100% / 11);
-
+    padding:20px 0; /* width:calc(100% / 11); */flex:1;
+    align-items:center;
 }
 main .service_container .contents a span {
     width:60px; height:60px;
     background-image:url(../images/service.png);
+    margin-bottom:15px;
 }
 main .service_container .contents a em {
-    margin-top:15px; font-size:0.81rem; letter-spacing: -0.02em;
+    font-size:0.81rem; letter-spacing: -0.02em;
 }
 main .service_container .contents a:nth-child(1) span {}
 main .service_container .contents a:nth-child(2) span {background-position-x:-60px;}
@@ -156,10 +155,191 @@ main .service_container .contents a:nth-child(9) span {background-position-x:-48
 main .service_container .contents a:nth-child(10) span {background-position-x:-540px;}
 main .service_container .contents a:nth-child(11) span {background-position-x:-600px;}
 /* ==============================================main 3. 신청,행사,서비스 */ 
+main .corona_container {
+    background-color:#eff4f8; width:100%;
+}
+main .corona_container .contents {
+    width:1152px; margin:0 auto;
+    display:flex; flex-flow:row nowrap; padding:50px 0;
+}
+main .corona_container .contents a {flex:1;}
+main .corona_container .contents a img {width:100%;}
+/* ==============================================main 3. 신청+축제+서비스 */ 
+main .event_container {
+    width:1152px;
+    display:flex; flex-flow:row nowrap;
+    
+}
+main .event_container .contents {
+    width:calc(100% / 3);
+    margin-right:22px;
+}
+main .event_container .contents:last-child {margin-right:0;}
+main .event_container .contents .title {margin-bottom:15px;}
+main .event_container .contents .title h1 {}
+main .event_container .contents .title .more {}
+main .event_container .contents .title .more img {}
+main .event_container .contents .list {}
+main .event_container .contents .list li {
+    letter-spacing:-0.02em; display:flex; flex-flow:row nowrap;
+    margin-bottom:25px;
+}
+main .event_container .contents .list li:last-child {margin:0;}
+main .event_container .contents .list li .category {
+    margin-right:10px; width:40px;
+}
+main .event_container .contents .list li a {
+    width:calc(100% - 40px);
+    /* 자동줄바꿈 및 말줄임 처리 */
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+/* ==============================================main 3. 카테고리별 색상 */ 
+main .event_container .contents .list li .admin {color:#028AB6;} /* 행정 */
+main .event_container .contents .list li .environment {color:#599100;} /* 환경 */
+main .event_container .contents .list li .welfare {color:#D76000;} /* 복지 */
+main .event_container .contents .list li .economy {color:#069363;} /* 경제 */
+main .event_container .contents .list li .culture {color:#9B64D3;} /* 문화 */
+main .event_container .contents .list li .housing {color:#C35C3C;} /* 주택 */
 /* ==============================================main 3-1. 이벤트신청 */ 
+main .event_container .event_apply {}
+main .event_container .event_apply .title {}
+main .event_container .event_apply .title h1 {}
+main .event_container .event_apply .title .more {}
+main .event_container .event_apply .title .more img {}
+main .event_container .event_apply .list {}
+main .event_container .event_apply .list li {}
+main .event_container .event_apply .list li .admin {}
+main .event_container .event_apply .list li .admin a{}
+main .event_container .event_apply .list li .environment {}
+main .event_container .event_apply .list li .environment a {}
+main .event_container .event_apply .list li .welfare {}
+main .event_container .event_apply .list li .welfare a {}
+main .event_container .event_apply .list li .housing {}
+main .event_container .event_apply .list li .housing a {}
+main .event_container .event_apply .list li .culture {}
+main .event_container .event_apply .list li .culture a {}
 /* ==============================================main 3-2. 이달행사축제 */ 
+main .event_container .month_event {}
+main .event_container .month_event .title {}
+main .event_container .month_event .title h1 {}
+main .event_container .month_event .title .more {}
+main .event_container .month_event .title .more img {}
+main .event_container .month_event .list {}
+main .event_container .month_event .list li {}
+main .event_container .month_event .list li .environment {}
+main .event_container .month_event .list li .environment a {}
+main .event_container .month_event .list li .economy {}
+main .event_container .month_event .list li .economy a {}
+main .event_container .month_event .list li .culture {}
+main .event_container .month_event .list li .culture a {}
 /* ==============================================main 3-3. 지주찾은서비스 */ 
+main .event_container .service_visit {}
+main .event_container .service_visit .title {}
+main .event_container .service_visit .title h1 {}
+main .event_container .service_visit .title .more  {}
+main .event_container .service_visit .title .more img  {}
+main .event_container .service_visit .list {
+    background-color:#eff4f8; 
+    padding:13px;
+    display:flex; flex-flow: row wrap;
+}
+main .event_container .service_visit .list li {
+    margin-bottom:25px; width:calc(100% / 2);
+}
+main .event_container .service_visit .list li:last-child,
+main .event_container .service_visit .list li:nth-child(9) {margin:0;}
+main .event_container .service_visit .list a {}
 /* ==============================================main 4. 분야정보 */ 
+main .info_container {}
+main .info_container .title {}
+main .info_container .title h1 {}
+main .info_container .contents {
+    padding:20px 0; display:flex; flex-flow:row nowrap;
+}
+main .info_container .contents a {
+    flex:1; display:flex; flex-flow:column nowrap;
+    align-items:center;
+}
+main .info_container .contents a span {
+    width:104px; height:111px;
+    background-image:url(../images/category_info.png);
+    margin-bottom:15px;
+}
+main .info_container .contents a:nth-child(1) span {}
+main .info_container .contents a:nth-child(2) span {background-position:-104px;}
+main .info_container .contents a:nth-child(3) span {background-position:-208px;}
+main .info_container .contents a:nth-child(4) span {background-position:-312px;}
+main .info_container .contents a:nth-child(5) span {background-position:-416px;}
+main .info_container .contents a:nth-child(6) span {background-position:-520px;}
+main .info_container .contents a:nth-child(7) span {background-position:-624px;}
+main .info_container .contents a:nth-child(8) span {background-position:-728px;}
+main .info_container .contents a em {letter-spacing:-0.02em;}
 /* ==============================================main 5. 새소식 */ 
+/* calc((100% - 총여백)) / 한줄에 들어오는 열 개수 */
+main .new_container {padding-bottom:50px;}
+main .new_container .title {}
+main .new_container .title h1 {}
+main .new_container .title .more_view {}
+main .new_container .contents {
+    padding-top:44px;
+    display:flex; flex-flow:row wrap;
+}
+main .new_container .contents li {width:calc((100% - 39px) / 4);  margin: 0 13px 30px 0;}
+main .new_container .contents li:nth-child(4) {margin:0;}
+main .new_container .contents li:nth-child(8) {margin:0;}
+main .new_container .contents li a {
+    display:flex; flex-flow:column nowrap; 
+}
+main .new_container .contents li a img {width:100%;}
+main .new_container .contents li a span {
+    letter-spacing: -0.02em; font-size:0.88rem; margin-top:10px;
+    line-height:1.5;
+}
 /* ==============================================footer */
-footer {}
+footer {width:1152px; margin:0 auto;}
+footer .top {
+    display:flex; flex-flow:row nowrap; justify-content: space-between; align-items:center;
+    border:1px solid #ccc; border-left:0; border-right:0;
+}
+footer .top .menu {
+    display:flex; flex-flow:row nowrap;
+    padding:20px 0; 
+}
+footer .top .menu a {letter-spacing:-0.02em;}
+footer .top .menu a::after {
+    display:inline-block; content:''; background-color:#000; width:1px; height:10px; margin:0 10px;
+    position:relative; top:-1px;
+}
+footer .top .menu a:last-child::after {display:none; margin:0;}
+footer .top .sns {
+    display:flex; flex-flow:row nowrap; 
+}
+footer .top .sns a {    
+    width:25px; height:25px;
+    background-image:url(../images/sns_sprite.png);
+    margin-right:10px;
+}
+footer .top .sns a:last-child {margin:0;}
+footer .top .sns a span {
+    display:none;
+}
+footer .top .sns a:hover {background-position-y:-25px;}
+footer .top .sns a:nth-child(1) {}
+footer .top .sns a:nth-child(2) {background-position-x:-25px;}
+footer .top .sns a:nth-child(3) {background-position-x:-50px;}
+footer .top .sns a:nth-child(4) {background-position-x:-75px;}
+footer .top .sns a:nth-child(5) {background-position-x:-100px;}
+footer .top .sns a:nth-child(6) {background-position-x:-125px;}
+footer .bottom {
+    display:flex; flex-flow:row nowrap; 
+    justify-content: space-between;
+    padding:30px 0;
+}
+footer .bottom address {
+    line-height:1.8; letter-spacing:-0.02em;
+}
+footer .bottom address a {text-decoration-line:underline;}
+footer .bottom .mark {}
+footer .bottom .mark a {margin-right:10px;}
+footer .bottom .mark a:last-child {margin-right:0;}
+footer .bottom .mark a img {}

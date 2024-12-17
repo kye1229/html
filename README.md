@@ -131,3 +131,5 @@ n# HTML
 ### position:fixed 사용 시 주의사항
 * 블록요소에 fixed 사용 시 기본너비값 100%가 사라지고 inline-block처럼 내용만큼만 크기를 인식하기 때문에 반드시 별도의 너비값을 입력해야한다. 디자인에 따라 너비값은 그때그때 다르지만 평균적으로 100%를 많이 상요한다.
 * fixed 사용 시는 반드시 x, y좌표값과 z-index 중첩순서를 함께 적용해야 한다.
+### 자동줄바꿈 및 말줄임 처리
+*  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
