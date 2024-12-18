@@ -1,0 +1,55 @@
+/* =======================================전체공통 디자인 */
+#wrap {}
+#wrap .container {}
+/* =======================================1행 제목+후원 */
+#wrap .bg1 {
+    background-image:url(../images/bg1.png);
+    background-position:center;
+    background-size:cover;
+}
+#wrap .bg1 .gradient {
+    /* background:linear-gradient(각도, 색상, 색상 색상위치%, 색상) */
+    background:linear-gradient(-45deg, transparent,rgba(0,0,0,0.6) 69%);
+}
+#wrap .bg1 .gradient .contents {
+    height:100vh; width:1250px; margin:0 auto;
+    background-color:rgba(0,0,0,0.5);
+    padding:100px 0;
+    display:flex; flex-flow:column wrap; justify-content:space-between;
+}
+#wrap .bg1 .gradient .contents h1:nth-child(1) {
+    width:89px;
+}
+#wrap .bg1 .gradient .contents h1:nth-child(1) a {}
+#wrap .bg1 .gradient .contents h1:nth-child(1) a img {width:100%;}
+#wrap .bg1 .gradient .contents h1:nth-child(2) {
+    align-self:center;
+    font-size:4.38rem; color:#fff; text-align:center;
+}
+#wrap .bg1 .gradient .contents h1:nth-child(2) span {font-weight:700;}
+#wrap .bg1 .gradient .contents .sponsor_btn {
+    align-self:center; background:linear-gradient(90deg,#FE9300,#FF7300 50%);
+    border-radius:50px; color:#fff; padding:15px 70px;
+    font-size:2.13rem; line-height:1.2; font-weight:700;
+}
+#wrap .bg1 .gradient .contents .sponsor_btn img {width:32px;}
+#wrap .bg1 .gradient .contents .sponsor_q_btn {
+    align-self:flex-end;
+    background-color:#000; color:#fff;
+    padding:10px 30px; border-radius:30px;
+}
+#wrap .bg1 .gradient .contents .sponsor_q_btn span {
+    position:relative; top:-5px; margin:0 10px;
+}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img {}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img:first-child {position:relative; top:2px;}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img:last-child {width:24px;}
+/* =======================================2행 퀴즈 */
+/* =======================================3행 동영상 */
+/* =======================================4행 빙하 50% 감소 */
+/* =======================================5행 빙하 인류재앙3 */
+/* =======================================6행 지구전체 위기 */
+/* =======================================7행 WWF소개*/
+/* =======================================8행 다양한 활동 */
+/* =======================================9행 감사선물 */
+/* =======================================10행 안내사항 */
