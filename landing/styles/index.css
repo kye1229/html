@@ -1,54 +1,152 @@
 /* =======================================전체공통 디자인 */
 #wrap {}
-#wrap .container {}
-/* =======================================1행 제목+후원 */
-#wrap .bg1 {
-    background-image:url(../images/bg1.png);
+#wrap .container {
     background-position:center;
     background-size:cover;
 }
+#wrap .container .contents {
+    margin:0 auto; max-width:1250px; min-width:320px;
+}
+#wrap .container .contents h2 {   
+    font-size:3.44rem; letter-spacing:-0.01em; line-height:1.2;
+}
+#wrap .container .main_title { /* 대제목 70 스타일 */
+    font-size:4.38rem; color:#fff; text-align:center; line-height:1.2;
+    letter-spacing:-0.02em; text-align:center;
+}
+#wrap .container .main_title span {font-weight:700;}
+#wrap .container .sponsor_btn {    
+    background:linear-gradient(90deg,#FE9300,#FF7300);
+    border-radius:50px; color:#fff; padding:15px 70px;
+    font-size:2.13rem; line-height:1.2; font-weight:700; width:
+}
+#wrap .container .sponsor_q_btn {
+    background-color:#000; color:#fff;
+    padding:10px 30px; border-radius:30px;
+    font-size:1.5rem; letter-spacing:-0.02em;
+}
+/* =======================================1행 제목+후원 */
+#wrap .bg1 {
+    background-image:url(../images/bg1.png);
+    background-attachment:fixed; /* 기본값 scroll */
+}
 #wrap .bg1 .gradient {
     /* background:linear-gradient(각도, 색상, 색상 색상위치%, 색상) */
-    background:linear-gradient(-45deg, transparent,rgba(0,0,0,0.6) 69%);
+    background:linear-gradient(90deg,transparent,rgba(0,0,0,0.6) 69%);
 }
 #wrap .bg1 .gradient .contents {
-    height:100vh; width:1250px; margin:0 auto;
-    background-color:rgba(0,0,0,0.5);
-    padding:100px 0;
-    display:flex; flex-flow:column wrap; justify-content:space-between;
+    height:150vh; 
+    display:flex; flex-flow:column nowrap; justify-content: center;
+    padding:100px 0; align-items:center;
 }
+#wrap .bg1 .gradient .contents > * {margin-bottom:100px;}
 #wrap .bg1 .gradient .contents h1:nth-child(1) {
-    width:89px;
+    width:89px; align-self:flex-start;
 }
 #wrap .bg1 .gradient .contents h1:nth-child(1) a {}
 #wrap .bg1 .gradient .contents h1:nth-child(1) a img {width:100%;}
-#wrap .bg1 .gradient .contents h1:nth-child(2) {
-    align-self:center;
-    font-size:4.38rem; color:#fff; text-align:center;
+#wrap .bg1 .gradient .contents h1:nth-child(2) {}
+#wrap .bg1 .gradient .contents h1:nth-child(2) span {}
+#wrap .bg1 .gradient .contents .sponsor_btn {align-self:center;}
+#wrap .bg1 .gradient .contents .sponsor_btn:hover {
+    background:linear-gradient(-90deg,#FF7300,#FE9300);
 }
-#wrap .bg1 .gradient .contents h1:nth-child(2) span {font-weight:700;}
-#wrap .bg1 .gradient .contents .sponsor_btn {
-    align-self:center; background:linear-gradient(90deg,#FE9300,#FF7300 50%);
-    border-radius:50px; color:#fff; padding:15px 70px;
-    font-size:2.13rem; line-height:1.2; font-weight:700;
+#wrap .bg1 .gradient .contents .sponsor_btn img {
+    width:32px; position:relative; top:3px;
 }
-#wrap .bg1 .gradient .contents .sponsor_btn img {width:32px;}
 #wrap .bg1 .gradient .contents .sponsor_q_btn {
-    align-self:flex-end;
-    background-color:#000; color:#fff;
-    padding:10px 30px; border-radius:30px;
+    align-self:flex-end; display:flex;
+    flex-flow:row nowrap; align-items:center; margin:0;
 }
-#wrap .bg1 .gradient .contents .sponsor_q_btn span {
-    position:relative; top:-5px; margin:0 10px;
+#wrap .bg1 .gradient .contents .sponsor_q_btn:hover {
+    background-color: rgba(0,0,0,0.6);
 }
-#wrap .bg1 .gradient .contents .sponsor_q_btn img {}
-#wrap .bg1 .gradient .contents .sponsor_q_btn img:first-child {position:relative; top:2px;}
-#wrap .bg1 .gradient .contents .sponsor_q_btn img:last-child {width:24px;}
+#wrap .bg1 .gradient .contents .sponsor_q_btn span {}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img {width:24px;}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img:first-child {margin-right:10px;}
+#wrap .bg1 .gradient .contents .sponsor_q_btn img:last-child {margin-left:10px;}
 /* =======================================2행 퀴즈 */
+#wrap .bg2 {
+    background-image:url(../images/quiz_bg.png);
+    padding:150px 0;
+}
+#wrap .bg2 .contents {
+    background-position:center;
+    background-size:cover;
+    display:flex; flex-flow:row nowrap; justify-content:space-between; 
+}
+#wrap .bg2 .contents .quiz_contents {
+    color:#fff; font-size:1.25rem;
+}
+#wrap .bg2 .contents .quiz_contents h2 {
+    margin-bottom:38px; margin: 0 0 38px 206px;
+}
+#wrap .bg2 .contents .quiz_contents p {margin-bottom:8px; line-height:1.7;}
+#wrap .bg2 .contents .quiz_contents form {display:flex; flex-flow:column nowrap;}
+#wrap .bg2 .contents .quiz_contents form label {margin-bottom:14px; line-height:1.7;}
+#wrap .bg2 .contents .quiz_contents form label input[name^=quiz] {}
+#wrap .bg2 .contents .quiz_contents form label input[name^=quiz]+span {
+    /* input이 비활성화 됐을 때 */
+    background-image:url(../images/unchecked_btn.png);
+    /* background-image 외 repeat, position, size 등 속성은 비활성화쪽에 작성 */
+    background-repeat:no-repeat;
+    padding-left:48px;
+    background-position: 0 1px;
+}
+#wrap .bg2 .contents .quiz_contents form label input[name^=quiz]+span:hover {color:rgba(165,165,165,0.6);}
+#wrap .bg2 .contents .quiz_contents form label input[name^=quiz]:checked+span {
+    /* input:checked 활성화됐을 때 */
+    background-image:url(../images/checked_btn.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    color:rgb(254,147,0);
+}
+#wrap .bg2 .contents .quiz_contents form .answer_btn {
+    color:#fff; font: size 1.25rem; background-color:#050505; border-radius:50px;
+    padding:10px 0; line-height:1.2; width:450px; 
+}
+#wrap .bg2 .contents .quiz_contents form .answer_btn:hover {background-color:rgba(0,0,0,0.6);}
+#wrap .bg2 .contents .quiz_status {
+    display:flex; flex-flow:column nowrap; justify-content:center;
+}
+#wrap .bg2 .contents .quiz_status img {width:500px;}
+#wrap .bg2 .contents .quiz_status span {
+    display:block;
+    font-size:1.25rem; line-height:1.7; color:#fff; text-align:right; margin-top:20px;
+}
 /* =======================================3행 동영상 */
+#wrap .bg3 {
+    background-image: url(../images/video_bg.png);
+    background-color:black;
+    padding:200px 0;
+}
+#wrap .bg3 .contents {
+    display:flex; flex-flow:column nowrap; justify-content:center;
+}
+#wrap .bg3 .contents > * {margin-bottom:70px;}
+#wrap .bg3 .contents h2 {text-align:center;}
+#wrap .bg3 .contents iframe {max-width:900px; margin:70px auto;}
+#wrap .bg3 .contents .sponsor_btn {margin:0 auto; width:409px;}
 /* =======================================4행 빙하 50% 감소 */
-/* =======================================5행 빙하 인류재앙3 */
 /* =======================================6행 지구전체 위기 */
+#wrap .bg4,
+#wrap .bg6 {
+    background-image: url(../images/50_bg.png);
+    padding:200px 0;
+}
+#wrap .bg4 .contents,
+#wrap .bg6 .contents {}
+#wrap .bg4 .contents h2 ,
+#wrap .bg6 .contents h2 {color:#fff;}
+#wrap .bg4 .contents h2 span,
+#wrap .bg6 .contents h2 span {color:#050505; background-color:#fff;}
+#wrap .bg4 .contents h2+p,
+#wrap .bg6  .contents h2+p {}
+#wrap .bg4 .contents .img,
+#wrap .bg6  .contents .img {}
+#wrap .bg4 .contents .img img,
+#wrap .bg6  .contents .img img {}
+/* =======================================5행 빙하 인류재앙3 */
 /* =======================================7행 WWF소개*/
 /* =======================================8행 다양한 활동 */
 /* =======================================9행 감사선물 */
