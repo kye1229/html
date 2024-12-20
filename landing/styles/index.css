@@ -117,7 +117,6 @@
 /* =======================================3행 동영상 */
 #wrap .bg3 {
     background-image: url(../images/video_bg.png);
-    background-color:black;
     padding:200px 0;
 }
 #wrap .bg3 .contents {
@@ -136,16 +135,22 @@
 }
 #wrap .bg4 .contents,
 #wrap .bg6 .contents {}
-#wrap .bg4 .contents h2 ,
+#wrap .bg4 .contents h2,
 #wrap .bg6 .contents h2 {color:#fff;}
 #wrap .bg4 .contents h2 span,
-#wrap .bg6 .contents h2 span {color:#050505; background-color:#fff;}
+#wrap .bg6 .contents h2 span {
+    color:#050505; background-color:#fff; display:inline-block;
+    padding-bottom:5px;
+}
 #wrap .bg4 .contents h2+p,
-#wrap .bg6  .contents h2+p {}
+#wrap .bg6  .contents h2+p {
+    color:#fff; font-size:2.13rem; line-height:1.2; font-weight:700;
+    margin:81px 0; 
+}
 #wrap .bg4 .contents .img,
-#wrap .bg6  .contents .img {}
+#wrap .bg6  .contents .img {margin:0;}
 #wrap .bg4 .contents .img img,
-#wrap .bg6  .contents .img img {}
+#wrap .bg6  .contents .img img {width:100%;}
 /* =======================================5행 빙하 인류재앙3 */
 /* =======================================7행 WWF소개*/
 /* =======================================8행 다양한 활동 */

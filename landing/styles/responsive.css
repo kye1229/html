@@ -35,8 +35,12 @@
     #wrap .bg3 .contents iframe {width:100%; height:576px; margin-top:0;}
     #wrap .bg3 .contents .sponsor_btn {width:270px; font-size:1.5rem;}
     /* =====================================4행 반응형디자인(tablet) */
-    /* =====================================5행 반응형디자인(tablet) */
     /* =====================================6행 반응형디자인(tablet) */
+    #wrap .bg4 .contents h2,
+    #wrap .bg6 .contents h2 {font-size:2.5rem;}
+    #wrap .bg4 .contents h2+p,
+    #wrap .bg6 .contents h2+p {font-size:1.38rem; margin:40px 0;}
+    /* =====================================5행 반응형디자인(tablet) */
     /* =====================================7행 반응형디자인(tablet) */
     /* =====================================8행 반응형디자인(tablet) */
     /* =====================================9행 반응형디자인(tablet) */
@@ -54,13 +58,6 @@
     #wrap .bg2 .contents .quiz_contents .answer_btn {width:400px; margin-left:10px;}
     #wrap .bg2 .contents .quiz_status img {width:300px;}
     #wrap .bg2 .contents .quiz_status span {text-align:center;}
-    /* ==================================3행 반응형 디자인 */
-    #wrap .bg3 .contents h2 {
-        font-size:1.38rem; font-weight:500; line-height:1.2; letter-spacing:-0.01em;
-    }
-    #wrap .bg3 .contents iframe {width:100%; height:278px;}
-    #wrap .bg3 .contents .sponsor_btn {width:200px; font-size:1.0rem;}
-    #wrap .bg3 .contents .sponsor_btn img {width:20px;}
 } /* 769~900 end */
 @media screen and (max-width:768px) {
     /* =====================================공통 선택자 + 1행 반응형디자인(mobile) */
@@ -73,9 +70,23 @@
     #wrap .bg1 .gradient .contents .sponsor_q_btn img:last-child {margin:0;}
     /* =====================================2행 반응형디자인(mobile) */
     /* =====================================3행 반응형디자인(mobile) */
+    #wrap .bg3 .contents h2 {
+        font-size:1.38rem; font-weight:500; line-height:1.2; letter-spacing:-0.01em;
+    }
+    #wrap .bg3 .contents iframe {width:100%; height:278px;}
+    #wrap .bg3 .contents .sponsor_btn {width:200px; font-size:1.0rem;}
+    #wrap .bg3 .contents .sponsor_btn img {width:20px;}
+
     /* =====================================4행 반응형디자인(mobile) */
-    /* =====================================5행 반응형디자인(mobile) */
     /* =====================================6행 반응형디자인(mobile) */
+    #wrap .bg4,
+    #wrap .bg6 {padding:100px 0;}
+    #wrap .bg4 .contents h2,
+    #wrap .bg6 .contents h2 {font-size:1.38rem;}
+    #wrap .bg4 .contents h2+p,
+    #wrap .bg6 .contents h2+p {font-size:0.81rem; margin:50px 0; font-weight:400;}
+
+    /* =====================================5행 반응형디자인(mobile) */
     /* =====================================7행 반응형디자인(mobile) */
     /* =====================================8행 반응형디자인(mobile) */
     /* =====================================9행 반응형디자인(mobile) */
