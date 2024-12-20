@@ -41,6 +41,10 @@
     #wrap .bg4 .contents h2+p,
     #wrap .bg6 .contents h2+p {font-size:1.38rem; margin:40px 0;}
     /* =====================================5행 반응형디자인(tablet) */
+    #wrap .bg5 .contents h2 {font-size:2.50rem;}
+    #wrap .bg5 .contents > p {font-size:1.0rem;}
+    #wrap .bg5 .contents ul li {height:570px;}
+    #wrap .bg5 .contents ul li .content {font-size:1.0rem;}
     /* =====================================7행 반응형디자인(tablet) */
     /* =====================================8행 반응형디자인(tablet) */
     /* =====================================9행 반응형디자인(tablet) */
@@ -85,8 +89,10 @@
     #wrap .bg6 .contents h2 {font-size:1.38rem;}
     #wrap .bg4 .contents h2+p,
     #wrap .bg6 .contents h2+p {font-size:0.81rem; margin:50px 0; font-weight:400;}
-
     /* =====================================5행 반응형디자인(mobile) */
+    #wrap .bg5 .contents {padding:0 65px;}
+    #wrap .bg5 .contents h2 {font-size:1.25rem;}
+    #wrap .bg5 .contents > p {font-size:0.81rem;}
     /* =====================================7행 반응형디자인(mobile) */
     /* =====================================8행 반응형디자인(mobile) */
     /* =====================================9행 반응형디자인(mobile) */
