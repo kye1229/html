@@ -1,0 +1,193 @@
+header {background-color:#007340;}
+header .horang_hd {
+    height: 80px;
+    display:flex; flex-flow:row nowrap; justify-content: space-between;
+    padding:25px 80px;
+}
+header .horang_hd h1 {}
+header .horang_hd h1 a {color:#fff; font-size:1.5rem; font-weight:600;}
+header .horang_hd nav {}
+header .horang_hd nav a {    
+    color:#fff; font-size:1.25rem; font-weight:700;
+    margin-right:30px;
+}
+header .horang_hd nav a:nth-child(5) {margin:0;}
+/* ========================main 공통 선택자 */
+main h3 {
+    font-size:1.75rem; line-height:1.4; letter-spacing:0.02em; font-weight:600; margin-bottom:20px;
+}
+/* ======================main */
+main {
+    margin:0 auto;
+    position:relative;
+}
+main .main_bnr {
+    background-image:url(../images/main_visual28.jpg);
+    background-size:cover;
+    background-position:center;
+    height:950px;
+}
+main .main_bnr::after {
+    content:''; display:block; background-color:rgba(0,0,0,0.6);
+    width:100%; height:950px; position:absolute; top:0; z-index:100;
+}
+main .main_bnr h2 {
+    font-size:1.88rem; letter-spacing:0.02em; line-height:1.5; font-weight:500; color:#fff; position:relative; z-index:200;
+    text-align:center; top:354px;
+}
+main .main_bnr h2 span {
+    font-size:3.13rem; font-weight:700;
+}
+main .intro {
+    width:1260px; margin:150px auto;
+    position:relative;
+}
+main .intro h3 {text-align:center; margin-bottom:35px;}
+main .intro h3 span {color:#007340;}
+main .intro h3+p {position:relative; left:90px;}
+main .intro h3+p img {}
+main .intro .img_list {
+    display:flex; flex-flow:row nowrap; position:absolute; left:75px; bottom:3px;
+}
+main .intro .img_list img {width:calc((1121px - 18px * 2) / 3); margin-right:18px;}
+main .intro .intro_img .img_list img:nth-child(2) {margin: 0 18px;}
+main .introduce {
+    width:100%; background-color:#007340;
+    display:flex; flex-flow:row nowrap; justify-content:center;
+    padding:71px 0;
+}
+main .introduce .introduce_img1 {
+    background-image:url(../images/호랑가시나무.jpg);
+    background-size:cover;
+    width:280px; height:240px; 
+}
+main .introduce .introduce_img1 span {
+    color:#fff; position:relative; bottom:-250px;
+}
+main .introduce .introduce_img2 {
+    background-image:url(../images/img.jpg);
+    background-size:cover;
+    width:280px; height: 240px; margin: 0 35px;
+}
+main .introduce .introduce_img2 span {
+    color:#fff; position:relative; bottom:-250px;
+}
+main .introduce .explain {align-self:center;}
+main .introduce .explain > * {color:#fff;}
+main .introduce .explain h3 {margin-bottom:20px;}
+main .introduce .explain h3+p {
+    font-size:1.13rem; line-height:1.4; letter-spacing:0.02em;
+}
+main .travel {width:1260px; margin:150px auto;}
+main .travel h3 {}
+main .travel .travel_list {
+    display:flex; flex-flow:row nowrap;
+}
+main .travel .travel_list li {
+    align-self:center; margin-right:20px; 
+}
+main .travel .travel_list li .arrow {}
+main .travel .travel_list li a img {}
+main .travel .travel_list > a {}
+main .travel .travel_list li a .title1 {
+    background-image:url(../images/정율성거리.jpg);
+    background-size:cover;
+    background-position:center;
+    width:300px; height:280px; padding-top:290px;
+}
+main .travel .travel_list li a .title1 h4 {
+    font-size:1.25rem; line-height:1.4; font-weight:0.02em;
+    margin:11px 0;
+}
+main .travel .travel_list li a .title1 p {
+    font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
+}
+main .travel .travel_list li a .title2 {
+    background-image:url(../images/수피아홀.jpg);
+    background-size:cover;
+    background-position:center;   
+    width:300px; height: 280px; padding-top:290px;
+}
+main .travel .travel_list li a .title2 h4 {
+    font-size:1.25rem; line-height:1.4; letter-spacing:0.02em;
+    margin:11px 0;
+}
+main .travel .travel_list li a .title2 p {
+    font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
+}
+main .travel .travel_list li a .title3 {
+    background-image:url(../images/윈스보로우홀.jpg);
+    background-size:cover;
+    backgroudn-position:center;
+    width:300px; height: 280px; padding-top:290px;
+}
+main .travel .travel_list li a .title3 h4 {
+    font-size:1.25rem; line-height:1.4; font-weight:0.02em;
+    margin:11px 0;
+}
+main .travel .travel_list li a .title3 p {
+    font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
+}
+main .travel .travel_list li a .title4 {   
+    background-image:url(../images/배유지기념_예배당.jpg);
+    background-size:cover;
+    backgroudn-position:center;
+    width:300px; height: 280px; padding-top:290px;
+}
+main .travel .travel_list li a .title4 h4 {
+    font-size:1.25rem; line-height:1.4; font-weight:0.02em;
+    margin:11px 0;
+}
+main .travel .travel_list li a .title4 p {
+    font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
+}
+main .find_map {
+    width:1260px; margin:150px auto 200px;
+}
+main .find_map h3 {}
+main .find_map .map_img {}
+main .find_map .map_img img {}
+main .find_map .traffic_map {
+    display:flex; flex-flow:row nowrap; margin-top:22px;
+}
+main .find_map .traffic_map .bus_map {
+    display:flex; flex-flow:column nowrap; margin-right:217px;
+}
+main .find_map .traffic_map .bus_map > * {margin-bottom:22px;}
+main .find_map .traffic_map .bus_map h4 {
+    font-size:1.25rem; line-height:1.4; letter-spacing:0.02em; font-weight:600;
+}
+main .find_map .traffic_map .bus_map p {
+    letter-spacing:0.05em; line-height:1.7;
+}
+main .find_map .traffic_map .bus_map p:last-child {margin-bottom:0;}
+main .find_map .traffic_map .bus_map p span {font-weight:600;}
+main .find_map .traffic_map .subway_map {}
+main .find_map .traffic_map .subway_map > * {margin-bottom:22px;}
+main .find_map .traffic_map .subway_map h4 {
+    font-size:1.25rem; line-height:1.4; letter-spacing:0.02em; font-weight:600;
+}  
+main .find_map .traffic_map .subway_map p {
+    letter-spacing:0.05em; line-height:1.7;
+}
+main .find_map .traffic_map .subway_map p:last-child {margin-bottom:0;}
+main .find_map .traffic_map .subway_map p span {font-weight:600;}
+footer {background-color:#4C4B4B; height:300px; padding:57px 0;}
+footer .footer_contents {
+    width:1260px; margin:0 auto;
+    display:flex; flex-flow:row nowrap; justify-content: space-between;
+}
+footer .footer_contents .footer_left {}
+footer .footer_contents .footer_left > * {margin-bottom:33px;}
+footer .footer_contents .footer_left .menu {}
+footer .footer_contents .footer_left .menu a {color:#fff;}
+footer .footer_contents .footer_left .menu a:last-child {margin:0;}
+footer .footer_contents .footer_left .menu span {
+    background-color:#fff; width:1px; height:14px; display:inline-block;
+    margin:0 7px; position:relative; top:2px;
+}
+footer .footer_contents .footer_left p {
+    color:#fff; font-size:0.88rem; line-height:1.4; letter-spacing: 0.02em;
+}
+footer .footer_contents .inipay {}
+footer .footer_contents .inipay img {}
