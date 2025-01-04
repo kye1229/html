@@ -1,0 +1,103 @@
+/* =========================================header */
+header {
+    background-color:#007340;
+    position:fixed; left:0; top:0; z-index:999; width:100%;
+}
+header .horang_hd {
+    height: 80px;
+    display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;
+    padding:0 80px;
+}
+header .horang_hd h1 {}
+header .horang_hd h1 a {}
+header .horang_hd h1 a img {}
+header .horang_hd nav {}
+header .horang_hd nav a {    
+    color:#fff; font-size:1.25rem; font-weight:700;
+    margin-right:30px;
+}
+header .horang_hd nav a:last-child {margin:0;}
+/* =======================================main */
+main {
+    background-color:aqua;}
+main .sub_bnr {
+    background-color:lime;
+    background-image:url(../images/sub_bnr.png);
+    background-size:cover;
+    background-position:center;
+    width:100%; height:338px;
+    margin-top:80px;
+    position:relative;
+}
+main .sub_bnr::after {
+    background-color:rgba(0,0,0,0.3); display:block; width:100%; z-index:100;
+    height:100%; content:''; position:absolute; top:0;
+}
+main .sub_bnr {
+    color:#fff; z-index:200;
+    background-color:red;
+    
+}
+main .sub_bnr .contents {
+    text-align:center; z-index:200; position:relative; top:100px;
+    letter-spacing:0.02em; line-height:1.4;
+}
+main .sub_bnr .contents p {font-size:1.5rem; font-weight:600; margin-bottom:36px;}
+main .sub_bnr .contents h2 {font-size:2.25rem; font-weight:700;}
+main .page_road {
+    float:right;
+}
+main .page_road a {}
+main .page_road span {
+    background-color:beige; background-image:url(../images/arrow_forward_ios.png);
+    width:20px; height:100%;
+}
+main .main_wrap .sub_tab {clear:both; width:1260px; margin:0 auto;}
+main .main_wrap .sub_tab p {}
+main .main_wrap .sub_tab h3 {}
+main .main_wrap .sub_tab .tab_link {}
+main .main_wrap .sub_tab .tab_link a {}
+main .main_wrap .sub_tab .tab_link .extra_num {}
+main .main_wrap .inform_wrap {
+    background-color:yellow;
+    width:1260px; margin:0 auto;
+}
+main .main_wrap .inform_wrap .refund_inform {
+    background-color:orange;
+}
+main .main_wrap .inform_wrap .refund_inform h3 {}
+main .main_wrap .inform_wrap .refund_inform ul {}
+main .main_wrap .inform_wrap .refund_inform ul li {}
+main .main_wrap .inform_wrap .extra_inform {
+    background-color:purple;
+}
+main .main_wrap .inform_wrap .extra_inform h3 {}
+main.main_wrap .inform_wrap .extra_inform h3 ul {}
+main .main_wrap .inform_wrap .extra_inform h3 ul li {}
+main .main_wrap .inform_wrap .rule_inform {
+    background-color:aquamarine;
+}
+main.main_wrap .inform_wrap .rule_inform ul {}
+main .main_wrap .inform_wrap .rule_inform ul li {}
+main .main_wrap .inform_wrap .rule_inform ul li p {}
+main .main_wrap .inform_wrap .rule_inform ul li p span {}
+/* =======================================footer */
+footer {background-color:#4C4B4B; height:300px; padding:57px 0;}
+footer .footer_contents {
+    width:1260px; margin:0 auto;
+    display:flex; flex-flow:row nowrap; justify-content: space-between;
+}
+footer .footer_contents .footer_left {}
+footer .footer_contents .footer_left > * {margin-bottom:33px;}
+footer .footer_contents .footer_left .menu {}
+footer .footer_contents .footer_left .menu a {color:#fff;}
+footer .footer_contents .footer_left .menu a:last-child {margin:0;}
+footer .footer_contents .footer_left .menu span {
+    background-color:#fff; width:1px; height:14px; display:inline-block;
+    margin:0 7px; position:relative; top:2px;
+}
+footer .footer_contents .footer_left p {
+    color:#fff; font-size:0.88rem; line-height:1.4; letter-spacing: 0.02em;
+}
+footer .footer_contents .inipay {}
+footer .footer_contents .inipay img {}
