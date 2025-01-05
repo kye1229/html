@@ -21,7 +21,6 @@ header .horang_hd nav a:last-child {margin:0;}
 main {
     background-color:aqua;}
 main .sub_bnr {
-    background-color:lime;
     background-image:url(../images/sub_bnr.png);
     background-size:cover;
     background-position:center;
@@ -35,7 +34,6 @@ main .sub_bnr::after {
 }
 main .sub_bnr {
     color:#fff; z-index:200;
-    background-color:red;
     
 }
 main .sub_bnr .contents {
@@ -49,25 +47,59 @@ main .page_road {
 }
 main .page_road a {}
 main .page_road span {
-    background-color:beige; background-image:url(../images/arrow_forward_ios.png);
     width:20px; height:100%;
 }
-main .main_wrap .sub_tab {clear:both; width:1260px; margin:0 auto;}
-main .main_wrap .sub_tab p {}
-main .main_wrap .sub_tab h3 {}
-main .main_wrap .sub_tab .tab_link {}
-main .main_wrap .sub_tab .tab_link a {}
-main .main_wrap .sub_tab .tab_link .extra_num {}
+main .main_wrap {
+    width:1260px; margin:0 auto;
+    display:flex; flex-flow:row nowrap;
+    clear:both; padding:96px 0 185px 0;
+}
+main .main_wrap .sub_tab {
+    background-color:#BCB9B9;
+    border-radius:20px; width:300px; height: 1240px;
+    padding:50px 36px; color:#606060;
+    display:flex; flex-flow:column nowrap; align-items:center;
+    margin-right:60px;
+}
+main .main_wrap .sub_tab > * {margin-bottom:40px;}
+main .main_wrap .sub_tab > *:last-child {margin-bottom:0}
+main .main_wrap .sub_tab p {
+    margin-bottom:10px;
+    font-size:0.88rem; font-weight:600; letter-spacing: 0.02em; line-height:1.4;
+}
+main .main_wrap .sub_tab h3 {font-size:1.5rem; letter-spacing: 0.02em; line-height:1.4; font-weight:600;}
+main .main_wrap .sub_tab .tab_link {
+    display:flex; flex-flow:column nowrap; text-align:center;
+}
+main .main_wrap .sub_tab .tab_link a {
+    margin-bottom:40px;
+    font-size:1.25rem; letter-spacing: 0.02em; line-height:1.4; font-weight:600;
+}
+main .main_wrap .sub_tab .tab_link a:last-child {margin-bottom:0;}
+main .main_wrap .sub_tab .tab_link .active {color:#007340;}
+main .main_wrap .sub_tab .extra_num {
+    width:100%; text-align:center;
+    background-color: #DEDADA; border-radius:20px;
+    padding:13px 0;
+    font-size:1.25rem; letter-spacing:0.02em; line-height: 1.4;
+}
 main .main_wrap .inform_wrap {
     background-color:yellow;
     width:1260px; margin:0 auto;
 }
 main .main_wrap .inform_wrap .refund_inform {
     background-color:orange;
+    margin-bottom:60px;
 }
+main .main_wrap .inform_wrap h3 {
+    font-size:1.88rem; font-weight:600; line-height:1.4; letter-spacing: 0.02em; margin-bottom:22px;
+}
+main .main_wrap .inform_wrap li {line-height:1.4; letter-spacing: 0.02em;
+margin-bottom:15px;}
 main .main_wrap .inform_wrap .refund_inform h3 {}
 main .main_wrap .inform_wrap .refund_inform ul {}
 main .main_wrap .inform_wrap .refund_inform ul li {}
+main .main_wrap .inform_wrap .refund_inform ul li:last-child {margin:0;}
 main .main_wrap .inform_wrap .extra_inform {
     background-color:purple;
 }
