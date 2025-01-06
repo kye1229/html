@@ -9,6 +9,7 @@ header .horang_hd {
 }
 header .horang_hd h1 {}
 header .horang_hd h1 a {}
+header .horang_hd h1 a:hover {opacity:0.6;}
 header .horang_hd h1 a img {}
 header .horang_hd nav {}
 header .horang_hd nav a {    
@@ -16,6 +17,7 @@ header .horang_hd nav a {
     margin-right:30px;
 }
 header .horang_hd nav a:last-child {margin:0;}
+header .horang_hd nav a:hover {opacity:0.6; text-decoration:underline;}
 /* ========================main 공통 선택자 */
 main h3 {
     font-size:1.75rem; line-height:1.4; letter-spacing:0.02em; font-weight:600; margin-bottom:20px;
