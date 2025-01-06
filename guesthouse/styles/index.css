@@ -53,9 +53,8 @@ main .intro h3 span {color:#007340;}
 main .intro h3+p {text-align:center;}
 main .intro h3+p img {}
 main .intro .img_list {
-    display:flex; flex-flow:row nowrap; position:absolute; bottom:0; width:100%;
+    display:flex; flex-flow:row nowrap; position:absolute; bottom:3px; width:100%;
     justify-content: center;
-    
 }
 main .intro .img_list img {
     width:calc((1121px - 18px * 2) / 3); margin-right:18px;
@@ -67,20 +66,16 @@ main .introduce {
     display:flex; flex-flow:row nowrap; justify-content:center;
     padding:71px 0; width:100%;
 }
-main .introduce .introduce_img1 {
-    background-image:url(../images/호랑가시나무.jpg);
-    background-size:cover; width:280px; height:240px;
-}
+main .introduce > * {margin-right:35px;}
+main .introduce .introduce_img1 {}
+main .introduce .introduce_img1 p {}
+main .introduce .introduce_img1 p img {}
 main .introduce .introduce_img1 span {
-    color:#fff; position:relative; bottom:-250px;
+    color:#fff; display:block; margin-top:10px;
 }
-main .introduce .introduce_img2 {
-    background-image:url(../images/img.jpg);
-    background-size:cover; width:280px; height:240px;
-    margin: 0 35px;
-}
+main .introduce .introduce_img2 {}
 main .introduce .introduce_img2 span {
-    color:#fff; position:relative; bottom:-250px;
+    color:#fff; display:block; margin-top:10px;
 }
 main .introduce .explain {align-self:center;}
 main .introduce .explain > * {color:#fff;}
@@ -89,7 +84,7 @@ main .introduce .explain h3+p {
     font-size:1.13rem; line-height:1.4; letter-spacing:0.02em;
 }
 main .travel {
-    width:1260px; margin:150px auto; 
+    width:1260px; margin:0 auto; padding:150px 0;
 }
 main .travel h3 {}
 main .travel .travel_wrap {
@@ -100,74 +95,60 @@ main .travel .travel_wrap > a:first-child {margin-right:20px;}
 main .travel .travel_wrap > a:last-child {margin-left:20px;}
 main .travel .travel_wrap > a img {}
 main .travel .travel_wrap .travel_list {
-    display:flex; flex-flow:row nowrap; background-color:aqua;
+    display:flex; flex-flow:row nowrap;
 }
-main .travel .travel_wrap .travel_list li {
-    align-self:center; margin-right:20px;
-}
+main .travel .travel_wrap .travel_list li {margin-right:20px;}
 main .travel .travel_wrap .travel_list li:last-child {margin:0;}
 main .travel .travel_wrap .travel_list > a {}
-main .travel .travel_wrap .travel_list li a .title1 {
-    background-image:url(../images/정율성거리.jpg);
-    background-size:cover;
-    background-position:center; width:300px; height:280px; 
-    position:relative;
-}
-main .travel .travel_wrap .travel_list li a .title1 h4 {
-    font-size:1.25rem; line-height:1.4; letter-spacing:0.02em;
-    margin:11px 0;
-    position:absolute; top:280px;
-}
-main .travel .travel_wrap .travel_list li a .title1 p {
-    font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
-    position:absolute; top:320px;
-}
-main .travel .travel_wrap .travel_list li a .title2 {
-    background-image:url(../images/수피아홀.jpg);
-    background-size:cover;
-    background-position:center;   
-    width:100%; height:280px;  
-}
-main .travel .travel_wrap .travel_list li a .title2 h4 {
+main .travel .travel_wrap .travel_list li a .title1 {}
+main .travel .travel_wrap .travel_list li a .title1 p {}
+main .travel .travel_wrap .travel_list li a .title1 p img {}
+main .travel .travel_wrap .travel_list li a .title1 .title_contents {}
+main .travel .travel_wrap .travel_list li a .title1 .title_contents h4 {
     font-size:1.25rem; line-height:1.4; letter-spacing:0.02em;
     margin:11px 0;
 }
-main .travel .travel_wrap .travel_list li a .title2 p {
+main .travel .travel_wrap .travel_list li a .title1 .title_contents p {
     font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
 }
-main .travel .travel_wrap .travel_list li a .title3 {
-    background-image:url(../images/윈스보로우홀.jpg);
-    background-size:cover;
-    background-position:center;
-    width:100%; height:280px;
+main .travel .travel_wrap .travel_list li a .title2 {}
+main .travel .travel_wrap .travel_list li a .title2 p {}
+main .travel .travel_wrap .travel_list li a .title2 p img {}
+main .travel .travel_wrap .travel_list li a .title2 .title_contents {}
+main .travel .travel_wrap .travel_list li a .title2 .title_contents h4 {
+    font-size:1.25rem; line-height:1.4; letter-spacing:0.02em;
+    margin:11px 0;
 }
-main .travel .travel_wrap .travel_list li a .title3 h4 {
+main .travel .travel_wrap .travel_list li a .title2 .title_contents p {
+    font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
+}
+main .travel .travel_wrap .travel_list li a .title3 {}
+main .travel .travel_wrap .travel_list li a .title3 p {}
+main .travel .travel_wrap .travel_list li a .title3 p img {}
+main .travel .travel_wrap .travel_list li a .title3 .title_contents {}
+main .travel .travel_wrap .travel_list li a .title3 .title_contents h4 {
     font-size:1.25rem; line-height:1.4; font-weight:0.02em;
     margin:11px 0;
 }
-main .travel .travel_wrap .travel_list li a .title3 p {
+main .travel .travel_wrap .travel_list li a .title3 .title_contents p {
     font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
 }
-main .travel .travel_wrap .travel_list li a .title4 {   
-    background-image:url(../images/배유지기념_예배당.jpg);
-    background-size:cover;
-    background-position:center;
-    width:100%; height:280px;
-}
-main .travel .travel_wrap .travel_list li a .title4 h4 {
+main .travel .travel_wrap .travel_list li a .title4 {}
+main .travel .travel_wrap .travel_list li a .title4 p {}
+main .travel .travel_wrap .travel_list li a .title4 p img {}
+main .travel .travel_wrap .travel_list li a .title4 .title_contents h4 {
     font-size:1.25rem; line-height:1.4; font-weight:0.02em;
     margin:11px 0;
 }
-main .travel .travel_wrap .travel_list li a .title4 p {
+main .travel .travel_wrap .travel_list li a .title4 .title_contents p {
     font-size: 0.88rem; line-height:1.4; letter-spacing:0.02em; color:#494949;
 }
 main .find_map {
-    width:1260px; margin:150px auto 200px;
+    width:1260px; margin:0 auto 200px;
 }
 main .find_map h3 {}
 main .find_map .map_img {text-align:center;}
-main .find_map .map_img img { width:100%; height:400px;
-}
+main .find_map .map_img img { width:100%;}
 main .find_map .traffic_map {
     display:flex; flex-flow:row nowrap; margin-top:22px;
 }

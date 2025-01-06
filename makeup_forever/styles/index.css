@@ -31,10 +31,11 @@
     font-size:0.88rem; letter-spacing:-0.02em;
     margin-left:16px;
 }
+/* ===================================모바일 출력 서브메뉴(S) */
 .h_bg header .h_right .h_top .search .m_nav {
-    position:absolute; left:0; top:125px; z-index:999;
-    background-color:#111; width:440px; padding:0 50px 30px 50px;
-    position:fixed;
+    z-index:999; position:absolute; left:0;
+    background-color:#111; width:100vh; height:calc(100vh-125px); padding:0 50px 30px 50px;
+    position:fixed; display:none;
 }
 .h_bg header .h_right .h_top .search .m_nav .m_nav_contents {
     display:flex; flex-flow:column nowrap;
@@ -50,13 +51,15 @@
     width:6px; height:14px; display:inline-block;
 }
 .h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm {}
-.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm li {}
+.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm > li {width:100%; margin-bottom:25px;}
 .h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm > a {}
-.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active {display:flex; flex-flow:column nowrap;}
-.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active a {}
-.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active .face_m {}
+.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active {display:flex; flex-flow:column nowrap; padding-left:25px; margin-bottom:25px;}
+.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active a {margin-bottom:15px;}
+.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active a:last-child {margin-bottom:0;}
+.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active .face_m {background-color:#fff; padding:20px 0 20px 20px; width:100%;}
 .h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active .face_m li {}
-.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active .face_m li a {}
+.h_bg header .h_right .h_top .search .m_nav .m_nav_contents .m_btm .active .face_m li a {color:#111; border-bottom:2px solid #aaa; display:block; padding:15px 15px 15px 0; margin-right:15px;}
+/* =======================모바일 출력(E) */
 /* =======================header 검색팝업(S) */
 .h_bg header .h_right .h_top .search .search_popup {
     display:none; /* 초기 숨기기(검색 아이콘 클릭 시에만 출력 대상) */
@@ -121,7 +124,7 @@
     display:none;
     background-color:#111; position:absolute; left:0; top:125px;
     /* absolute 작성 시 반드시 width 속성도 함께 써야 한다. */
-    width:100%;
+    width:100%; z-index:999;
 }
 .h_bg header .h_right .h_btm nav .sub_bg .sub_contents {
     max-width:1400px; height:240px; margin:0 auto;

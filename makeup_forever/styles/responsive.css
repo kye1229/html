@@ -24,12 +24,15 @@
 }
 @media screen and (max-width:600px) {
     /* ========================S:모바일(너비가 600 이하) */
-    .h_bg header {flex-flow:row nowrap; align-items:center;}
+    .h_bg header {flex-flow:row nowrap; align-items:center; position:relative;}
     .h_bg header .h_right .h_top > a,
     .h_bg header .h_right .h_btm {display:none;}
     .h_bg header h1 {position:relative; top:0;}
     .h_bg header .h_right .h_top .search > a img {width:24px; margin-top:25px;}
     .h_bg header .h_right .h_top .search > a img {margin-right:5px;}
     .h_bg header .h_right .h_top .search .m_all_nav {display:inline-block;}
+    .h_bg header .h_right .h_top .search .m_nav {
+        display:block; width:100%;
+    }
     /* ========================E:모바일(너비가 600 이하) */
 }
