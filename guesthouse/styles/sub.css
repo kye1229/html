@@ -41,7 +41,7 @@ main .sub_bnr .contents {
     text-align:center; z-index:200; position:relative; top:100px;
     letter-spacing:0.02em; line-height:1.4;
 }
-main .sub_bnr .contents p {font-size:1.5rem; font-weight:600; margin-bottom:36px;}
+main .sub_bnr .contents p {font-size:1.5rem; font-weight:500; margin-bottom:25px;}
 main .sub_bnr .contents h2 {font-size:2.25rem; font-weight:700;}
 main .page_road {
     width:1260px; margin:14px auto 0;
