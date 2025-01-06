@@ -17,6 +17,7 @@ header .horang_hd nav a {
     margin-right:30px;
 }
 header .horang_hd nav a:last-child {margin:0;}
+header .horang_hd nav a:hover {opacity:0.6; text-decoration:underline;}
 /* =======================================main */
 main {}
 main .sub_bnr {
