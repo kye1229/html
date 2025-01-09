@@ -217,16 +217,23 @@ main .main_wrap .member_benefit h3 {
     margin-bottom:30px;
 }
 main .main_wrap .member_benefit .benefit_list {
-    display:
+    display:flex; flex-flow:row nowrap;
 }
-main .main_wrap .member_benefit .benefit_list .benefit_left {}
+main .main_wrap .member_benefit .benefit_list .benefit_left {
+    background-image: url(../images/benefit_001.jpg);
+    background-size:cover;
+    background-position:center;
+}
 main .main_wrap .member_benefit .benefit_list .benefit_left a {}
 main .main_wrap .member_benefit .benefit_list .benefit_left a h4 {}
 main .main_wrap .member_benefit .benefit_list .benefit_left a p {}
 main .main_wrap .member_benefit .benefit_list .benefit_right {}
-main .main_wrap .member_benefit .benefit_list .benefit_right li .right1
-main .main_wrap .member_benefit .benefit_list .benefit_right li a h4 {}
-main .main_wrap .member_benefit .benefit_list .benefit_right li a p {}
+main .main_wrap .member_benefit .benefit_list .benefit_right li .right1 {}
+main .main_wrap .member_benefit .benefit_list .benefit_right li .right1 h4 {}
+main .main_wrap .member_benefit .benefit_list .benefit_right li .right1 p {}
+main .main_wrap .member_benefit .benefit_list .benefit_right li .right2 {}
+main .main_wrap .member_benefit .benefit_list .benefit_right li .right2 h4 {}
+main .main_wrap .member_benefit .benefit_list .benefit_right li .right2 p {}
 /* aside */
 main .aside_menu {}
 main .aside_menu ul {}
