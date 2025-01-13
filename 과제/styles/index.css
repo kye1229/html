@@ -1,0 +1,38 @@
+.weight_wrap {
+    width:750px; margin:0 auto;
+    background-color:#bb55ff; padding:120px 80px;
+    border-radius:20px;
+}
+.weight_wrap .user_weight {}
+.weight_wrap h1 {
+    clear:both; font-size:2.0rem; font-weight:600; text-align:center; margin-bottom:50px; color:#acf;
+}
+.weight_wrap a {}
+.weight_wrap a .close_btn {width:24px; float:right;}
+.weight_wrap .user_weight {
+    background-color:#aaccff; padding:20px;
+    border-radius:30px;
+}
+.weight_wrap .user_weight .question_hw {
+    text-align:center; margin-bottom:40px;
+    font-size:1.25rem; font-weight:600; color:#a5f;
+}
+.weight_wrap .user_weight .insert_wrap {text-align:center; margin-bottom:30px;}
+.weight_wrap .user_weight .insert_wrap #height_input {
+    padding:10px; border-radius:20px; width:40%; margin-right:30px; text-align:center; background-color:#f1f1f1;
+}
+.weight_wrap .user_weight .insert_wrap #height_input::placeholder {color:#a5f; letter-spacing:-0.02em;}
+.weight_wrap .user_weight .insert_wrap #weight_input {
+    padding:10px; border-radius:20px; width:40%; text-align:center;
+    background-color:#f1f1f1;
+}
+.weight_wrap .user_weight .insert_wrap #weight_input::placeholder {
+    color:#a5f; letter-spacing:-0.02em;
+}
+.weight_wrap .user_weight #check {
+    padding:10px 15px; border-radius:40px; font-weight:600; line-height:1.4; letter-spacing: -0.02em; margin:0 auto; display:block; background-color:#a5f; color:#fff;
+}
+.weight_wrap .user_weight #check:hover {background-color:#000000; opacity:0.5;}
+.weight_wrap .weight_inform {
+    line-height:1.4; letter-spacing: -0.02em; font-weight:500; color:#a5f; margin-top:30px; text-align:center;
+}44
