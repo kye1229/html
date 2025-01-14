@@ -51,3 +51,8 @@ thumnail[4].addEventListener('mouseover',function(){
     thum_remove();
     thumnail[4].parentElement.classList = 'active';
 })
+
+//===================== 상품 배송 도착정보 JS
+//1. (시작 전) 도착예정 정보 숨기기(초기세팅)
+//2. 도착예정 링크 클릭
+//3. 도착예정정보 화면 보이기
