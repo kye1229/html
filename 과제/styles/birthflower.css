@@ -1,0 +1,8 @@
+.birth_flower_wrap {}
+.birth_flower_wrap h1 {}
+.birth_flower_wrap .birth_question {}
+.birth_flower_wrap .birth_flower_wrap {}
+.birth_flower_wrap .birth_flower_wrap input[name$=month] {}
+.birth_flower_wrap .birth_flower_wrap input[name$=month]::placeholder {}
+.birth_flower_wrap .birth_flower_wrap input[name$=flower] {}
+.birth_flower_wrap .birth_flower_wrap input[name$=flower]::placeholder {}
