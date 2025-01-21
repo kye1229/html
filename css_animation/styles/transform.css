@@ -1,0 +1,134 @@
+.box  {
+    background-color:#fff; padding:50px 0;
+}
+.box #btn1 {
+    background-color: #222; color:#ffff;
+    font-size:2rem; padding: 20px 60px; border-radius:8px;
+    transform-origin:left center;
+    transition:transform 0.5s ease;
+}
+.box:hover #btn1 {
+    /* transform 속성은 상황에 따라 기본값 없이 바로 상태선택자에 입력할 수 있다. */
+    transform:scale(0.8) rotate(60deg);
+}
+.box a {
+    display:block; width:300px; height:400px; border-radius:10px;
+    overflow:hidden; position:relative;
+}
+.box a img {width:100%; transition:transform 0.3s, filter 1s; }
+.box a:hover img {
+    transform:scale(1.05) skewX(-2deg) translate(20px, 30px); filter:brightness(1.2) contrast(1.1) blur(3px) saturate(10%);
+
+}
+.box a h1 {
+    background:rgba(255,255,255,0.4); padding:20px;
+    position:absolute; right:0; bottom:0; width:100%;
+}
+nav {width:600px; margin:30px auto 200px; box-shadow: 0 5px 5px rgba(0,0,0,0.1);}
+nav a {/* 공통 */display:block; line-height:40px; text-align: center;}
+nav .gnb {display:flex;}
+nav .gnb > li {flex:1; position:relative;} 
+nav .gnb > li a {}
+nav .gnb > li > .sub {
+    position:absolute; width:100%; left:0; top:100%;
+    background-color:rgba(255,255,255,0.8);
+    transform:translateY(-30px); /* 초기값(위로 올리기) */
+    opacity:0; /* 초기 숨기기 */
+    height:0; overflow:hidden; /* 대상 선택되지 않도록 높이값 0 숨기기 */
+    transition: transform 0.3s, opacity 0.5s;
+}
+nav .gnb > li:hover .sub {
+    transform:translateY(0); opacity:1;
+    height:max-content; /* 단순 보이는 요소로 애니메이션 적용대상 아님 */
+} 
+nav .gnb > li > .sub li {}
+nav .gnb > li > .sub li a {}
+nav .gnb2 {
+    display:flex; border:2px solid #222; border-top-left-radius:10px; border-top-right-radius:10px;
+}
+nav .gnb2 > li {flex:1; position:relative;} 
+nav .gnb2 > li > a {}
+nav .gnb2 > li > .sub {
+    transform:translateY(30px); opacity:0; height:0; overflow:hidden;
+    position:absolute; left:0; top:100%; width:100%; border:2px solid #222;
+    background-color:#fff; color:#222; border-bottom-left-radius:10px; border-bottom-right-radius:10px;
+    transition:transform 0.3s, opacity 0.5s, background 0.3s, color 0.5s;
+}
+nav .gnb2 > li:hover .sub {
+    transform:translateY(0); opacity:1; height:max-content;
+}
+nav .gnb2 > li > .sub li {}
+nav .gnb2 > li > .sub li a {}
+.box2 {
+    background-color: #fff; padding:50px;
+    perspective: 1000px; /* 부모에 3D 효과 깊이 설정(원근감) */
+}
+.box2 #btn3 {
+    width:300px; height:200px; background-color: #0066ff;
+    border-radius:10px;
+    transform-style:preserve-3d; /* 자식 요소의 3D 효과 유지 */
+    transition:transform 0.6s ease;
+}
+.box2:hover #btn3 {
+    transform:rotateY(180deg);
+}
+.box2 .card_container {
+    perspective: 1000px; /* 3D 효과 깊이 지정(부모) */
+}
+.box2 .card_container .card {
+    width:780px; height:500px;
+    background-color:#aaa;
+    position:relative;
+    transform-style: preserve-3d; /* 3D 변환 유지(자식) */
+    transition:transform 0.5s ease; /* 카드뒤집기의 애니메이션 효과 적용 */
+}
+.box2 .card_container:hover .card {transform:rotateY(180deg);} /* 카드뒤집기 */
+.box2 .card_container .card > * {
+    font-size:2rem; font-weight:800;
+    /* 카드 앞면, 뒷면 겹치기 */
+    position:absolute; left:0; top:0; width:100%; height:100%;
+}
+.box2 .card_container .card .front {
+    background-color:aquamarine;
+}
+.box2 .card_container .card .back {
+    background-color:chartreuse;
+    transform:rotateY(180deg);
+    backface-visibility: hidden; /* 뒤쪽 숨김처리 */
+}
+.box2 .card_container2 {perspective: 1000px;}
+.box2 .card_container2 .card {
+    width:780px; height:500px; position:relative;
+    transition:transform 0.5s ease;
+}
+.box2 .card_container2:hover .card {
+    transform:rotateY(180deg);
+}
+.box2 .card_container2 .card > * {
+    width:100%; height:100%;
+    position:absolute; left:0; top:0;
+}
+.box2 .card_container2 .card .front {}
+.box2 .card_container2 .card .front img {}
+.box2 .card_container2 .card .back {
+    transform:rotateY(180deg);
+    backface-visibility: hidden;
+}
+.box2 .card_container2 .card .back img {}
+.box3 {background-color:#f5f5f5; width:100%; padding:50px;}
+.box3 .card_container3 {perspective: 1000px; }
+.box3 .card_container3 .card {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    position:relative; width:600px; height:500px;
+    transform-style: preserve-3d;
+    transition:transform 0.7s ease;
+}
+.box3 .card_container3:hover .card {transform:rotateY(180deg);}
+.box3 .card_container3 .card > * {position:absolute; left:0; top:0; width:100%; height:100%;}
+.box3 .card_container3 .card .front {}
+.box3 .card_container3 .card .front img {width:100%; height:500px;}
+.box3 .card_container3 .card .back {
+    transform:rotateY(180deg);
+    backface-visibility: hidden;
+}
+.box3 .card_container3 .card .back img {}
