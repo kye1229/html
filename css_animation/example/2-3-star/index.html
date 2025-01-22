@@ -36,6 +36,8 @@
             display:flex; justify-content:space-between;
             position:absolute; left:0; top:0;
         }
+        .menu_contents .menu a:hover,
+        .menu_contents .menu a:hover img {border-radius:50%;}
         .menu_contents .menu a {
             margin-right:10px; overflow:hidden; position:relative;
             border-radius:10px; 
@@ -49,7 +51,9 @@
             width:100%; height:100%; display:block;
             position:absolute; left:0; top:0;
             text-align:center;
+            opacity:0;
         }
+        .menu_contents .menu .info:hover {opacity:1;}
         .menu_contents .menu .info span:first-child {padding-top:40%;}
         .menu_contents .menu .info span {
             display:block; font-weight: 600;
