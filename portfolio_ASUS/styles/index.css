@@ -11,7 +11,8 @@ main .bnr_wrap .swiper-wrapper .slide1 {
     background-image:url(../images/bnr_001.jpg);
     display:flex; justify-content: space-between; padding:0 80px;
 }
-main .bnr_wrap .swiper-wrapper .slide1 > p {
+main .bnr_wrap .swiper-wrapper .slide1 .content_left {}
+main .bnr_wrap .swiper-wrapper .slide1 .content_left p {
     font-size:3.0rem; line-height:598px; letter-spacing:-0.02em;
     color:#fff; font-weight:700;
 }
