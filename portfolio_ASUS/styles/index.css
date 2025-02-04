@@ -1,0 +1,29 @@
+main {}
+main .bnr_wrap {
+    width:100%; height:598px; margin-bottom:140px;
+}
+main .bnr_wrap .swiper-wrapper {}
+main .bnr_wrap .swiper-wrapper .swiper-slide {
+    background-size:cover;
+    background-position:center;
+}
+main .bnr_wrap .swiper-wrapper .slide1 {
+    background-image:url(../images/bnr_001.jpg);
+    display:flex; justify-content: space-between; padding:0 80px;
+}
+main .bnr_wrap .swiper-wrapper .slide1 > p {
+    font-size:3.0rem; line-height:598px; letter-spacing:-0.02em;
+    color:#fff; font-weight:700;
+}
+main .bnr_wrap .swiper-wrapper .slide1 .content_right {
+    padding-top:208px; font-size:3.0rem; color:#fff;
+}
+main .bnr_wrap .swiper-wrapper .slide1 .content_right p {font-weight:600; line-height:1.2; letter-spacing:-0.02em;}
+main .bnr_wrap .swiper-wrapper .slide1 .content_right p:nth-child(2) {font-weight:700; margin-bottom:24px;}
+main .bnr_wrap .swiper-wrapper .slide1 .content_right a {
+    font-size:1.0rem; letter-spacing:-0.02em; color:#fff;
+    padding:10px 15px;
+    background:linear-gradient(90deg,#D07057,#756ECD);
+    border-radius:15px;
+}
+main .bnr_wrap .swiper-wrapper .slide2 {background-image:url(../images/bnr_002.jpg);}
