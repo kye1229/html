@@ -28,3 +28,79 @@ main .bnr_wrap .swiper-wrapper .slide1 .content_right a {
     border-radius:15px;
 }
 main .bnr_wrap .swiper-wrapper .slide2 {background-image:url(../images/bnr_002.jpg);}
+/* 배너 끝 */
+main .icon_wrap {width:1760px; margin:0 auto;}
+main .icon_wrap > p {
+    text-align:center; font-size:1.5rem; letter-spacing:-0.02em; font-weight:600;
+    margin-bottom:30px;
+}
+main .icon_wrap .product_icon {
+    margin:0 auto 140px; width:970px;
+    display:flex; justify-content: space-between;
+}
+main .icon_wrap .product_icon a p {
+    text-align:center; font-size:0.88rem; font-weight:700; letter-spacing:-0.02em;
+}
+main .icon_wrap .product_icon a img {margin-bottom:16px;}
+main .new_wrap {}
+main .new_wrap .new_title {}
+main .new_wrap .new_title p {}
+main .new_wrap .new_title p a {}
+main .new_wrap .new_title .new_page {}
+main .new_wrap .new_title .new_page a {}
+main .new_wrap .new_title .new_page .now_page {}
+main .new_wrap .new_title .new_page span {}
+main .new_wrap .new_title .new_page .total_page {}
+main .new_wrap .new_title .new_page  {}
+/* new 공통 선택자 */
+main .new_wrap .new {}
+main .new_wrap .new a {}
+main .new_wrap .new a img {}
+main .new_wrap .new a p {}
+main .new_wrap .new .score_price {}
+main .new_wrap .new .score_price p {}
+main .new_wrap .new .score_price a {}
+main .new_wrap .new .score_price .new_price {}
+main .new_wrap .new .score_price .new_price span {}
+main .new_wrap .new .score_price .new_price span img {}
+/* new 개별 선택자 */
+main .new_wrap .new1 {}
+main .new_wrap .new1 a {}
+main .new_wrap .new1 a img {}
+main .new_wrap .new1 a p {}
+main .new_wrap .new1 .score_price {}
+main .new_wrap .new1 .score_price p {}
+main .new_wrap .new1 .score_price a {}
+main .new_wrap .new1 .score_price .new_price {}
+main .new_wrap .new1 .score_price .new_price span {}
+main .new_wrap .new1 .score_price .new_price span img {}
+main .new_wrap .new2 {}
+main .new_wrap .new2 a {}
+main .new_wrap .new2 a img {}
+main .new_wrap .new2 a p {}
+main .new_wrap .new2 .score_price {}
+main .new_wrap .new2 .score_price p {}
+main .new_wrap .new2 .score_price a {}
+main .new_wrap .new2 .score_price .new_price {}
+main .new_wrap .new2 .score_price .new_price span {}
+main .new_wrap .new2 .score_price .new_price span img {}
+main .new_wrap .new3 {}
+main .new_wrap .new3 a {}
+main .new_wrap .new3 a img {}
+main .new_wrap .new3 a p {}
+main .new_wrap .new3 .score_price {}
+main .new_wrap .new3 .score_price p {}
+main .new_wrap .new3 .score_price a {}
+main .new_wrap .new3 .score_price .new_price {}
+main .new_wrap .new3 .score_price .new_price span {}
+main .new_wrap .new3 .score_price .new_price span img {}
+main .new_wrap .new4 {}
+main .new_wrap .new4 a {}
+main .new_wrap .new4 a img {}
+main .new_wrap .new4 a p {}
+main .new_wrap .new4 .score_price {}
+main .new_wrap .new4 .score_price p {}
+main .new_wrap .new4 .score_price a {}
+main .new_wrap .new4 .score_price .new_price {}
+main .new_wrap .new4 .score_price .new_price span {}
+main .new_wrap .new4 .score_price .new_price span img {}
