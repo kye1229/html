@@ -15,17 +15,22 @@ header .header_left {
 }
 header .header_left h1 {margin-right:65px;}
 header .header_left h1 a {}
-header .header_left nav {font-size:0.88rem; font-weight:600; letter-spacing: -0.02em;}
-header .header_left nav a {margin-right:26px;}
+header .header_left nav {font-size:0.88rem; letter-spacing: -0.02em;}
+header .header_left nav a {margin-right:26px; font-weight:600}
 header .header_left nav a:first-child {color:#015EC5;}
 header .header_left nav a:last-child {margin-right:0;}
 header .header_right {}
 header .header_right a {margin-right:24px;}
-header .header_right a:last-child {
+header .header_right a img {}
+header .header_right .search {}
+header .header_right .search img {}
+header .header_right .cart {}
+header .header_right .cart img {}
+header .header_right .support_consumer {
     color:#015EC5; margin-right:0;
     font-weight:500; letter-spacing: -0.02em; position:relative; top:-5px;
 }
-header .header_right a img {}
+header .header_right .support_consumer img {}
 footer {
     background-color:#313131; height:350px; padding:0 80px; display:flex; justify-content: space-between;
     align-items:center;
