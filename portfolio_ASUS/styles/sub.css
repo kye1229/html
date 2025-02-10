@@ -1,0 +1,28 @@
+main {}
+main .sub_bnr {
+    width:100%; height:285px;
+    background-image:url(../images/sub_bnr_001.jpg);
+    position:relative;
+}
+main .sub_bnr::after {
+    background-color: rgba(0,0,0,0.2); content:''; display:block; position:absolute;
+    left:0; top:0; z-index:80; width:100%; height:100%;
+}
+main .sub_bnr p {z-index:120; color:#fff;}
+main .product_notebook_list {}
+main .product_notebook_list h2 {}
+main .product_notebook_list .category_list {}
+main .product_notebook_list .category_list a{}
+main .product_notebook_list .product_list {}
+/* 서브페이지1 main 공통선택자 */
+main .product_notebook_list .product_list .list {}
+main .product_notebook_list .product_list .list a {}
+main .product_notebook_list .product_list .list a p {}
+main .product_notebook_list .product_list .list a p img {}
+main .product_notebook_list .product_list .list .discount {}
+main .product_notebook_list .product_list .list .score_price {}
+main .product_notebook_list .product_list .list .score_price p {}
+main .product_notebook_list .product_list .list .score_price a {}
+main .product_notebook_list .product_list .list > p {}
+main .product_notebook_list .product_list .list .product_price {}
+main .product_notebook_list .product_list .list .product_price span {}
