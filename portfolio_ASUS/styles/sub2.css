@@ -22,7 +22,7 @@ main #product_wrap .photo_thumnail .thum_swiper .swiper-wrapper .thum_slide1 a:l
 main #product_wrap .photo_thumnail .thum_swiper .swiper-wrapper .thum_slide1 a img {}
 main #product_wrap .photo_thumnail .thum_swiper .swiper-wrapper .thum_slide2 {}
 main #product_wrap .photo_thumnail .thum_swiper .swiper-wrapper .thum_slide2 a {}
-main #product_wrap .big_bg img {margin-bottom:15px;}
+main #product_wrap .big_bg img {margin-bottom:15px; width:524px; height:385px;}
 main #product_wrap .big_bg .number dl {display:inline-block; text-align:center;}
 main #product_wrap .big_bg .number dl > * {
     font-size:0.88rem; font-weight:600; letter-spacing:-0.02em; color:#777; 

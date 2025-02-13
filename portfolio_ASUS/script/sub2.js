@@ -43,7 +43,7 @@ thumLink[3].addEventListener('click',(e)=>{
     e.preventDefault();
     removeThum();
     thumLink[3].classList.add('active');
-    thumBig.src = './images/sub_big_004.png';
+    thumBig.src = './images/sub_big_004.jpg';
 })
 thumLink[4].addEventListener('click',(e)=>{
     e.preventDefault();
