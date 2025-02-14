@@ -70,7 +70,7 @@ main .new_wrap .new_title h2 a span {color:#015EC5; font-weight:600;}
 main .new_wrap .new_title .new_page {float:right; display:flex;}
 main .new_wrap .new_title .new_page a {line-height:32px;}
 main .new_wrap .new_title .new_page a:first-child {margin-right:20px;}
-main .new_wrap .new_title .new_page > p {margin-right:10px; line-height:32px; color:#aaa;}
+main .new_wrap .new_title .new_page > p {margin-right:5px; line-height:32px; color:#aaa;}
 main .new_wrap .new_title .new_page .now_page {font-size:1.25rem; font-weight:500; position:relative; top:-2px; color:#000;}
 main .new_wrap .new_title .new_page .total_page {margin-right:20px;}
 /* new 공통 선택자 */

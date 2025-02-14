@@ -19,7 +19,7 @@ const bnrSlide = new Swiper('.bnr_swiper .bnr_wrap',{
 const newNum = document.querySelector('.new_wrap .now_page');
 const newNow = document.querySelectorAll('.new_wrap .swiper-slide');
 const newTotalNum = document.querySelector('.new_wrap .total_page');
-newTotalNum.innerText = newNow.length;
+newTotalNum.innerText = newNow.length/4;
 const newSlide = new Swiper('.new_wrap .new_swiper',{
     speed:1000,
     navigation:{
@@ -28,14 +28,16 @@ const newSlide = new Swiper('.new_wrap .new_swiper',{
     },
     on:{
         slideChange:function(){
-            newNum.textContent = this.realIndex+1;
+            newNum.textContent = (this.realIndex+1*newTotalNum.innerText)/4+0.5;
         }
     },
+    slidesPerView:4,
+    slidesPerGroup:4,
 });
 const dealNum = document.querySelector('.hot_deal_wrap .now_page');
 const dealNow = document.querySelectorAll('.hot_deal_wrap .swiper-slide');
 const dealTotalNum = document.querySelector('.hot_deal_wrap .total_page');
-dealTotalNum.innerText = dealNow.length;
+dealTotalNum.innerText = dealNow.length/4;
 const dealSlide = new Swiper('.hot_deal_wrap .deal_swiper',{
     speed:1000,
     navigation:{
@@ -44,9 +46,11 @@ const dealSlide = new Swiper('.hot_deal_wrap .deal_swiper',{
     },
     on:{
         slideChange:function(){
-            dealNum.textContent = this.realIndex+1;
+            dealNum.textContent = (this.realIndex+1*dealTotalNum.innerText)/4+0.5;
         }
     },
+    slidesPerView:4,
+    slidesPerGroup:4,
 });
 
 const bestCategory = document.querySelectorAll('.best_categories a');
@@ -92,7 +96,7 @@ bestCategory[5].addEventListener('click',(e)=>{
 const bestNum = document.querySelector('.best_wrap .now_page');
 const bestNow = document.querySelectorAll('.best_wrap .swiper-slide');
 const bestTotalNum = document.querySelector('.best_wrap .total_page');
-bestTotalNum.innerText = bestNow.length;
+bestTotalNum.innerText = bestNow.length/3;
 const bestSlide = new Swiper('.best_wrap .best_swiper',{
     speed:1000,
     navigation:{
@@ -101,7 +105,9 @@ const bestSlide = new Swiper('.best_wrap .best_swiper',{
     },
     on:{
         slideChange:function(){
-            bestNum.textContent = this.realIndex+1;
+            bestNum.textContent = (this.realIndex*bestTotalNum.innerText)/6+1;
         }
     },
+    slidesPerView:3,
+    slidesPerGroup:3,
 });

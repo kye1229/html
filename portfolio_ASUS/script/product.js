@@ -52,6 +52,15 @@ thumLink[4].addEventListener('click',(e)=>{
     thumBig.src = './images/sub_big_005.jpg';
 })
 
+const helpImg = document.querySelector('.deliver a');
+const help = document.querySelector('.help');
+helpImg.addEventListener('mouseover',(e)=>{
+    help.classList.add('active');
+});
+helpImg.addEventListener('mouseout',()=>{
+    help.classList.remove('active')
+});
+
 const selectLink1 = document.querySelectorAll('.storage a');
 const selectLink2 = document.querySelectorAll('.memory a');
 const selectLink3 = document.querySelectorAll('.processor a');
@@ -149,4 +158,34 @@ cartBtn.addEventListener('click',()=>{
 });
 buyBtn.addEventListener('click',()=>{
     confirm('구매하시겠습니까?');
+});
+
+const pageNum = document.querySelectorAll('.page_link a');
+const commentPage = document.querySelectorAll('.review_comment .comment_wrap');
+function numRemove(){
+    pageNum[0].classList.remove('active');
+    pageNum[1].classList.remove('active');
+    pageNum[2].classList.remove('active');
+    commentPage[0].style.display = 'none';
+    commentPage[1].style.display = 'none';
+    commentPage[2].style.display = 'none';
+};
+console.log(commentPage);
+pageNum[0].addEventListener('click',(e)=>{
+    e.preventDefault();
+    numRemove();
+    pageNum[0].classList.add('active');
+    commentPage[0].style.display = 'block';
+})
+pageNum[1].addEventListener('click',(e)=>{
+    e.preventDefault();
+    numRemove();
+    pageNum[1].classList.add('active');
+    commentPage[1].style.display = 'block';
+})
+pageNum[2].addEventListener('click',(e)=>{
+    e.preventDefault();
+    numRemove();
+    pageNum[2].classList.add('active');
+    commentPage[2].style.display = 'block';
 })
