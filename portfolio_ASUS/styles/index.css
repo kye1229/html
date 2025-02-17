@@ -25,9 +25,10 @@ main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right p:nth-child(2)
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right a {
     font-size:1.0rem; letter-spacing:-0.02em; color:#fff;
     padding:10px 15px;
-    background:linear-gradient(90deg,#D07057,#756ECD);
     border-radius:15px;
+    background:linear-gradient(90deg,#D07057,#756ECD);
 }
+main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right a:hover {    background:linear-gradient(90deg,#756ECD,#D07057);}
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 {background-image:url(../images/bnr_002.jpg);}
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents {
     position:absolute; left:60%; top:40%;
@@ -41,7 +42,7 @@ main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents p span {font
 main .bnr_swiper .swiper-pagination {bottom:30px;}
 main .bnr_swiper .swiper-pagination-bullet {background:#000; opacity:0.5;}
 main .bnr_swiper .swiper-pagination-bullet-active {background:#A80909;}
-main .bnr_swiper .prev, main .bnr_swiper .next {position:absolute;  top:0; z-index:999; opacity:0.6; padding:0 80px; height:100%; padding-top:280px;}
+main .bnr_swiper .prev, main .bnr_swiper .next {position:absolute;  top:0; z-index:800; opacity:0.6; padding:0 80px; height:100%; padding-top:280px;}
 main .bnr_swiper a img {width:30px;}
 main .bnr_swiper .prev {left:0;}
 main .bnr_swiper .next {right:0;}
