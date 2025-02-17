@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASUS Zenbook S 16 OLED UM5606 | ASUS 한국</title>
+    <link rel="icon" href="./images/asus_favicon_001.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/product.css">
     <script src="./script/product.js" defer></script>
+    <script src="./script/common.js" defer></script>
 </head>
 <body>
     <div class="h_top">
@@ -21,19 +23,113 @@
         <div class="header_left">
             <h1><a href="./index.html"><img src="./images/logo_001.png" alt="ASUS 로고"></a></h1>
             <nav>
-                <a href="#">NEW</a>
-                <a href="#">PRODUCT</a>
-                <a href="#">이벤트</a>
-                <a href="#">맴버십 혜택</a>
-                <a href="#">고객 지원</a>
-                <a href="#">구매 가이드</a>
-            </nav>
+                <ul>
+                    <li><a href="./list.html">NEW</a></li>
+                    <li>
+                        <a href="#">PRODUCT</a>
+                        <!-- 서브 메뉴 -->
+                        <div class="sub_tab">
+                            <div class="sub_contents">
+                                <div class="tab tab_menu1">
+                                    <h2>모바일</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">모바일</a>
+                                        <a href="./list.html">snapdragon insiders</a>
+                                    </div>
+                                    <h2>핸드헬드</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">ROG ALLEY</a>
+                                        <a href="./list.html">핸드헬드 케이스</a>
+                                    </div> 
+                                </div>
+                                <div class="tab tab_menu2">
+                                    <h2>노트북</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">Copilot+ PC</a>
+                                        <a href="./list.html">비즈니스용</a>
+                                        <a href="./list.html">크리에이터용</a>
+                                        <a href="./list.html">학생용</a>
+                                        <a href="./list.html">게이밍 노트북</a>
+                                    </div>
+                                </div>
+                                <div class="tab tab_menu3">
+                                    <h2>데스크탑</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">모니터</a>
+                                        <a href="./list.html">일체형 PC</a>
+                                        <a href="./list.html">게이밍</a>
+                                        <a href="./list.html">Mini PC</a>
+                                        <a href="./list.html">워크스테이션</a>
+                                    </div>
+                                </div>
+                                <div class="tab tab_menu4">
+                                    <h2>메인보드</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">메인보드</a>
+                                        <a href="./list.html">그래픽카드</a>
+                                        <a href="./list.html">쿨링</a>
+                                        <a href="./list.html">SSD</a>
+                                        <a href="./list.html">파워</a>
+                                        <a href="./list.html">케이스</a>
+                                    </div>
+                                </div>
+                                <div class="tab tab_menu5">
+                                    <h2>공유기/loT/서버</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">WIFI 라우터</a>
+                                        <a href="./list.html">무선 어댑터</a>
+                                        <a href="./list.html">메쉬 WIFI 시스템</a>
+                                    </div>
+                                </div>
+                                <div class="tab tab_menu6">
+                                    <h2>액세서리</h2>
+                                    <div class="sub">
+                                        <a href="./list.html">키보드</a>
+                                        <a href="./list.html">마우스</a>
+                                        <a href="./list.html">가방</a>
+                                        <a href="./list.html">헤드셋 / 오디오</a>
+                                        <a href="./list.html">어댑터 / 충전기</a>
+                                        <a href="./list.html">스타일러스</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="./list.html">이벤트</a></li>
+                    <li><a href="#">맴버십 혜택</a></li>
+                    <li><a href="#">고객 지원</a></li>
+                    <li><a href="./list.html">구매 가이드</a></li>
+                </ul>
+            </nav>  
         </div>
         <div class="header_right">
             <a href="#" class="search"><img src="./images/search_001.png" alt="검색"></a>
             <a href="#" class="cart"><img src="./images/cart_001.png" alt="장바구니"></a>
             <a href="#" class="support_consumer">MyASUS</a>
         </div>
+        <div class="search_popup">
+            <button type="button" id="close_btn"><img src="./images/close_002_black.png" alt=""></button>
+            <div class="search_contents">
+                <form action="#" method="get" id="search_txt">
+                    <input type="search" id="searchInput" placeholder="검색어를 입력해주세요.">
+                    <button type="button" id="search_btn"><img src="./images/search_002.png" alt=""></button>
+                </form>
+                <div class="popular_search">
+                    <h4>자주 찾는 검색어</h4>
+                    <div class="popular_list">
+                        <a href="#" class="active">WIFI 라우터</a>
+                        <a href="#">무선 이어폰</a>
+                        <a href="#">크리에이터용 노트북</a>
+                        <a href="#">게이밍 노트북</a>
+                        <a href="#">가방</a>
+                        <a href="#">헤드셋</a>
+                        <a href="#">유선 키보드</a>
+                        <a href="#">그래픽 카드</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </header>
     <!-- header end, main start -->
     <main>

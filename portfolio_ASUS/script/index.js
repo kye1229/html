@@ -28,7 +28,7 @@ const newSlide = new Swiper('.new_wrap .new_swiper',{
     },
     on:{
         slideChange:function(){
-            newNum.textContent = (this.realIndex+1*newTotalNum.innerText)/4+0.5;
+            newNum.textContent = ((this.realIndex+1*newTotalNum.innerText)/4)+0.5;
         }
     },
     slidesPerView:4,
@@ -46,7 +46,7 @@ const dealSlide = new Swiper('.hot_deal_wrap .deal_swiper',{
     },
     on:{
         slideChange:function(){
-            dealNum.textContent = (this.realIndex+1*dealTotalNum.innerText)/4+0.5;
+            dealNum.textContent = ((this.realIndex+1*dealTotalNum.innerText)/4)+0.5;
         }
     },
     slidesPerView:4,
@@ -105,7 +105,7 @@ const bestSlide = new Swiper('.best_wrap .best_swiper',{
     },
     on:{
         slideChange:function(){
-            bestNum.textContent = (this.realIndex*bestTotalNum.innerText)/6+1;
+            bestNum.textContent = ((this.realIndex*bestTotalNum.innerText)/6)+1;
         }
     },
     slidesPerView:3,
