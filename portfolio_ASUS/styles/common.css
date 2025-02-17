@@ -63,7 +63,7 @@ header .search_popup .search_contents .popular_search .popular_list a {
     background-color:#fff; padding:10px 25px; border-radius:20px;
     display:inline-block; margin-bottom:5px;
 }
-header .search_popup .search_contents .popular_search .popular_list a.active {}
+header .search_popup .search_contents .popular_search .popular_list a:hover {background-color:#d9d9d9;}
 /* searchpopup end, footer start */
 footer {
     background-color:#313131; height:350px; padding:0 80px; display:flex; justify-content: space-between;

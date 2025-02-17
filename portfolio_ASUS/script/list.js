@@ -6,6 +6,7 @@ function tabRemove(){
     notebookTab[3].classList.remove('active');
     notebookTab[4].classList.remove('active');
     notebookTab[5].classList.remove('active');
+    notebookTab[6].classList.remove('active');
 };
 notebookTab[0].addEventListener('click',(e)=>{
     e.preventDefault();
@@ -36,6 +37,11 @@ notebookTab[5].addEventListener('click',(e)=>{
     e.preventDefault();
     tabRemove();
     notebookTab[5].classList.add('active');
+})
+notebookTab[6].addEventListener('click',(e)=>{
+    e.preventDefault();
+    tabRemove();
+    notebookTab[6].classList.add('active');
 })
 
 const pageNum = document.querySelectorAll('.page_list a');
