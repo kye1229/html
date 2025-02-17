@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const htop = document.querySelector('.h_top');
 const closeBtn = document.querySelector('.h_top #close_btn');
 closeBtn.addEventListener('click',()=>{
@@ -24,11 +23,3 @@ searchClose.addEventListener('click',()=>{
     searchPopup.style.display='none';
 })
 console.log(searchPopup);
-=======
-const htop = document.querySelector('.h_top');
-const closeBtn = document.querySelector('.h_top #close_btn');
-closeBtn.addEventListener('click',()=>{
-    htop.style.display = 'none';
-});
-
->>>>>>> b550481702efdf31ce771adf514865e432a6f299
