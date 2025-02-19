@@ -15,7 +15,7 @@ main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 {
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left {}
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left p {
     font-size:3.0rem; line-height:598px; letter-spacing:-0.02em;
-    color:#fff; font-weight:700;
+    color:#fff; font-weight:700; display:inline-block;
 }
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right {
     padding-top:208px; font-size:3.0rem; color:#fff;
@@ -47,7 +47,7 @@ main .bnr_swiper a img {width:30px;}
 main .bnr_swiper .prev {left:0;}
 main .bnr_swiper .next {right:0;}
 /* 배너 끝 */
-main .icon_wrap {width:1760px; margin:0 auto;}
+main .icon_wrap {max-width:1760px; margin:0 auto;}
 main .icon_wrap h2 {
     text-align:center; font-size:1.5rem; letter-spacing:-0.02em; font-weight:600;
     margin-bottom:30px;
@@ -81,7 +81,7 @@ main .new_wrap .new_swiper .swiper-wrapper .swiper-slide {display:flex; justify-
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new {}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > a {}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > a p {font-weight:600; letter-spacing:-0.02em; margin-bottom:10px;}
-main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > a p img {margin-bottom:20px;}
+main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > a p img {margin-bottom:20px; width:100%;}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price {display:flex; margin-bottom:10px;}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p {margin-right:13px;}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:first-child {color:#FF2121}
@@ -136,7 +136,7 @@ main .new_wrap .new_list .new4 .score_price .new_price {}
 main .new_wrap .new_list .new4 .score_price .new_price span {}
 main .new_wrap .new_list .new4 .score_price .new_price img {}
 /* new 끝 */
-main .hot_deal_wrap {width:1760px; margin:0 auto 140px;}
+main .hot_deal_wrap {max-width:1760px; margin:0 auto 140px;}
 main .hot_deal_wrap .hot_deal_title {overflow:hidden; margin-bottom:25px;}
 main .hot_deal_wrap .hot_deal_title h2 {float:left;}
 main .hot_deal_wrap .hot_deal_title h2 a {font-size:2.0rem; letter-spacing:-0.02em; font-weight:600; margin-right:10px;}
@@ -157,7 +157,7 @@ main .hot_deal_wrap .swiper-slide .deal {position:relative;overflow:hidden;}
 main .hot_deal_wrap .swiper-slide .deal:last-child {margin-right:0;}
 main .hot_deal_wrap .swiper-slide .deal > a {}
 main .hot_deal_wrap .swiper-slide .deal > a p {font-weight:600; letter-spacing:-0.02em; margin-bottom:10px;}
-main .hot_deal_wrap .swiper-slide .deal > a p img {margin-bottom:20px;}
+main .hot_deal_wrap .swiper-slide .deal > a p img {margin-bottom:20px; width:100%;}
 main .hot_deal_wrap .swiper-slide .deal .discount {
     position:absolute; left:0; top:0; background-color:#000; color:#fff;
     font-size:0.88rem; width:45px; height:30px; text-align:center; line-height:30px;
@@ -229,7 +229,7 @@ main .guide_wrap {
     height:598px; position:relative;
 }
 main .guide_wrap a {}
-main .guide_wrap a p img {}
+main .guide_wrap a p img {width:100%;}
 main .guide_wrap a h2 {
     position:absolute; left:65px; top:45px;
     font-size:2.0rem; font-weight:600; letter-spacing:-0.02em; opacity:0.8;
@@ -249,9 +249,9 @@ main .event_wrap .event_title {overflow:hidden; margin-bottom:25px;}
 main .event_wrap .event_title h2 {float:left; font-size:2.0rem; font-weight:600; letter-spacing: -0.02em;}
 main .event_wrap .event_title a {float:right; font-size:1.13rem; font-weight:600; letter-spacing:-0.02em;}
 main .event_wrap .event_list {width:100%; display:flex; justify-content: space-between;}
-main .event_wrap .event_list img {}
+main .event_wrap .event_list img {width:100%;}
 /* event 끝 */
-main .best_wrap {width:1760px; margin:0 auto 140px;}
+main .best_wrap {max-width:1760px; margin:0 auto 140px;}
 main .best_wrap .best_title {overflow:hidden;}
 main .best_wrap .best_title h2 {font-size:2.0rem; font-weight:600; letter-spacing:-0.02em; margin-bottom:20px;}
 main .best_wrap .best_title .best_categories {float:left;}
@@ -269,7 +269,7 @@ main .best_wrap .best_title .best_page p {line-height:32px; margin-right:5px; co
 main .best_wrap .best_title .best_page .now_page {font-size:1.25rem; font-weight:500; position:relative; top:-2px; color:#000;}
 main .best_wrap .best_title .best_page .total_page {margin-right:20px;}
 main .best_wrap .best_list_contents {margin-top:20px; overflow:hidden;}
-main .best_wrap .best_list_contents .best_bnr {margin-right:30px; float:left;}
+main .best_wrap .best_list_contents .best_bnr {margin-right:30px;}
 main .best_wrap .best_list_contents .best_bnr img {}
 main .best_wrap .best_list_contents .best_swiper {}
 main .best_wrap .best_list_contents .best_swiper .swiper-wrapper {}
@@ -281,7 +281,7 @@ main .best_wrap .best_list_contents .best_swiper .best > a p {
     font-size:1.13rem; font-weight:600; letter-spacing: -0.02em;
     margin-bottom:10px;
 }
-main .best_wrap .best_list_contents .best_swiper .best > a p img {margin-bottom:24px;}
+main .best_wrap .best_list_contents .best_swiper .best > a p img {margin-bottom:24px; width:100%;}
 main .best_wrap .best_list_contents .best_swiper .best .rank_number {
     position:absolute; left:0; top:0; background-color:#015EC5; width:25px; height:30px; color:#fff;
     text-align:center; line-height:28px;
@@ -303,7 +303,7 @@ main .best_wrap .best_list_contents .best_swiper .best .best_price span {
 }
 main .best_wrap .best_list_contents .best_swiper .best .best_price img {position:relative; top:4px;}
 /* best 끝 */
-main .care_wrap {width:1760px; margin:0 auto 220px;}
+main .care_wrap {max-width:1760px; margin:0 auto 220px;}
 main .care_wrap h2 {
     font-size:2.0rem; letter-spacing: -0.02em; font-weight:600;
     margin-bottom:20px;
@@ -316,5 +316,5 @@ main .care_wrap .care_list .care a {display:inline-block; margin-bottom:10px;}
 main .care_wrap .care_list .care a p {
     font-size:1.25rem; font-weight:600; letter-spacing:-0.02em; line-height:1.2;
 }
-main .care_wrap .care_list .care a p img {margin-bottom:22px;}
+main .care_wrap .care_list .care a p img {margin-bottom:22px; width:100%;}
 main .care_wrap .care_list .care > p {font-size:0.88rem; letter-spacing:-0.02em; line-height:1.2;}

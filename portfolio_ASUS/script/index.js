@@ -28,12 +28,13 @@ const newSlide = new Swiper('.new_wrap .new_swiper',{
     },
     on:{
         slideChange:function(){
-            newNum.textContent = ((this.realIndex+1*newTotalNum.innerText)/4)+0.5;
+            newNum.textContent = this.realIndex+1;
         }
     },
     slidesPerView:4,
     slidesPerGroup:4,
 });
+
 const dealNum = document.querySelector('.hot_deal_wrap .now_page');
 const dealNow = document.querySelectorAll('.hot_deal_wrap .swiper-slide');
 const dealTotalNum = document.querySelector('.hot_deal_wrap .total_page');
