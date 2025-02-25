@@ -1,0 +1,161 @@
+/* =========================================header */
+header {
+    background-color:#007340;
+    position:fixed; left:0; top:0; z-index:999; width:100%;
+}
+header .horang_hd {
+    height: 80px;
+    display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;
+    padding:0 80px;
+}
+header .horang_hd h1 {}
+header .horang_hd h1 a {}
+header .horang_hd h1 a:hover {opacity:0.6;}
+header .horang_hd h1 a img {}
+header .horang_hd nav {}
+header .horang_hd nav a {    
+    color:#fff; font-size:1.25rem; font-weight:700;
+    margin-right:30px;
+}
+header .horang_hd nav a:last-child {margin:0;}
+header .horang_hd nav a:hover {opacity:0.6; text-decoration:underline;}
+/* =======================================main */
+main {}
+main .sub_bnr {
+    background-image:url(../images/sub_bnr.jpg);
+    background-size:cover;
+    background-position:center;
+    width:100%; height:338px;
+    margin-top:80px;
+    position:relative;
+}
+main .sub_bnr::after {
+    background-color:rgba(0,0,0,0.3); display:block; width:100%; z-index:100;
+    height:100%; content:''; position:absolute; top:0;
+}
+main .sub_bnr {
+    color:#fff; z-index:200;
+    
+}
+main .sub_bnr .contents {
+    text-align:center; z-index:200; position:relative; top:100px;
+    letter-spacing:0.02em; line-height:1.4;
+}
+main .sub_bnr .contents p {font-size:1.5rem; font-weight:500; margin-bottom:25px;}
+main .sub_bnr .contents h2 {font-size:2.25rem; font-weight:700;}
+main .page_road {
+    width:1260px; margin:14px auto 0;
+    display:flex; flex-flow:row nowrap; justify-content: flex-end; align-items:center;
+}
+main .page_road > * {margin-right:5px;}
+main .page_road a {
+    color:#adadad; line-height:1.4; letter-spacing: 0.02em;
+}
+main .page_road span {
+    width:15px; height:15px; background-image:url(../images/arrow_forward_ios.png);
+    background-size:cover;
+    background-position:0 -1px;
+    opacity:0.5;
+    display:inline-block;
+}
+main .main_wrap {
+    width:1260px; margin:0 auto;
+    display:flex; flex-flow:row nowrap;
+    clear:both; padding:96px 0 185px 0;
+}
+main .main_wrap .sub_tab {
+    background-color:#4C4B4B;
+    border-radius:20px; width:300px; height:max-content;
+    padding:50px 36px 150px;
+    display:flex; flex-flow:column nowrap; align-items:center;
+    margin-right:60px;
+}
+main .main_wrap .sub_tab > * {margin-bottom:40px; color:#fff;}
+main .main_wrap .sub_tab > *:last-child {margin-bottom:0}
+main .main_wrap .sub_tab p {
+    margin-bottom:10px;
+    font-size:0.81rem; font-weight:600; letter-spacing: 0.02em; line-height:1.4;
+}
+main .main_wrap .sub_tab h3 {font-size:1.38rem; letter-spacing: 0.02em; line-height:1.4; font-weight:600;}
+main .main_wrap .sub_tab .tab_link {
+    display:flex; flex-flow:column nowrap; text-align:center; 
+}
+main .main_wrap .sub_tab .tab_link a {
+    margin-bottom:40px; color:#fff;
+    font-size:1.13rem; letter-spacing: 0.02em; line-height:1.4; font-weight:600;
+}
+main .main_wrap .sub_tab .tab_link a:hover {opacity:0.6;}
+main .main_wrap .sub_tab .tab_link a:last-child {margin-bottom:0;}
+main .main_wrap .sub_tab .tab_link .active {color:#a1a1a1;}
+main .main_wrap .sub_tab .extra_num {
+    width:100%; text-align:center;
+    background-color: #DEDADA; border-radius:20px;
+    padding:13px 0; color:#606060;
+    font-size:1.06rem; letter-spacing:0.02em; line-height: 1.4;
+}
+main .main_wrap .inform_wrap {
+    width:1260px; margin:0 auto;
+}
+main .main_wrap .inform_wrap .refund_inform {
+    margin-bottom:60px;
+}
+main .main_wrap .inform_wrap h3 {
+    font-size:1.88rem; font-weight:600; line-height:1.4; letter-spacing: 0.02em; margin-bottom:22px;
+}
+main .main_wrap .inform_wrap li {
+    line-height:1.4; letter-spacing: 0.02em; list-style-type: disc; 
+    font-weight:500;
+    margin-bottom:15px;
+}
+main .main_wrap .inform_wrap .refund_inform h3 {}
+main .main_wrap .inform_wrap .refund_inform ul {}
+main .main_wrap .inform_wrap .refund_inform ul li {}
+main .main_wrap .inform_wrap .refund_inform ul li:last-child {margin:0;}
+main .main_wrap .inform_wrap .extra_inform {
+    padding-bottom:50px; border-bottom:3px solid #007340;
+    margin-bottom:50px;
+}
+main .main_wrap .inform_wrap .extra_inform h3 {}
+main.main_wrap .inform_wrap .extra_inform h3 ul {}
+main .main_wrap .inform_wrap .extra_inform ul li {}
+main .main_wrap .inform_wrap .extra_inform ul li:last-child {margin:0;}
+main .main_wrap .inform_wrap .standard_inform {
+    padding-bottom:50px; border-bottom:3px solid #007340;
+    margin-bottom:50px;
+}
+main .main_wrap .inform_wrap .standard_inform ul {}
+main .main_wrap .inform_wrap .standard_inform ul li {} 
+main .main_wrap .inform_wrap .standard_inform ul li:nth-child(2) {margin-bottom:30px;}
+main .main_wrap .inform_wrap .standard_inform ul li:last-child {margin:0;} 
+main .main_wrap .inform_wrap .standard_inform ul li span {
+    font-size:1.25rem; color:#ff0000;
+}
+main .main_wrap .inform_wrap .rule_inform {
+}
+main.main_wrap .inform_wrap .rule_inform ul {}
+main .main_wrap .inform_wrap .rule_inform ul li {margin-bottom:15px;}
+main .main_wrap .inform_wrap .rule_inform ul li:last-child {margin:0;}
+main .main_wrap .inform_wrap .rule_inform ul li p {
+    font-size:1.13rem; line-height:1.5; font-weight:500;
+}
+main .main_wrap .inform_wrap .rule_inform ul li p span {color:#545454; font-size:1.0rem;}
+/* =======================================footer */
+footer {background-color:#4C4B4B; height:300px; padding:57px 0;}
+footer .footer_contents {
+    width:1260px; margin:0 auto;
+    display:flex; flex-flow:row nowrap; justify-content: space-between;
+}
+footer .footer_contents .footer_left {}
+footer .footer_contents .footer_left > * {margin-bottom:33px;}
+footer .footer_contents .footer_left .menu {}
+footer .footer_contents .footer_left .menu a {color:#fff;}
+footer .footer_contents .footer_left .menu a:last-child {margin:0;}
+footer .footer_contents .footer_left .menu span {
+    background-color:#fff; width:1px; height:14px; display:inline-block;
+    margin:0 7px; position:relative; top:2px;
+}
+footer .footer_contents .footer_left p {
+    color:#fff; font-size:0.88rem; line-height:1.4; letter-spacing: 0.02em;
+}
+footer .footer_contents .inipay {}
+footer .footer_contents .inipay img {}

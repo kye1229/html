@@ -1,0 +1,130 @@
+main {width:1130px; margin:0 auto;}
+/* ===============================경로 */
+main .path {}
+main .path a {font-size:0.88rem; letter-spacing:1.2; letter-spacing:0.02em;}
+main .path span {
+    display:inline-block; width:14px; height:14px;
+    background-image:url(../images/../images/next_btn_path_001.png);
+    background-image:cover; position:relative; top:2px;
+}
+main .container {margin:48px 0 132px 0; display:flex;}
+/* ========================================사진 영역 */
+main .container .photo {
+    width:630px; display:flex; flex-flow:column nowrap;
+    margin-right:50px;
+}
+main .container .photo .big { margin-bottom: 39px;}
+main .container .photo .big img { border-radius:10px;}
+main .container .photo .thumnail { display:flex; flex-flow:row nowrap; justify-content:space-between; align-items:center;}
+main .container .photo .thumnail > * {display:block; width: 90px; border-radius:5px;}
+main .container .photo .thumnail a {}
+main .container .photo .thumnail .prev {width:50px;}
+main .container .photo .thumnail .prev img {}
+main .container .photo .thumnail a img {}
+main .container .photo .thumnail .next {width:50px;}
+main .container .photo .thumnail .next img {}
+/* ======================================= 선택 활성화 class */
+main .container .photo .thumnail .active {width:90px; }
+main .container .photo .thumnail .active img {border:5px solid #00587C; border-radius:10px; width:100%;}
+/* ============================================공유 btn 영역 */
+main .container .photo .share_link {margin-top:50px;}
+main .container .photo .share_link a {margin-right:20px;}
+main .container .photo .share_link a img {}
+/* ================================상품 설명 영역 */
+main .container .contents {width:calc(100% - 630px);}
+main .container .contents .brand_icon {display:flex; justify-content: space-between;}
+main .container .contents .brand_icon .brand {
+    border:1px solid #000; padding:5px 10px; border-radius:5px; display:inline-block;
+    height:max-content;
+}
+main .container .contents .brand_icon .icon_btn {}
+main .container .contents .brand_icon .icon_btn a {}
+main .container .contents .brand_icon .icon_btn a img {}
+main .container .contents .product_name {margin:30px 0; line-height:1.2; letter-spacing:0.02em;}
+main .container .contents .product_name h1 {
+    font-size:2.0rem; font-weight:700; margin-bottom:10px;
+}
+main .container .contents .product_name > p {font-weight:600;}
+main .container .contents .product_name > p span {color:#777;}
+main .container .contents .product_name > p #copy_code {
+    border:1px solid #000; padding:5px 10px; border-radius:5px;
+    margin-left:10px;
+}
+/* =====================================리뷰 */
+main .container .contents .review {margin-bottom:30px;}
+main .container .contents .review p {display:inline-block;}
+main .container .contents .review a { margin-left:10px; color:#00587C;}
+/* ==============================가격 */
+main .container .contents .discount_price {line-height:1.2; letter-spacing: 0.02em;
+margin-bottom:30px;}
+main .container .contents .discount_price p {font-size:1.5rem; font-weight:700;}
+main .container .contents .discount_price p span {color:#FF3030; }
+main .container .contents .discount_price p em {font-size:1.0rem; font-weight:500; margin:0 30px; color:#777; text-decoration-line: line-through;}
+/* ============================================배송, 혜택 */
+main .container .contents .benefit_delivery {
+    display:flex; flex-flow:column nowrap;
+}
+main .container .contents .benefit_delivery dl {}
+main .container .contents .benefit_delivery dl:first-child {margin-bottom:20px;}
+main .container .contents .benefit_delivery dt {
+    width:70px; float:left; font-weight:500; line-height:1.2; letter-spacing: 0.02em;
+}
+main .container .contents .benefit_delivery dd {
+    width:calc(100% - 78px); float:right;
+    font-weight:500; line-height:1.2; letter-spacing: 0.02em;
+    margin-bottom:10px;
+}
+main .container .contents .benefit_delivery dd:last-child {margin-bottom:0;}
+main .container .contents .benefit_delivery dd p {margin-bottom:5px;}
+main .container .contents .benefit_delivery dd p a {}
+main .container .contents .benefit_delivery dd p a img {width: 14px;}
+main .container .contents .benefit_delivery dd span {color:#FF3030;}
+/* ===========================================수량, 주문금액(JS 작업) */
+main .container .contents .number_price {
+    margin:40px 0 53px 0; display:flex; justify-content: space-between;
+    font-weight:500; line-height: 1.2; letter-spacing: 0.02em;
+}
+main .container .contents .number_price .product_number {display:flex;}
+main .container .contents .number_price .product_number button {background-color:#00587C; color:#fff; width:40px; padding:12px;}
+main .container .contents .number_price .product_number #minus {
+    border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+}
+main .container .contents .number_price .product_number input[name$=num] {width:40px; border:1px solid #00587C; padding:10px; color:#000;}
+main .container .contents .number_price .product_number #plus {
+    border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+}
+main .container .contents .number_price .order_price {}
+main .container .contents .number_price .order_price p {
+    font-size:0.88rem; font-weight:600; line-height: 1.2; letter-spacing: 0.02em; display:inline-block;
+}
+main .container .contents .number_price .order_price p:first-child {position:relative; top:-10px;}
+main .container .contents .number_price .order_price p span {
+    font-size:2.0rem; font-weight:700; color:#00587C;
+}
+main .container .contents .product_color {
+    margin-bottom:10px;
+}
+main .container .contents .product_color #desk_color {
+    width:100%; border:1px solid #00587C; border-radius:10px;
+    padding:20px; 
+    background-image:url(../images/more_down_001.png);
+    background-repeat:no-repeat; background-position:97% 45%; 
+}
+main .container .contents .product_color #desk_color option {}
+main .container .contents .product_size #desk_size {    
+    width:100%; border:1px solid #00587C; border-radius:10px;
+    padding:20px;
+    background-image:url(../images/more_down_001.png);
+    background-repeat:no-repeat; background-position:97% 45%; 
+    margin-bottom:30px;
+}
+main .container .contents .product_size #desk_size option {}
+main .container .contents .buy_cart_btn {
+    line-height:1.2; letter-spacing: 0.02em; width:100%;
+}
+main .container .contents .buy_cart_btn button {padding:15px 10px; height:54px; border-radius:10px;}
+main .container .contents .buy_cart_btn #cart_btn {
+    border:2px solid #00587C; width:calc((100% - 10px) / 2); margin-right:5px;
+}
+main .container .contents .buy_cart_btn #buy_btn {
+    width:calc((100% - 10px) / 2); background-color:#00587C; color:#fff;}

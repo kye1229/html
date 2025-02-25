@@ -1,0 +1,47 @@
+#container {
+    width:500px;
+    margin:0 auto;
+    padding-top:84px;
+}
+#container h1 {
+    letter-spacing:-0.02em;
+    font-size:4.38rem; font-weight:900; margin-bottom:25px;
+}
+#container h1+p {
+    font-size:1.25rem; letter-spacing:-0.02em;
+    margin-bottom:57px;
+}
+#container #loginFrm {}
+#container #loginFrm fieldset {}
+#container #loginFrm fieldset legend {appearance: none;}
+#container #loginFrm fieldset dl {}
+#container #loginFrm fieldset dl dt {
+    font-size:1.88rem; font-weight:700; margin-bottom:18px;
+}
+#container #loginFrm fieldset dl dd {
+    margin-bottom:38px; border-radius:10px;
+    letter-spacing:-0.02em; background-color:#fff;
+    padding:10px; border:1px solid #aaa; 
+}
+#container #loginFrm fieldset dl dd input {width:100%;}
+#container #loginFrm fieldset dl dd .user_email {}
+#container #loginFrm fieldset dl dd .user_pw {}
+#container #loginFrm fieldset .forgot_pw {}
+#container #loginFrm fieldset .forgot_pw h2 {
+    font-size:1.88rem; font-weight:700; letter-spacing:-0.02em;
+    margin-bottom:32px;
+}
+#container #loginFrm fieldset button {width:100%; letter-spacing:-0.02em;}
+#container #loginFrm fieldset .forgot_pw .login_btn {
+    padding:15px 0; background-color: #222;
+    border:1px solid #aaa; border-radius:10px;
+    font-weight:700; color:#fff; 
+    margin-bottom:18px;
+}
+#container #loginFrm fieldset .forgot_pw .sign_google {
+    background-color:#fff; 
+    padding:15px 0; border: 1px solid #aaa; border-radius:10px;
+    color:#222;
+}
+#container .sign_free {margin-top:62px; text-align:center; letter-spacing:-0.02em;}
+#container .sign_free a {font-weight:700;}
