@@ -1,1 +1,0 @@
-const bestSwiper = new Swiper('.best_swiper');
