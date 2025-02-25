@@ -1,0 +1,8 @@
+body {background-color:lightpink;}
+p {color:darkseagreen;}
+h1 {color:blue;}
+div.group1 {background-color: chartreuse;}
+#group2 {color:cyan;}
+#group2 h1 {color:coral;}
+#group2 p em {background-color: red;}
+#group2 p span.important {background-color: darkred;}

@@ -1,0 +1,83 @@
+body {position:relative;}
+.h_top {
+    width:100%; background-color:#000;
+    position:relative; height:40px;
+}
+.h_top p {
+    color:#fff; font-size:0.88rem; letter-spacing: -0.02em;
+    text-align:center; line-height:40px;
+}
+.h_top #close_btn {position:absolute; left:98%; top:20%;}
+.h_top #close_btn img {}
+header {width:100%; height:80px; background-color:rgba(255,255,255,0.6); padding:20px 80px; display:flex; justify-content: space-between;}
+header .header_left {display:flex; align-items: center;}
+header .header_left h1 {margin-right:40px;}
+header .header_left h1 a {}
+header .header_left h1 a img {}
+header .header_left nav {}
+header .header_left nav ul {display:flex;}
+header .header_left nav ul li {margin-right:25px;}
+header .header_left nav ul li:last-child {margin-right:0;}
+header .header_left nav ul li a {font-size:0.88rem; letter-spacing:-0.02em; font-weight:500;}
+header .header_left nav ul li:first-child a {font-weight:700;}
+header .header_left nav ul li:nth-child(2) a {font-weight:600; color:#D70000;}
+header .header_right {}
+header .header_right a {margin-right:20px; font-size:0.88rem; font-weight:500; letter-spacing: -0.02em;}
+header .header_right a:last-child {margin-right:0; position:relative;}
+header .header_right a img {position:relative; top:3px;}
+header .header_right a span {
+    position:absolute; right:-7px; 
+    background-color:#D70000; color:#fff; width:15px; text-align:center;
+    font-size:0.75rem; font-weight:700; line-height:15px;
+    border-radius:50%;
+}
+/* header sub menu start */
+header .header_left nav ul li .sub {
+    width:1920px; background-color:aqua; position:absolute; left:0; top:120px; padding:55px 240px; display:flex; justify-content: space-between;
+}
+header .header_left nav ul li .sub .sub_left {}
+header .header_left nav ul li .sub .sub_left > p {
+    margin-bottom:33px;
+    font-size:1.88rem; font-weight:600; letter-spacing: -0.02em;
+}
+header .header_left nav ul li .sub .sub_left {}
+header .header_left nav ul li .sub .sub_left .sub_link {display:flex; flex-flow:column nowrap;}
+header .header_left nav ul li .sub .sub_left .sub_link a {font-weight:500; letter-spacing:-0.02em; padding:10px 0; width:200px;}
+header .header_left nav ul li .sub .sub_product {display:flex;}
+header .header_left nav ul li .sub .sub_product .sub_prd { margin-right:30px;}
+header .header_left nav ul li .sub .sub_product .sub_prd:last-child { margin-right:0;}
+header .header_left nav ul li .sub .sub_product .sub_prd a {}
+header .header_left nav ul li .sub .sub_product .sub_prd a img {width:245px;}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p:nth-child(1) {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p:nth-child(2) {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p:nth-child(3) {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p:nth-child(4) {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p:nth-child(5) {}
+header .header_left nav ul li .sub .sub_product .sub_prd .color_list p:nth-child(6) {}
+header .header_left nav ul li .sub .sub_product .sub_prd > p {}
+header .header_left nav ul li .sub2,
+header .header_left nav ul li .sub3,
+header .header_left nav ul li .sub4,
+header .header_left nav ul li .sub5,
+header .header_left nav ul li .sub6 {display:none;}
+/* header end, footer start */
+footer {
+    background-color:#000; padding:101px 80px; height:350px;
+}
+footer .footer_contents {    
+    display:flex; justify-content: space-between;
+}
+footer .footer_contents .footer_left {font-size:0.88rem;}
+footer .footer_contents .footer_left .left_top {margin-bottom:50px;}
+footer .footer_contents .footer_left .left_top a {color:#fff; font-weight:500; margin-right:20px;}
+footer .footer_contents .footer_left .left_top a:last-child {margin-right:0;}
+footer .footer_contents .footer_left .left_btm {}
+footer .footer_contents .footer_left .left_btm p {color:#fff; line-height:1.4;}
+footer .footer_contents .footer_left .left_btm p:first-child {margin-bottom:30px;}
+footer .footer_contents .footer_right {text-align:right;}
+footer .footer_contents .footer_right .sns_icons {margin-bottom:20px;}
+footer .footer_contents .footer_right .sns_icons a {margin-right:15px;}
+footer .footer_contents .footer_right .sns_icons a:last-child {margin-right:0;}
+footer .footer_contents .footer_right > a {color:#fff; font-size:0.88rem; font-weight:500; letter-spacing: -0.02em;}
