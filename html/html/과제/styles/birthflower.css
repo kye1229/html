@@ -1,0 +1,21 @@
+.birth_flower_wrap {}
+.birth_flower_wrap .birth_flower_contents {background-color:#adf;  width:950px; margin:0 auto; padding: 30px 50px; border-radius:20px; margin-top:280px;}
+.birth_flower_wrap .birth_flower_contents h1 {
+    text-align:center; font-size:1.5rem; margin-bottom:40px; color:#4b8020;
+}
+.birth_flower_wrap .birth_flower_contents .birth_question {
+    text-align:center; margin-bottom:30px; font-size:1.25rem; color:#aa99ff
+}
+.birth_flower_wrap .birth_flower_contents .birthflower_input {}
+.birth_flower_wrap .birth_flower_contents .birthflower_input input {
+    background-color:#fff; color:#aa99ff; padding:10px; border-radius:10px; border:3px solid #aa99ff; text-align:center; width:calc((100% - 30px) / 2);
+    margin-right:25px;
+}
+.birth_flower_wrap .birth_flower_contents .birthflower_input input::placeholder {color:#aa99ff;}
+.birth_flower_wrap .birth_flower_contents .birthflower_input #flowerBtn {
+    background-color:#adf; color:#fff; padding:15px; border:3px solid #aa99ff; border-radius:10px; width:calc((100% - 30px) / 2);
+}
+.birth_flower_wrap .birth_flower_contents .birthflower_input #flowerBtn:hover {opacity:0.5; background-color:#fff; color:#aa99ff;}
+.birth_flower_wrap .birth_flower_contents .result_flower {
+    color:#09f; text-align:center; margin-top:30px;
+}

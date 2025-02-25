@@ -1,0 +1,75 @@
+main {}
+main .sub_bnr {
+    width:100%; height:285px;
+    background-image:url(../images/sub_bnr_001.jpg);
+    position:relative;
+}
+main .sub_bnr::after {
+    background-color: rgba(0,0,0,0.2); content:''; display:block; position:absolute;
+    left:0; top:0; z-index:80; width:100%; height:100%;
+}
+main .sub_bnr .bnr_contents {
+    position:relative; z-index:100; color:#fff;
+    text-align:center; top:40%;
+}
+main .sub_bnr .bnr_contents h2 {
+    font-size:1.56rem; font-weight:600; letter-spacing: -0.02em;
+    margin-bottom:20px;
+}
+main .sub_bnr .bnr_contents p {font-size:0.88rem; font-weight:500; letter-spacing: -0.02em;}
+main .product_notebook_list {width:1760px; margin:140px auto;}
+main .product_notebook_list h2 {
+    text-align:center;
+    font-size:1.5rem; font-weight:600; letter-spacing:-0.02em;
+    margin-bottom:25px;
+}
+main .product_notebook_list .category_list {text-align:center;  margin-bottom:30px;}
+main .product_notebook_list .category_list a {
+    border:1px solid #b9b9b9; border-radius:20px; margin-right:5px;
+    padding:8px 20px; display:inline-block; font-weight:600; letter-spacing: -0.02em; color:#313131;
+}
+main .product_notebook_list .category_list a:first-child {padding:8px 30px;}
+main .product_notebook_list .category_list a:nth-child(2) {color:#E34343;}
+main .product_notebook_list .category_list a:last-child {margin-right:0;}
+main .product_notebook_list .category_list a.active {border:none; color:#fff; background-color:#015EC5;}
+main .product_notebook_list .list_wrap {}
+/* list 공통 선택자 */
+main .product_notebook_list .list_wrap .list {display:flex; justify-content: space-between; margin-bottom:50px;}
+main .product_notebook_list .list_wrap .list:last-child {margin-bottom:0;}
+main .product_notebook_list .list_wrap .list .product {position:relative;}
+main .product_notebook_list .list_wrap .list .product > a {}
+main .product_notebook_list .list_wrap .list .product > a p {margin-bottom:20px;}
+main .product_notebook_list .list_wrap .list .product > a p img {}
+main .product_notebook_list .list_wrap .list .product > a h3 {
+    font-weight:600; letter-spacing:-0.02em; margin-bottom:10px;
+}
+main .product_notebook_list .list_wrap .list .product .discount {
+    position:absolute; left:0; top:0; background-color:#000; color:#fff;
+    width:32px; height:25px; line-height:25px; font-size:0.75rem;
+    font-weight:600; text-align:center;
+}
+main .product_notebook_list .list_wrap .list .product .score_price { display:flex; margin-bottom:10px;}
+main .product_notebook_list .list_wrap .list .product .score_price p {margin-right:13px; color:#FF2121;}
+main .product_notebook_list .list_wrap .list .product .score_price p:nth-child(2) {color:#000; font-weight:600; font-size:1.13rem; letter-spacing:-0.02em;}
+main .product_notebook_list .list_wrap .list .product .score_price a {
+    font-size:0.88rem; font-weight:600; letter-spacing:-0.02em;
+    position:relative; top:2px;
+}
+main .product_notebook_list .list_wrap .list .product > p {
+    color:#777; font-size:0.88rem; font-weight:600; letter-spacing: -0.02em;
+    margin-bottom:5px;
+}
+main .product_notebook_list .list_wrap .list .product > p:nth-child(5) {margin-bottom:0;}
+main .product_notebook_list .list_wrap .list .product .product_price {float:right; margin-top:25px; font-size:1.13rem; color:#000;}
+main .product_notebook_list .list_wrap .list .product .product_price span {
+    color:#aaa; text-decoration-line:line-through; font-weight:600;
+    font-size:1.0rem; margin-right:10px;
+}
+main .product_notebook_list .page_list {margin-top:50px; display:flex; justify-content: center;}
+main .product_notebook_list .page_list a {
+    background-color:#777; color:#fff;
+    font-weight:600; width:25px; height:30px;
+    text-align:center; line-height:30px; margin-right:30px;
+}
+main .product_notebook_list .page_list a:last-child {margin-right:0;}
+main .product_notebook_list .page_list a.active {background-color:#015EC5;}
