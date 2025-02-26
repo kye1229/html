@@ -2,7 +2,7 @@ const activeScrollbar = document.querySelector('.active-scrollbar')
 console.log(activeScrollbar);
 
 const eventSwiper = new Swiper('.event-swiper',{
-    autoplay:{delay:2500,},
+    autoplay:{delay:1500,},
     loop:true,
     on:{
         autoplayTimeLeft(type,time,progress) {
