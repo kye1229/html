@@ -268,7 +268,7 @@ main .best_wrap .best_title .best_page a img {}
 main .best_wrap .best_title .best_page p {line-height:32px; margin-right:5px; color:#777;}
 main .best_wrap .best_title .best_page .now_page {font-size:1.25rem; font-weight:500; position:relative; top:-2px; color:#000;}
 main .best_wrap .best_title .best_page .total_page {margin-right:20px;}
-main .best_wrap .best_list_contents {margin-top:20px; overflow:hidden;}
+main .best_wrap .best_list_contents {margin-top:20px; overflow:hidden; display:flex;}
 main .best_wrap .best_list_contents .best_bnr {margin-right:30px;}
 main .best_wrap .best_list_contents .best_bnr img {}
 main .best_wrap .best_list_contents .best_swiper {}

@@ -28,7 +28,7 @@ const newSlide = new Swiper('.new_wrap .new_swiper',{
     },
     on:{
         slideChange:function(){
-            newNum.textContent = this.realIndex+1;
+            newNum.textContent = ((this.realIndex+1*dealTotalNum.innerText)/4)+0.5;
         }
     },
     slidesPerView:4,
