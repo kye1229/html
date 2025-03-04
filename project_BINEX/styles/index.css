@@ -1,4 +1,5 @@
-body{min-width:1920px;}
+body{min-width:1920px; -ms-overflow-style: none;}
+::-webkit-scrollbar {display: none;}
 #main {width:100%; height:100vh;}
 #main .swiper-wrapper {}
 #main .swiper-wrapper .swiper-slide {background-size:cover; position:relative;}
@@ -211,10 +212,11 @@ body{min-width:1920px;}
 #main .swiper-wrapper .page6 .talent_list .talent4 p img {}
 #main .swiper-wrapper .page6 .talent_list .talent4 p span {}
 #main .swiper-wrapper .footer { 
-    height:350px; width:100%; background-color:#fff; padding:0 80px;
+    background-color:#fff;
     display:flex; justify-content: space-between; align-items:center;
 }
-#main .swiper-wrapper .footer .f_left {}
+#main .swiper-wrapper .footer:after {display:none;}
+#main .swiper-wrapper .footer .f_left {padding-left:80px;}
 #main .swiper-wrapper .footer .f_left .link_list {margin-bottom:40px;}
 #main .swiper-wrapper .footer .f_left .link_list a {
     font-size:0.88rem; font-weight:500; letter-spacing: -0.02em;
@@ -225,7 +227,7 @@ body{min-width:1920px;}
 #main .swiper-wrapper .footer .f_left .left_btm p {font-size:0.88rem; letter-spacing: -0.02em;}
 #main .swiper-wrapper .footer .f_left .left_btm p:first-child {margin-bottom:10px;}
 #main .swiper-wrapper .footer .f_left .left_btm p:nth-child(2) {margin-bottom:40px;}
-#main .swiper-wrapper .footer .f_right {}
+#main .swiper-wrapper .footer .f_right {padding-right:80px;}
 #main .swiper-wrapper .footer .f_right img {}
 @keyframes page1title {
     0%{opacity:0; transform:translateY(-50px);}
