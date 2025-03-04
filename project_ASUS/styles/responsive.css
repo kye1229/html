@@ -69,6 +69,7 @@
     header .search_popup {top:-30px;}
     header .search_popup #close_btn {position:absolute; right:30px; top:30px;}
     header .search_popup .search_contents #search_txt {width:420px;}
+    header .search_popup .search_contents #search_btn img {width:18px;}
     header .search_popup .search_contents {padding:30px;}
     main > * {padding: 0 15px;}
     main .bnr_swiper {height:350px; margin-bottom:60px;}
@@ -115,7 +116,6 @@
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price {font-size:1.0rem;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price img {margin-right:13px;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .deal .deal_price span {font-weight:600; font-size:0.88rem; margin-right:10px;}
-
     main .event_wrap {margin-bottom:60px;}
     main .guide_wrap {margin:0 15px 60px; height:250px;}
     main .guide_wrap a h2 {font-size:1.0rem;}
@@ -133,7 +133,7 @@
     main .best_wrap .best_title {}
     main .best_wrap .best_title h2 {font-size:1.0rem; margin-bottom:15px;}
     main .best_wrap .best_title .best_page {display:none;}
-    main .best_wrap .best_title .best_categories a {font-size:0.75rem; padding: 5px 10px; margin-bottom:3px;}
+    main .best_wrap .best_title .best_categories a {font-size:0.75rem; padding: 5px 12px; margin-bottom:3px; margin-right:2px;}
     main .best_wrap .best_list_contents .best_bnr {background-position:center;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .score_price p:nth-child(2) {font-size:0.88rem;}
@@ -149,8 +149,8 @@
     main .care_wrap .care_list .care {position:relative;}
     main .care_wrap .care_list .care1, main .care_wrap .care_list .care2, main .care_wrap .care_list .care3 {margin-right:0;}
     main .care_wrap .care_list .care a {height:100px; overflow:hidden; position:relative;}
-    main .care_wrap .care_list .care a:after {display:block; content:''; background-color:rgba(0,0,0,0.2); position:absolute; left:0; top:0; width:100%; height:100%; z-index:20;}
-    main .care_wrap .care_list .care a p:first-child {position:relative; z-index:10;}
+    main .care_wrap .care_list .care a:after {display:block; content:''; background-color:rgba(0,0,0,0.2); position:absolute; left:0; top:0; width:100%; height:100%; z-index:20; border-top-left-radius:10px; border-top-right-radius: 10px;}
+    main .care_wrap .care_list .care a p:first-child {position:relative; z-index:10; overflow:hidden;}
     main .care_wrap .care_list .care a p:nth-child(2) {position:absolute; left:0; top:0; color:#fff; font-size:0.88rem; padding:22px 0 0 24px; z-index:30;}
     main .care_wrap .care_list .care > p {color:#fff; position:absolute; z-index:50; left:24px; top:40%; width:300px; z-index:30;}
     footer {flex-flow:column nowrap; align-items:flex-start; padding:20px 15px; height:446px;}
