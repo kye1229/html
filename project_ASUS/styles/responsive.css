@@ -31,8 +31,8 @@
     main .guide_wrap {margin:0 80px 100px; padding:0; height:359px;}
     main .guide_wrap a {display:block;}
     main .guide_wrap a h2 {font-size:1.5rem; left:27px; top:30px;}
-    main .guide_wrap a p:last-child {font-size:1.75rem; left:27px; bottom:30px;}
-    main .guide_wrap a p:last-child span {font-size:1.25rem;}
+    main .guide_wrap a p:nth-child(3) {font-size:1.75rem; left:27px; bottom:30px;}
+    main .guide_wrap a p:nth-child(3) span {font-size:1.25rem;}
     main .guide_wrap a p img {height:359px;}
     main .event_wrap {margin-bottom:100px;}
     main .event_wrap .event_title h2 {font-size:1.75rem;}
@@ -119,8 +119,9 @@
     main .event_wrap {margin-bottom:60px;}
     main .guide_wrap {margin:0 15px 60px; height:250px;}
     main .guide_wrap a h2 {font-size:1.0rem;}
-    main .guide_wrap a p:last-child {font-size:0.88rem;}
-    main .guide_wrap a p:last-child span {font-size:0.88rem;}
+    main .guide_wrap a p:nth-child(3) {font-size:0.88rem;}
+    main .guide_wrap a p:nth-child(3) span {font-size:0.88rem;}
+    main .guide_wrap a .go_link {display:block; position:absolute; bottom:30px; right:30px; line-height:1.2rem;}
     main .guide_wrap a p img {height:250px; width:100%;}
     main .event_wrap .event_title {}
     main .event_wrap .event_title h2 {font-size:1.0rem;}
