@@ -129,7 +129,7 @@ body > * {width:1920px;}
 #main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .swiper-slide .site_info dl dd span {display:block; width:20px; height:20px; border-radius:5px; margin-right:10px;}
 /* 개별 */
 #main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .asus {}
-#main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .asus > p {position:relative; right:-100px; opacity:0;}
+#main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .asus > p {}
 #main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .asus > p img {}
 #main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .asus .site_info {}
 #main .swiper-wrapper .page3 .web_swiper .swiper-wrapper .asus .site_info h2 {}
@@ -258,7 +258,7 @@ body > * {width:1920px;}
 #main .swiper-wrapper .page4 .photo_design .popup_bg img {}
 /* page4 end, page5 start */
 #main .swiper-wrapper .page5 {display:flex; justify-content: center; align-items: center;}
-#main .swiper-wrapper .page5 .txt {text-align:center;}
+#main .swiper-wrapper .page5 .txt {text-align:center; position:relative; top:100px; opacity:0;}
 #main .swiper-wrapper .page5 .txt p {font-size:1.25rem; letter-spacing: -0.02em; color:#0046DD;}
 #main .swiper-wrapper .page5 .txt p span {font-weight:600;}
 #main .swiper-wrapper .page5 .txt p:first-child {font-size:3.0rem; font-weight:600; letter-spacing: -0.02em;}

@@ -27,17 +27,6 @@ const webSwiper = new Swiper('.page3 .web_swiper',{
         clickable:true,
     }
 });
-gsap.to('.page3 .asus p',{
-    scrollTrigger:{
-        trigger:'.page .asus p',
-        start:'top 80%',
-        end:'top 20%',
-        toggleActions:'play reverse restart reverse', 
-    },
-    opacity:1,
-    right:0,
-});
-
 
 const bnrSwiper = new Swiper('.page4 .bnr',{
     autoplay:{delay:0,},
@@ -109,3 +98,14 @@ for(let i of detail){
         popBg.children[0].style.marginTop = '100px';
         mainSwiper.mousewheel.disable();
 })};
+
+gsap.to('.page5 .txt',{
+    scrollTrigger:{
+        trigger:'.page5 .txt',
+        start:'top 80%',
+        end:'top 20%',
+        toggleActions:'play reverse restart reverse', 
+    },
+    opacity:1,
+    top:0,
+});
