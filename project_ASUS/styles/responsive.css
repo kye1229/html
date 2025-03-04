@@ -1,0 +1,161 @@
+/* 1000px */
+@media screen and (max-width:1000px){
+    header .header_left h1 {margin-right:30px;}
+    main > * {padding:0 80px;}
+    main .bnr_swiper {padding:0; margin-bottom:100px;}
+    main .bnr_swiper .bnr_wrap {height:550px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 {padding:0 80px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left p {line-height:550px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right {padding-top:230px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right p:nth-child(2) {margin-bottom:0px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left p,
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right p {font-size:2.0rem;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 {background-position:25%}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents p {font-size:1.88rem;}
+    main .bnr_swiper .prev, main .bnr_swiper .next {padding-top:274px;}
+    header .header_left nav ul li > a {font-size:0.81rem;}
+    main .icon_wrap {margin-bottom:100px;}
+    main .icon_wrap h2 {font-size:1.13rem;}
+    main .icon_wrap .product_icon {width:592px;}
+    main .icon_wrap .product_icon a p {font-size:0.75rem;}
+    main .icon_wrap .product_icon a p img {width:80px;}
+    main .new_wrap {margin-bottom:100px;}
+    main .new_wrap .new_title h2 a {font-size:1.75rem;}
+    main .new_wrap .swiper-slide .new > a p {font-size:1.0rem;}
+    main .new_wrap .swiper-slide .new .new_price {font-size:1.25rem;}
+    main .new_wrap .swiper-slide .deal > a p {font-size:1.0rem;}
+    main .hot_deal_wrap {margin-bottom:100px;}
+    main .hot_deal_wrap .hot_deal_title a {font-size:1.75rem;}
+    main .hot_deal_wrap .swiper-slide .deal .discount {font-size:0.75rem;}
+    main .hot_deal_wrap .swiper-slide .deal .deal_price {font-size:1.25rem;}
+    main .guide_wrap {margin:0 80px 100px; padding:0; height:359px;}
+    main .guide_wrap a {display:block;}
+    main .guide_wrap a h2 {font-size:1.5rem; left:27px; top:30px;}
+    main .guide_wrap a p:last-child {font-size:1.75rem; left:27px; bottom:30px;}
+    main .guide_wrap a p:last-child span {font-size:1.25rem;}
+    main .guide_wrap a p img {height:359px;}
+    main .event_wrap {margin-bottom:100px;}
+    main .event_wrap .event_title h2 {font-size:1.75rem;}
+    main .event_wrap a:first-child {margin-right:20px;}
+    main .event_wrap .event_list a:last-child {display:none;}
+    main .best_wrap .best_title h2 {font-size:1.75rem;}
+    main .best_wrap .best_list_contents {display:block;}
+    main .best_wrap .best_list_contents .best_bnr {display:block; width:100%; height:407px; background-image:url(../images/best_bnr_wide_001.jpg); background-repeat: no-repeat; margin-bottom:30px; margin-right:0;}
+    main .best_wrap .best_list_contents .best_bnr img {display:none;}
+    main .best_wrap .best_list_contents .best > a p:last-child {font-size:1.0rem;}
+    main .best_wrap .best_list_contents .best .best_price {font-size:1.25rem;}
+    main .care_wrap .care_list .care a p {font-size:1.13rem;}
+    main .care_wrap .care_list .care > p {line-height:1.4;}
+    main .care_wrap .care_list .care a p img {margin-bottom:15px;}
+    footer .footer_right > * {margin-bottom:10px;}
+    footer .footer_right .sns_icon a {width:30px;}
+    footer .footer_right .asus_family {margin-bottom:10px;}
+    footer .footer_right .asus_family p a {width:52px; display: inline-block;}
+    footer .footer_right .asus_family p a img {width:100%;}
+}
+/* 700px */
+@media screen and (max-width:700px) {
+    .h_top {height:30px;}
+    .h_top p {font-size:0.75rem; line-height:30px;}
+    .h_top p #close_btn {top:3px;}
+    header {padding:0 15px;}
+    header .header_left h1 {width:65px;}
+    header .header_left nav {display:none;}
+    header .header_right a {margin-right:15px;}
+    header .header_right a:last-child {margin-right:0;}
+    header .header_right img {width:20px;}
+    header .header_right .support_consumer {display:none;}
+    header .header_right .more_tab {display:inline-block;}
+    header .search_popup {top:-30px;}
+    header .search_popup #close_btn {position:absolute; right:30px; top:30px;}
+    header .search_popup .search_contents #search_txt {width:420px;}
+    header .search_popup .search_contents {padding:30px;}
+    main > * {padding: 0 15px;}
+    main .bnr_swiper {height:350px; margin-bottom:60px;}
+    main .bnr_swiper .prev, main .bnr_swiper .next {padding:35% 15px;}
+    main .bnr_swiper .prev img, main .bnr_swiper .next img {width:20px;}
+    main .bnr_swiper .bnr_wrap {height:350px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 {background-position:50% 40%; padding:0 28px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left {width:max-content; position:relative; left:20px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left p {line-height:1.0; font-size:1.13rem; padding-top:80px; }
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right {padding-top:45%;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right p:first-child {font-size:1.0rem;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right p:nth-child(2) {font-size:1.25rem; margin-bottom:-15px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right a {font-size:0.75rem; padding:5px 10px;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents {left:55%;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents p {font-size: 1.13rem;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents p:nth-child(2) {font-size: 1.13rem;}
+    main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents p span {font-size: 1.13rem;}
+    main .icon_wrap {margin-bottom:60px;}
+    main .icon_wrap h2 {font-size:1.0rem;}
+    main .icon_wrap .product_icon {width:381px;}
+    main .icon_wrap .product_icon a p img {width:50px;}
+    main .icon_wrap .product_icon a {margin-right:5px;}
+    main .icon_wrap .product_icon a:last-child {margin-right:0;}
+    main .icon_wrap .product_icon a p {font-size:0.75rem;}
+    main .new_wrap .new_title {margin-bottom:15px;}
+    main .new_wrap .new_title h2 a {font-size:1.0rem;}
+    main .new_wrap .new_title .new_page {display:none;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .new_wrap .new_swiper .swiper-wrapper .new .score_price a {font-size:0.75rem;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > p {font-size:0.63rem;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price {font-size:1.0rem;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price img {margin-right:13px;}
+    main .new_wrap .new_swiper .swiper-wrapper .new .new_price span {font-weight:500; font-size:0.63rem; margin:0;}
+    main .hot_deal_wrap .hot_deal_title {margin-bottom:15px;}
+    main .hot_deal_wrap .hot_deal_title h2 a {font-size:1.0rem;}
+    main .hot_deal_wrap .hot_deal_title h2 p img {width:15px;}
+    main .hot_deal_wrap .hot_deal_title .deal_page {display:none;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .new .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .deal .score_price a {font-size:0.75rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .discount {width:35px; height:20px; line-height:20px;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal > p {font-size:0.63rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price {font-size:1.0rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price img {margin-right:13px;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .deal .deal_price span {font-weight:600; font-size:0.88rem; margin-right:10px;}
+
+    main .event_wrap {margin-bottom:60px;}
+    main .guide_wrap {margin:0 15px 60px; height:250px;}
+    main .guide_wrap a h2 {font-size:1.0rem;}
+    main .guide_wrap a p:last-child {font-size:0.88rem;}
+    main .guide_wrap a p:last-child span {font-size:0.88rem;}
+    main .guide_wrap a p img {height:250px; width:100%;}
+    main .event_wrap .event_title {}
+    main .event_wrap .event_title h2 {font-size:1.0rem;}
+    main .event_wrap .event_title a {font-size:0.75rem; display:block;}
+    main .event_wrap .event_list {width:100%;}
+    main .event_wrap .event_list a:first-child {width:100%; margin:0;}
+    main .event_wrap .event_list a:first-child img {}
+    main .event_wrap .event_list a:nth-child(2) {display:none;}
+    main .best_wrap .best_title {}
+    main .best_wrap .best_title h2 {font-size:1.0rem; margin-bottom:15px;}
+    main .best_wrap .best_title .best_page {display:none;}
+    main .best_wrap .best_title .best_categories a {font-size:0.75rem; padding: 5px 10px; margin-bottom:3px;}
+    main .best_wrap .best_list_contents .best_bnr {background-position:center;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .best .score_price a {font-size:0.75rem;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best > p {font-size:0.63rem;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .rank_number {width:20px; height:23px; font-size:0.88rem; line-height:23px;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .best_price {font-size:1.0rem;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .best_price img {width:15px; margin-right:13px;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .best .best_price span {font-weight:500; font-size:0.63rem; margin:0;}
+    main .care_wrap {margin-bottom:80px;}
+    main .care_wrap h2 {font-size:1.0rem; margin-bottom:15px;}
+    main .care_wrap .care_list {flex-flow:column nowrap;}
+    main .care_wrap .care_list .care {position:relative;}
+    main .care_wrap .care_list .care1, main .care_wrap .care_list .care2, main .care_wrap .care_list .care3 {margin-right:0;}
+    main .care_wrap .care_list .care a {height:100px; overflow:hidden; position:relative;}
+    main .care_wrap .care_list .care a:after {display:block; content:''; background-color:rgba(0,0,0,0.2); position:absolute; left:0; top:0; width:100%; height:100%; z-index:20;}
+    main .care_wrap .care_list .care a p:first-child {position:relative; z-index:10;}
+    main .care_wrap .care_list .care a p:nth-child(2) {position:absolute; left:0; top:0; color:#fff; font-size:0.88rem; padding:22px 0 0 24px; z-index:30;}
+    main .care_wrap .care_list .care > p {color:#fff; position:absolute; z-index:50; left:24px; top:40%; width:300px; z-index:30;}
+    footer {flex-flow:column nowrap; align-items:flex-start; padding:20px 15px; height:446px;}
+    footer .footer_left {margin-bottom:30px;}
+    footer .footer_left .left_top {margin-bottom:30px;}
+    footer .footer_left .left_top a {font-size:0.75rem; margin-right:15px;}
+    footer .footer_right {text-align:left;width:100%; position:relative;}
+    footer .footer_right .call_center {position:absolute; right:0; bottom:0; text-align:right;}
+}

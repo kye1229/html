@@ -1,16 +1,16 @@
 main {}
 main .bnr_swiper {position:relative;}
 main .bnr_swiper .bnr_wrap {
-    width:100%; height:598px; margin-bottom:140px;
+    max-width:1920px; height:598px; margin-bottom:140px;
 }
 main .bnr_swiper .bnr_wrap .swiper-wrapper {}
 main .bnr_swiper .bnr_wrap .swiper-wrapper .swiper-slide {
     background-size:cover;
-    background-position:center;
 }
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 {
     background-image:url(../images/bnr_001.jpg);
     display:flex; justify-content: space-between; padding:0 204px;
+    background-position:center;
 }
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left {}
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_left p {
@@ -29,7 +29,7 @@ main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right a {
     background:linear-gradient(90deg,#D07057,#756ECD);
 }
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide1 .content_right a:hover {    background:linear-gradient(90deg,#756ECD,#D07057);}
-main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 {background-image:url(../images/bnr_002.jpg);}
+main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 {background-image:url(../images/bnr_002.jpg);     background-position:center;}
 main .bnr_swiper .bnr_wrap .swiper-wrapper .slide2 .slide2_contents {
     position:absolute; left:60%; top:40%;
 }
@@ -47,23 +47,23 @@ main .bnr_swiper a img {width:30px;}
 main .bnr_swiper .prev {left:0;}
 main .bnr_swiper .next {right:0;}
 /* 배너 끝 */
-main .icon_wrap {max-width:1760px; margin:0 auto;}
+main .icon_wrap {max-width:1760px; margin:0 auto 140px;}
 main .icon_wrap h2 {
     text-align:center; font-size:1.5rem; letter-spacing:-0.02em; font-weight:600;
     margin-bottom:30px;
 }
 main .icon_wrap .product_icon {
-    margin:0 auto 140px; width:970px;
+    margin:0 auto; max-width:970px;
     display:flex; justify-content: space-between;
 }
 main .icon_wrap .product_icon a {}
 main .icon_wrap .product_icon a:hover img {transform:translateY(-15px); transition:0.7s ease;}
 main .icon_wrap .product_icon a p {
-    text-align:center; font-size:0.88rem; font-weight:700; letter-spacing:-0.02em;
+    text-align:center; font-size:0.88rem; font-weight:700; letter-spacing:-0.02em; max-width:120px;
 }
-main .icon_wrap .product_icon a img {margin-bottom:16px;}
+main .icon_wrap .product_icon a img {margin-bottom:16px; width:100%;}
 /* icon 끝 */
-main .new_wrap {width:1760px; margin:0 auto 140px;}
+main .new_wrap {max-width:1760px; margin:0 auto 140px;}
 main .new_wrap .new_title {margin-bottom:25px; overflow:hidden;}
 main .new_wrap .new_title h2 {float:left;}
 main .new_wrap .new_title h2 a {font-size:2rem; font-weight:600; letter-spacing: -0.02em;}
@@ -71,9 +71,6 @@ main .new_wrap .new_title h2 a span {color:#015EC5; font-weight:600;}
 main .new_wrap .new_title .new_page {float:right; display:flex;}
 main .new_wrap .new_title .new_page a {line-height:32px;}
 main .new_wrap .new_title .new_page a:first-child {margin-right:20px;}
-main .new_wrap .new_title .new_page > p {margin-right:5px; line-height:32px; color:#aaa;}
-main .new_wrap .new_title .new_page .now_page {font-size:1.25rem; font-weight:500; position:relative; top:-2px; color:#000;}
-main .new_wrap .new_title .new_page .total_page {margin-right:20px;}
 /* new 공통 선택자 */
 main .new_wrap .new_swiper {}
 main .new_wrap .new_swiper .swiper-wrapper {}
@@ -225,7 +222,7 @@ main .hot_deal_wrap .hot_deal_list .deal4 .best_price {}
 main .hot_deal_wrap .hot_deal_list .deal4 .best_price span {}
 /* hot deal 끝 */
 main .guide_wrap {
-    width:100%; margin:0 auto 140px;
+    max-width:1920px; margin:0 auto 140px;
     height:598px; position:relative;
 }
 main .guide_wrap a {}
@@ -244,10 +241,10 @@ main .guide_wrap a p:last-child span {
     font-size:1.56rem; letter-spacing:-0.02em; font-weight:600; line-height:1.4;
 }
 /* guide 끝 */
-main .event_wrap {width:1760px; margin:0 auto 140px;}
-main .event_wrap .event_title {overflow:hidden; margin-bottom:25px;}
-main .event_wrap .event_title h2 {float:left; font-size:2.0rem; font-weight:600; letter-spacing: -0.02em;}
-main .event_wrap .event_title a {float:right; font-size:1.13rem; font-weight:600; letter-spacing:-0.02em;}
+main .event_wrap {max-width:1760px; margin:0 auto 140px;}
+main .event_wrap .event_title {display:flex; justify-content:space-between; margin-bottom:25px;}
+main .event_wrap .event_title h2 {font-size:2.0rem; font-weight:600; letter-spacing: -0.02em;}
+main .event_wrap .event_title a {font-size:1.13rem; font-weight:600; letter-spacing:-0.02em;}
 main .event_wrap .event_list {width:100%; display:flex; justify-content: space-between;}
 main .event_wrap .event_list img {width:100%;}
 /* event 끝 */
