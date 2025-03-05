@@ -132,7 +132,8 @@ body{min-width:1920px; -ms-overflow-style: none;}
 /* page3 end, page4 start */
 #main .swiper-wrapper .page4 {background-image:url(../images/bg_004.jpg);}
 #main .swiper-wrapper .page4 > * {width:1440px; margin:0 auto;}
-#main .swiper-wrapper .page4 .page4_top h2 {color:#fff; font-size:4.0rem; letter-spacing:-0.02em; font-weight:600; line-height:1.2; margin-bottom:50px; padding-top:250px; opacity:0; position:relative; left:-100px;}
+#main .swiper-wrapper .page4 .page4_top {margin-bottom:50px; padding-top:250px; }
+#main .swiper-wrapper .page4 .page4_top h2 {color:#fff; font-size:4.0rem; letter-spacing:-0.02em; font-weight:600; line-height:1.2; opacity:0; position:relative; left:-100px;}
 #main .swiper-wrapper .page4 .page4_top h2 span {color:#db0000; font-weight:600;}
 #main .swiper-wrapper .page4 .quality_list {}
 #main .swiper-wrapper .page4 .quality_list p {
@@ -183,13 +184,13 @@ body{min-width:1920px; -ms-overflow-style: none;}
 /* page5 end, page6 start */
 #main .swiper-wrapper .page6 {background-image:url(../images/bg_006.jpg);}
 #main .swiper-wrapper .page6 > * {padding:0 240px; position:relative; z-index:90;}
-#main .swiper-wrapper .page6 .page6_top {padding-top:230px;}
-#main .swiper-wrapper .page6 .page6_top h2 {color:#fff; font-size:4.0rem; letter-spacing:-0.02em; font-weight:600; margin-bottom:30px; opacity: 0; position:relative; left:-100px;}
+#main .swiper-wrapper .page6 .page6_top {padding-top:120px; margin-bottom:50px;}
+#main .swiper-wrapper .page6 .page6_top h2 {color:#fff; font-size:4.0rem; letter-spacing:-0.02em; margin-bottom: 30px; font-weight:600; opacity: 0; position:relative; left:-100px;}
 #main .swiper-wrapper .page6 .page6_top h2 span {color:#db0000; font-weight:600;}
-#main .swiper-wrapper .page6 .page6_top p {font-size:1.13rem; font-weight:500; line-height:1.4; letter-spacing: -0.02em; margin-bottom:76px; color:#fff; opacity: 0; position:relative; left:-100px;}
-#main .swiper-wrapper .page6 .talent_list {display:flex; justify-content: space-between;}
+#main .swiper-wrapper .page6 .page6_top p {font-size:1.13rem; font-weight:500; line-height:1.4; letter-spacing: -0.02em; color:#fff; opacity: 0; position:relative; left:-100px;}
+#main .swiper-wrapper .page6 .talent_list {display:flex; justify-content: space-between; margin-bottom:60px;}
 /* talent 공통 선택자 */
-#main .swiper-wrapper .page6 .talent_list .talent {background:rgba(255,255,255,0.8); text-align:center; width:285px; border-radius:20px; padding-top:68px; height:323px;}
+#main .swiper-wrapper .page6 .talent_list .talent {background:rgba(255,255,255,0.8); text-align:center; width:285px; border-radius:20px; padding-top:40px; height:280px;}
 #main .swiper-wrapper .page6 .talent_list .talent p {font-size:1.56rem; font-weight:600; margin-bottom:10px; line-height:1.2; letter-spacing:-0.02em;}
 #main .swiper-wrapper .page6 .talent_list .talent p:last-child {margin-bottom:0; font-size:0.88rem; font-weight:200;}
 #main .swiper-wrapper .page6 .talent_list .talent p img {margin-bottom:30px;}
@@ -211,24 +212,24 @@ body{min-width:1920px; -ms-overflow-style: none;}
 #main .swiper-wrapper .page6 .talent_list .talent4 p {}
 #main .swiper-wrapper .page6 .talent_list .talent4 p img {}
 #main .swiper-wrapper .page6 .talent_list .talent4 p span {}
-#main .swiper-wrapper .footer { 
-    background-color:#fff;
+#main .swiper-wrapper .page6 .footer { 
+    background-color:#fff; height:280px;;
     display:flex; justify-content: space-between; align-items:center;
 }
-#main .swiper-wrapper .footer:after {display:none;}
-#main .swiper-wrapper .footer .f_left {padding-left:80px;}
-#main .swiper-wrapper .footer .f_left .link_list {margin-bottom:40px;}
-#main .swiper-wrapper .footer .f_left .link_list a {
+#main .swiper-wrapper .page6 .footer:after {display:none;}
+#main .swiper-wrapper .page6 .footer .f_left {padding-left:80px;}
+#main .swiper-wrapper .page6 .footer .f_left .link_list {margin-bottom:40px;}
+#main .swiper-wrapper .page6 .footer .f_left .link_list a {
     font-size:0.88rem; font-weight:500; letter-spacing: -0.02em;
     margin-right:20px;
 }
-#main .swiper-wrapper .footer .f_left .link_list a:last-child {margin-right:0;}
-#main .swiper-wrapper .footer .f_left .left_btm {}
-#main .swiper-wrapper .footer .f_left .left_btm p {font-size:0.88rem; letter-spacing: -0.02em;}
-#main .swiper-wrapper .footer .f_left .left_btm p:first-child {margin-bottom:10px;}
-#main .swiper-wrapper .footer .f_left .left_btm p:nth-child(2) {margin-bottom:40px;}
-#main .swiper-wrapper .footer .f_right {padding-right:80px;}
-#main .swiper-wrapper .footer .f_right img {}
+#main .swiper-wrapper .page6 .footer .f_left .link_list a:last-child {margin-right:0;}
+#main .swiper-wrapper .page6 .footer .f_left .left_btm {}
+#main .swiper-wrapper .page6 .footer .f_left .left_btm p {font-size:0.88rem; letter-spacing: -0.02em;}
+#main .swiper-wrapper .page6 .footer .f_left .left_btm p:first-child {margin-bottom:10px;}
+#main .swiper-wrapper .page6 .footer .f_left .left_btm p:nth-child(2) {margin-bottom:40px;}
+#main .swiper-wrapper .page6 .footer .f_right {padding-right:80px;}
+#main .swiper-wrapper .page6 .footer .f_right img {}
 @keyframes page1title {
     0%{opacity:0; transform:translateY(-50px);}
     100%{opacity:1; transform:translateY(0);}

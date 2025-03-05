@@ -157,9 +157,9 @@ gsap.to('.page5 .news_swiper',{
     opacity:1,
     top:0,
 });
-gsap.to('.page6 h2',{
+gsap.to('.page6_top h2',{
     scrollTrigger:{
-        trigger:'.page6 h2',
+        trigger:'.page6_top h2',
         start:'top 80%',
         end:'top 20%',
         toggleActions:'play reverse restart reverse',
