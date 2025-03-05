@@ -157,9 +157,9 @@ gsap.to('.page5 .news_swiper',{
     opacity:1,
     top:0,
 });
-gsap.to('.page6_top h2',{
+gsap.to('.page6 h2',{
     scrollTrigger:{
-        trigger:'.page6_top h2',
+        trigger:'.page6_top',
         start:'top 80%',
         end:'top 20%',
         toggleActions:'play reverse restart reverse',
@@ -167,9 +167,9 @@ gsap.to('.page6_top h2',{
     opacity:1,
     left:0,
 });
-gsap.to('.page6_top p',{
+gsap.to('.page6 p',{
     scrollTrigger:{
-        trigger:'.page6_top p',
+        trigger:'.page6 p',
         start:'top 80%',
         end:'top 20%',
         toggleActions:'play reverse restart reverse',
