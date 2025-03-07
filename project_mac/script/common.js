@@ -1,6 +1,5 @@
 const nav = document.querySelectorAll('.header_left nav ul li');
 const sub = document.querySelectorAll('.header_left nav .sub');
-console.log(nav,sub);
 function removeSub(){
     sub[0].style.display = 'none';
     sub[1].style.display = 'none';
