@@ -159,7 +159,7 @@ gsap.to('.page5 .news_swiper',{
 });
 gsap.to('.page6_top h2',{
     scrollTrigger:{
-        trigger:'.page6_top',
+        trigger:'.page6_top h2',
         start:'top 80%',
         end:'top 20%',
         toggleActions:'play reverse restart reverse',
@@ -169,7 +169,7 @@ gsap.to('.page6_top h2',{
 });
 gsap.to('.page6_top p',{
     scrollTrigger:{
-        trigger:'.page6 p',
+        trigger:'.page6_top p',
         start:'top 80%',
         end:'top 20%',
         toggleActions:'play reverse restart reverse',

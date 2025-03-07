@@ -121,7 +121,6 @@
     main .guide_wrap a h2 {font-size:1.0rem;}
     main .guide_wrap a p:nth-child(3) {font-size:0.88rem;}
     main .guide_wrap a p:nth-child(3) span {font-size:0.88rem;}
-    main .guide_wrap a .go_link {display:block; position:absolute; bottom:30px; right:30px; line-height:1.2rem;}
     main .guide_wrap a p img {height:250px; width:100%;}
     main .event_wrap .event_title {}
     main .event_wrap .event_title h2 {font-size:1.0rem;}
@@ -141,7 +140,7 @@
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best > p {font-size:0.63rem;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .rank_number {width:20px; height:23px; font-size:0.88rem; line-height:23px;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .best_price {font-size:1.0rem;}
-    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .best_price img {width:15px; margin-right:13px;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .best_price img {width:15px; margin-right:3px;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .best .best_price span {font-weight:500; font-size:0.63rem; margin:0;}
     main .care_wrap {margin-bottom:80px;}
     main .care_wrap h2 {font-size:1.0rem; margin-bottom:15px;}
@@ -153,7 +152,7 @@
     main .care_wrap .care_list .care a p:first-child {position:relative; z-index:10; overflow:hidden;}
     main .care_wrap .care_list .care a p:nth-child(2) {position:absolute; left:0; top:0; color:#fff; font-size:0.88rem; padding:22px 0 0 24px; z-index:30;}
     main .care_wrap .care_list .care > p {color:#fff; position:absolute; z-index:50; left:24px; top:40%; width:300px; z-index:30;}
-    footer {flex-flow:column nowrap; align-items:flex-start; padding:20px 15px; height:446px;}
+    footer {flex-flow:column nowrap; align-items:flex-start; padding:20px 15px; height:380px;}
     footer .footer_left {margin-bottom:30px;}
     footer .footer_left .left_top {margin-bottom:30px;}
     footer .footer_left .left_top a {font-size:0.75rem; margin-right:15px;}

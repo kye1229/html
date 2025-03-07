@@ -240,7 +240,6 @@ main .guide_wrap a p:nth-child(3) {
 main .guide_wrap a p:nth-child(3) span {
     font-size:1.56rem; letter-spacing:-0.02em; font-weight:600; line-height:1.4;
 }
-main .guide_wrap a .go_link {background-color:#fff; padding:5px 10px; border-radius:20px; font-size:0.81rem; font-weight:600; display:none;}
 /* guide 끝 */
 main .event_wrap {max-width:1760px; margin:0 auto 140px;}
 main .event_wrap .event_title {display:flex; justify-content:space-between; margin-bottom:25px;}
@@ -251,7 +250,8 @@ main .event_wrap .event_list img {width:100%;}
 /* event 끝 */
 main .best_wrap {max-width:1760px; margin:0 auto 140px;}
 main .best_wrap .best_title {overflow:hidden;}
-main .best_wrap .best_title h2 {font-size:2.0rem; font-weight:600; letter-spacing:-0.02em; margin-bottom:20px;}
+main .best_wrap .best_title h2 {margin-bottom:20px;}
+main .best_wrap .best_title h2 a {font-size:2.0rem; font-weight:600; letter-spacing:-0.02em; }
 main .best_wrap .best_title .best_categories {float:left;}
 main .best_wrap .best_title .best_categories a {
     font-weight:500; letter-spacing:-0.02em; border:1px solid #BEBEBE; border-radius:25px; padding: 10px 17px; display:inline-block; color:#282828;
