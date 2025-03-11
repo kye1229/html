@@ -231,7 +231,7 @@ main .review_wrap .score_current .review_opinion .opinion3 h4 {width:201px;}
 /* score_current end */
 main .review_wrap .review_comment {}
 main .review_wrap .review_comment .comment_wrap {}
-main .review_wrap .review_comment .comment_wrap .comment {margin-bottom:30px; padding:30px 0 30px 10px; border-bottom:1px solid #cdcdcd;}
+main .review_wrap .review_comment .comment_wrap .comment {margin-bottom:30px; padding:0 0 30px 10px; border-bottom:1px solid #cdcdcd;}
 main .review_wrap .review_comment .comment_wrap .comment:nth-child(3),
 main .review_wrap .review_comment .comment_wrap .comment:nth-child(6),
 main .review_wrap .review_comment .comment_wrap .comment:nth-child(9) {margin-bottom:0; border:none;}
@@ -246,16 +246,17 @@ main .review_wrap .review_comment .comment_wrap .comment .comment_title .title_l
 main .review_wrap .review_comment .comment_wrap .comment .comment_title .title_left p {
     margin-left:30px; color:#FF2121; opacity: 0.6;
 }
-main .review_wrap .review_comment .comment_wrap .comment .comment_title .title_left p span {color:#000; font-size:0.75rem; font-weight:600; letter-spacing: -0.02em;}
-main .review_wrap .review_comment .comment_wrap .comment .comment_title > p {float:right;}
-main .review_wrap .review_comment .comment_wrap .comment > p {letter-spacing:-0.02em;}
+main .review_wrap .review_comment .comment_wrap .comment .comment_title .title_left p span {color:#000; font-size:0.75rem; font-weight:600; letter-spacing: -0.02em; position:relative; top:-1px;}
+main .review_wrap .review_comment .comment_wrap .comment .comment_title > p {float:right; font-weight:500; color:#777;}
+main .review_wrap .review_comment .comment_wrap .comment > p {letter-spacing:-0.02em; fo}
 main .review_wrap .review_comment .comment_wrap1 {}
 main .review_wrap .review_comment .comment_wrap2 {display:none;}
 main .review_wrap .review_comment .comment_wrap3 {display:none;}
 main .review_wrap .review_comment .page_link {display:flex; justify-content: center; margin-top:30px;}
 main .review_wrap .review_comment .page_link a {
-    width:20px; height:20px; color:#fff; background-color: #777; text-align:center; line-height:20px; font-weight:600; margin-right:30px; font-size:0.75rem;
+    width:20px; height:25px; color:#fff; background-color: #777; text-align:center; line-height:25px; font-weight:600; margin-right:30px; font-size:0.75rem;
 }
+main .review_wrap .review_comment .page_link a:last-child {margin-right:0;}
 main .review_wrap .review_comment .page_link a.active {background-color: #015EC5;}
 /* review end */
 main .question_wrap {max-width:1200px; margin:0 auto 120px;}
@@ -271,7 +272,6 @@ main .question_wrap .question_list .ques h4 {font-weight:500; letter-spacing: -0
 main .question_wrap .question_list .ques ul {}
 main .question_wrap .question_list .ques ul li {
     font-size:0.88rem; line-height:1.7; letter-spacing: -0.02em;
-    list-style:disc;
 }
 /* 개별 선택자 */
 main .question_wrap .question_list .ques1 {}

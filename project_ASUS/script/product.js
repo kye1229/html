@@ -10,7 +10,7 @@ const thumSwiper = new Swiper('.thum_swiper',{
     breakpoints:{
         950:{direction:'vertical',},
         700:{spaceBetween:20,},
-        440:{direction:'horizontal',spaceBetween:10,},
+        320:{direction:'horizontal',spaceBetween:10,},
     },
 });
 console.log(thumSwiper);

@@ -228,7 +228,7 @@
 
 /* 리스트 페이지 end, 상품 상세페이지 start */
 @media screen and (max-width:1250px) {
-    main .path {padding:0 50px;}
+    main .path {padding:0 50px; margin:30px auto 20px;}
     main #product_wrap {padding:0 50px;}
     main #product_wrap .photo_thumnail {margin-right:20px;}
     main #product_wrap .photo_thumnail .thum_swiper {height:230px;}
@@ -238,18 +238,20 @@
     main #product_wrap .big_bg img {width:366px;}
     main #product_wrap .big_bg .number {display:flex; flex-flow:row nowrap; justify-content:center; align-items:center;}
     main #product_wrap .big_bg .number dl > * {font-size:0.75rem;}
-    main #product_wrap .inform_wrap .product_name {margin-bottom:20px;}
+    main #product_wrap .inform_wrap .product_name {margin-bottom:15px;}
     main #product_wrap .inform_wrap .product_name h2 {font-size:1.5rem;}
     main #product_wrap .inform_wrap .product_score p {font-size:1.13rem;}
     main #product_wrap .inform_wrap .visit_recieve dd:last-child {margin-bottom:25px;}
+    main #product_wrap .inform_wrap .deliver {margin-bottom:8px;}
     main #product_wrap .inform_wrap .help {top:100px; right: -30px;}
     main #product_wrap .inform_wrap .select_wrap > * {margin-bottom:25px;}
+    main #product_wrap .inform_wrap .select_wrap > * h3 {font-size:0.88rem;}
     main #product_wrap .inform_wrap .select_wrap .btn button {width:213px;}
     main .sub_bnr {background-position:center; padding:107px 50px;}
     main .sub_bnr p {background-position:center;}
     main .benefit {padding:0 50px;}
     main .benefit > * {margin-right:10px;}
-    main .benefit > * h2, p {margin-bottom:10px;}
+    main .benefit > * h2, main .benefit > * p {margin-bottom:10px;}
     main .benefit > * p:last-child {margin-bottom:0;}
     main .benefit .premium_care {margin-right:0;}
     main .event_promotion {padding:0 50px;}
@@ -278,9 +280,11 @@
     main #product_wrap .photo_thumnail > .prev, main #product_wrap .photo_thumnail > .next {margin:0;}
     main #product_wrap .big_bg {margin-right:0; margin-bottom:40px;}
     main #product_wrap .big_bg img {width:410px;}
+    main #product_wrap .inform_wrap .product_name h2 {font-size:1.25rem;}
+    main #product_wrap .inform_wrap .product_name p {font-size:0.63rem;}
     main #product_wrap .inform_wrap .product_price {font-size:1.25rem;}
     main #product_wrap .inform_wrap .product_score {margin-bottom:15px;}
-    main #product_wrap .inform_wrap .help {top:90px; right: -10px;}
+    main #product_wrap .inform_wrap .help {top:70px; right: -10px;}
     main #product_wrap .inform_wrap .select_wrap .btn button {width:200px;}
     main #product_wrap .inform_wrap .select_wrap > * {margin-bottom:20px;}
     main #product_wrap .inform_wrap .select_wrap > *:nth-child(5) {margin-bottom:30px;}
@@ -298,11 +302,11 @@
     main .event_promotion .promotion_title p {font-size:0.88rem;}
     main .event_promotion .event_bnr a:first-child {margin-right:0;}
     main .event_promotion .event_bnr a:last-child {display:none;}
-    main .review_wrap {padding:0 15px;}
+    main .review_wrap {padding:0 15px; margin-bottom:80px;}
     main .review_wrap .review_title {margin-bottom:20px;}
     main .review_wrap .review_title h3 {font-size:1.13rem;}
     main .review_wrap .review_title h3 span {font-size:0.75rem; top:-2px;}
-    main .review_wrap .score_current {flex-flow:column nowrap;}
+    main .review_wrap .score_current {flex-flow:column nowrap; margin-bottom:20px;}
     main .review_wrap .score_current .star_score {width:100%;}
     main .review_wrap .score_current .star_score h4 {font-size:1.0rem; margin-bottom:10px;}
     main .review_wrap .score_current .star_score .star_grade {padding:24px 0;}
@@ -312,6 +316,18 @@
     main .review_wrap .score_current .review_opinion .opinion1 h4 {width:288px;}
     main .review_wrap .score_current .review_opinion .opinion2 h4 {width:258px;}
     main .review_wrap .score_current .review_opinion .opinion3 h4 {width:240px;}
+    main .review_wrap .review_comment .comment_wrap .comment {padding:0 0 15px 10px; margin-bottom:15px;}
+    main .review_wrap .review_comment .comment_wrap .comment > p {font-size:0.88rem;}
+    main .review_wrap .review_comment .comment_wrap .comment .comment_title .title_left h4 {font-size:1.0rem;}
+    main .review_wrap .review_comment .comment_wrap .comment .comment_title .title_left h4 em {font-size:0.88rem;}
+    main .review_wrap .review_comment .comment_wrap .comment .comment_title > p {font-size:0.75rem;}
+    main .review_wrap .review_comment .page_link a {width:20px; height:24px; line-height:24px;}
+    main .question_wrap {margin-bottom:100px; padding:0 15px;}
+    main .question_wrap h3 {font-size:1.13rem; padding:15px 0; margin-bottom:20px;}
+    main .question_wrap .question_list .ques {margin-bottom:30px;}
+    main .question_wrap .question_list .ques4 {margin-bottom:0;}
+    main .question_wrap .question_list .ques h4 {font-size:0.88rem; margin-bottom:20px;}
+    main .question_wrap .question_list .ques ul li {font-size:0.75rem;}
 }
 @media screen and (max-width:700px) {
 
