@@ -83,12 +83,12 @@ main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price {disp
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p {margin-right:13px;}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:first-child {color:#FF2121}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:nth-child(2) {font-size:1.13rem; font-weight:600;} 
-main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price a {font-size:0.88rem; font-weight:600; line-height:-0.02em; align-self:center;}
+main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price a {font-size:0.88rem; font-weight:600; letter-spacing:-0.02em; align-self:center;}
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > p {
     color:#777; margin-bottom:5px; font-size:0.88rem; font-weight:600; letter-spacing:-0.02em;
 }
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > p:last-child {margin-bottom:0;}
-main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price {float:right; font-size:1.13rem; color:#000; }
+main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price {float:right; width:100%; font-size:1.13rem; color:#000; }
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price span {font-size:0.73rem; font-weight:600; color:#777;} 
 main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price img {margin:0 10px 0 0px; position:relative; top:3px;}
 /* new 개별 선택자 */

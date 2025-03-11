@@ -1,8 +1,13 @@
 /* 1250px */
 @media screen and (max-width:1250px){
-    header .header_left nav, header .header_right li:last-child {display:none;}
+    header .header_left h1 {margin-right:30px;}
+    header .header_left nav li:nth-child(2) {display:none;}
     header .header_right li .more_tab {display:inline-block;}
     header .header_right li {width:20px;}
+    main .new_wrap .swiper-slide .new .new_price {font-size:1.25rem;}
+    main .hot_deal_wrap .swiper-slide .deal .deal_price {font-size:1.25rem;}
+    main .best_wrap .best_list_contents .best .best_price {font-size:1.25rem;}
+    main .best_wrap .best_list_contents .best_bnr {display:block; width:100%; height:407px; background-image:url(../images/best_bnr_wide_001.jpg); background-repeat: no-repeat; margin-bottom:30px; margin-right:0;}
     footer .footer_right .sns_icon a {width:30px;}
     footer .footer_right > * {margin-bottom:10px;}
     footer .footer_right .asus_family {margin-bottom:10px;}
@@ -34,12 +39,10 @@
     main .new_wrap {margin-bottom:100px;}
     main .new_wrap .new_title h2 a {font-size:1.75rem;}
     main .new_wrap .swiper-slide .new > a p {font-size:1.0rem;}
-    main .new_wrap .swiper-slide .new .new_price {font-size:1.25rem;}
     main .new_wrap .swiper-slide .deal > a p {font-size:1.0rem;}
     main .hot_deal_wrap {margin-bottom:100px;}
     main .hot_deal_wrap .hot_deal_title a {font-size:1.75rem;}
     main .hot_deal_wrap .swiper-slide .deal .discount {font-size:0.75rem;}
-    main .hot_deal_wrap .swiper-slide .deal .deal_price {font-size:1.25rem;}
     main .guide_wrap {margin:0 80px 100px; padding:0; height:359px;}
     main .guide_wrap a {display:block;}
     main .guide_wrap a h2 {font-size:1.5rem; left:27px; top:30px;}
@@ -52,28 +55,42 @@
     main .event_wrap .event_list a:last-child {display:none;}
     main .best_wrap .best_title h2 a {font-size:1.75rem;}
     main .best_wrap .best_list_contents {display:block;}
-    main .best_wrap .best_list_contents .best_bnr {display:block; width:100%; height:407px; background-image:url(../images/best_bnr_wide_001.jpg); background-repeat: no-repeat; margin-bottom:30px; margin-right:0;}
     main .best_wrap .best_list_contents .best_bnr img {display:none;}
     main .best_wrap .best_list_contents .best > a p:last-child {font-size:1.0rem;}
-    main .best_wrap .best_list_contents .best .best_price {font-size:1.25rem;}
     main .care_wrap .care_list .care a p {font-size:1.13rem;}
     main .care_wrap .care_list .care > p {line-height:1.4;}
     main .care_wrap .care_list .care a p img {margin-bottom:15px;}
 }
 /* 950px */
 @media screen and (max-width:950px){
-    footer {flex-flow:column nowrap; align-items:flex-start; padding:20px 15px; height:380px;}
-    footer {height:389px;}
+    header .header_left nav, header .header_right li:last-child {display:none;}
+    header .header_right li:first-child {display:none;}
+    header .header_right li:nth-child(2) {display:block;}
+    header .header_right .sub_tab_t {display:none;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price {display:block;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p {display:inline-block; margin-bottom:5px;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:first-child {margin-right:3px;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price a {display:block;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .score_price {display:block;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .score_price p {display:inline-block; margin-bottom:5px;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .score_price p:first-child {margin-right:3px;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .deal .score_price a {display:block;}
+    main .best_wrap .best_swiper .swiper-wrapper .swiper-slide .best .score_price {display:block;}
+    main .best_wrap .best_swiper .swiper-wrapper .swiper-slide .best .score_price p {display:inline-block; margin-bottom:5px;}
+    main .best_wrap .best_swiper .swiper-wrapper .swiper-slide .best .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .best_wrap .best_swiper .swiper-wrapper .swiper-slide .best .score_price p:first-child {margin-right:3px;}
+    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .best .score_price a {display:block;}
+    footer {height:389px; flex-flow:column nowrap; align-items:flex-start; padding:20px 15px; height:380px;}
     footer .footer_left {margin-bottom:30px;}
     footer .footer_left .left_top {margin-bottom:30px;}
     footer .footer_left .left_top a {font-size:0.75rem; margin-right:15px;}
     footer .footer_right {text-align:left;width:100%; position:relative;}
     footer .footer_right .call_center {position:absolute; right:0; bottom:0; text-align:right;}
 }
-/* 600px */
-@media screen and (max-width:600px) {
-    header .header_right li:first-child {display:none;}
-    header .header_right li:nth-child(2) {display:block;}
+/* 700px */
+@media screen and (max-width:700px) {
     .h_top {height:30px;}
     .h_top p {font-size:0.75rem; line-height:30px;}
     .h_top p #close_btn {top:3px;}
@@ -114,22 +131,20 @@
     main .new_wrap .new_title h2 a {font-size:1.0rem;}
     main .new_wrap .new_title .new_page {display:none;}
     main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
-    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .score_price p:nth-child(2) {font-size:0.88rem;}
-    main .new_wrap .new_swiper .swiper-wrapper .new .score_price a {font-size:0.75rem;}
     main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new > p {font-size:0.63rem;}
     main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price {font-size:1.0rem;}
-    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price img {margin-right:13px;}
-    main .new_wrap .new_swiper .swiper-wrapper .new .new_price span {font-weight:500; font-size:0.63rem; margin:0;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price img {width:10px; margin-right:3px;}
+    main .new_wrap .new_swiper .swiper-wrapper .swiper-slide .new .new_price span {font-weight:500; font-size:0.63rem; margin:0;}
     main .hot_deal_wrap .hot_deal_title {margin-bottom:15px;}
     main .hot_deal_wrap .hot_deal_title h2 a {font-size:1.0rem;}
     main .hot_deal_wrap .hot_deal_title h2 p img {width:15px;}
     main .hot_deal_wrap .hot_deal_title .deal_page {display:none;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .new .score_price p:nth-child(2) {font-size:0.88rem;}
-    main .hot_deal_wrap .deal_swiper .swiper-wrapper .deal .score_price a {font-size:0.75rem;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .discount {width:35px; height:20px; line-height:20px;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal > p {font-size:0.63rem;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price {font-size:1.0rem;}
+    main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price span {font-weight:500;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .swiper-slide .deal .deal_price img {margin-right:13px;}
     main .hot_deal_wrap .deal_swiper .swiper-wrapper .deal .deal_price span {font-weight:600; font-size:0.88rem; margin-right:10px;}
     main .event_wrap {margin-bottom:60px;}
@@ -153,7 +168,6 @@
     main .best_wrap .best_list_contents .best_bnr {background-position:center; margin-bottom:15px;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .score_price p {font-size:0.88rem;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .score_price p:nth-child(2) {font-size:0.88rem;}
-    main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .best .score_price a {font-size:0.75rem;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best > p {font-size:0.63rem;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .rank_number {width:20px; height:23px; font-size:0.88rem; line-height:23px;}
     main .best_wrap .best_list_contents .best_swiper .swiper-wrapper .swiper-slide .best .best_price {font-size:1.0rem;}
@@ -173,14 +187,132 @@
 
 /* 메인 페이지 end, 리스트 페이지 start */
 @media screen and (max-width:1250px) {
-    
+    main .sub_bnr .bnr_contents h2 {font-size:1.5rem;}
+    main .product_notebook_list h2 {font-size:1.25rem;}
+    main .product_notebook_list {padding:0 50px;}
+    main .product_notebook_list .category_list a {font-size:0.88rem;}
+    main .product_notebook_list .list_wrap .list .product {margin-right:18px;}
+    main .product_notebook_list .list_wrap .list .product4 {display:none;}
+    main .product_notebook_list .list_wrap .list .product > a p img {width:296px;}
 }
 @media screen and (max-width:1000px) {
-    
+    main .product_notebook_list .list_wrap .list .product3 {margin-right:0;}
 }
 @media screen and (max-width:950px) {
-    
+    main .sub_bnr {padding:0 45px;}
+    main .sub_bnr .bnr_contents h2 {font-size:1.0rem;}
+    main .sub_bnr .bnr_contents p {font-size:0.75rem; line-height:1.2; font-weight:400; letter-spacing: 0;}
+    main .product_notebook_list .category_list a {font-size:0.81rem; padding: 5px 20px; margin-right:3px; height:24px;}
+    main .product_notebook_list .category_list a:first-child {padding:5px 20px;}
+    main .product_notebook_list {margin-top:50px;}
+    main .product_notebook_list h2 {font-size:1.0rem; margin-bottom:15px;}
+    main .product_notebook_list .category_list a { margin:3px 0 3px 0; display:inline-block;}
+    main .product_notebook_list .list_wrap .list .product > a p img {width:200px;}
+    main .product_notebook_list .list_wrap .list .product .score_price {display:block;}
+    main .product_notebook_list .list_wrap .list .product .score_price p {display:inline-block; margin-bottom:5px;}
+    main .product_notebook_list .list_wrap .list .product .score_price p:nth-child(2) {font-size:0.88rem;}
+    main .product_notebook_list .list_wrap .list .product .score_price p:first-child {margin-right:3px;}
+    main .product_notebook_list .list_wrap .list .product .score_price a {display:block;}
+    main .product_notebook_list .list_wrap .list .product .product_price {font-size:1.0rem;}
+    main .product_notebook_list .list_wrap .list .product .product_price span  {font-size:0.75rem; font-weight:500;}
 }
 @media screen and (max-width:600px) {
-    
+    main .product_notebook_list {margin-bottom:80px;}
+    main .product_notebook_list {padding:0 15px;}
+    main .product_notebook_list .list_wrap .list .product2 {margin-right:0;}
+    main .product_notebook_list .list_wrap .list .product3 {display:none;}
+    main .product_notebook_list .list_wrap .list .product > p {font-size:0.63rem;}
+    main .product_notebook_list .page_list a {font-size:0.75rem; width:18px; height:22px; line-height:22px;}
+    footer .footer_left .left_top a {margin-right:15px;}
+}
+
+/* 리스트 페이지 end, 상품 상세페이지 start */
+@media screen and (max-width:1250px) {
+    main .path {padding:0 50px;}
+    main #product_wrap {padding:0 50px;}
+    main #product_wrap .photo_thumnail {margin-right:20px;}
+    main #product_wrap .photo_thumnail .thum_swiper {height:230px;}
+    main #product_wrap .photo_thumnail .thum_swiper .swiper-wrapper .swiper-slide a {width:50px;}
+    main #product_wrap .photo_thumnail .thum_swiper .swiper-wrapper .swiper-slide a.active {width:50px;}
+    main #product_wrap .big_bg {margin-right:52px;}
+    main #product_wrap .big_bg img {width:366px;}
+    main #product_wrap .big_bg .number {display:flex; flex-flow:row nowrap; justify-content:center; align-items:center;}
+    main #product_wrap .big_bg .number dl > * {font-size:0.75rem;}
+    main #product_wrap .inform_wrap .product_name {margin-bottom:20px;}
+    main #product_wrap .inform_wrap .product_name h2 {font-size:1.5rem;}
+    main #product_wrap .inform_wrap .product_score p {font-size:1.13rem;}
+    main #product_wrap .inform_wrap .visit_recieve dd:last-child {margin-bottom:25px;}
+    main #product_wrap .inform_wrap .help {top:100px; right: -30px;}
+    main #product_wrap .inform_wrap .select_wrap > * {margin-bottom:25px;}
+    main #product_wrap .inform_wrap .select_wrap .btn button {width:213px;}
+    main .sub_bnr {background-position:center; padding:107px 50px;}
+    main .sub_bnr p {background-position:center;}
+    main .benefit {padding:0 50px;}
+    main .benefit > * {margin-right:10px;}
+    main .benefit > * h2, p {margin-bottom:10px;}
+    main .benefit > * p:last-child {margin-bottom:0;}
+    main .benefit .premium_care {margin-right:0;}
+    main .event_promotion {padding:0 50px;}
+    main .event_promotion .event_bnr a:first-child {margin-right:20px;}
+    main .review_wrap {padding:0 50px;}
+    main .review_wrap .review_title {margin-bottom:30px;}
+    main .review_wrap .score_current {margin-bottom:30px;}
+    main .review_wrap .score_current .review_opinion {display:flex; flex-flow:column nowrap; justify-content: center;}
+    main .review_wrap .score_current .review_opinion .opinion {height:25px;}
+    main .review_wrap .score_current .review_opinion .opinion h4 {padding:5px 0 5px 20px; font-weight:500;}
+    main .review_wrap .score_current .review_opinion .opinion p {line-height:25px;}
+    main .review_wrap .score_current .review_opinion .opinion1 h4 {width:175px;}
+    main .review_wrap .score_current .review_opinion .opinion2 h4 {width:164px;}
+    main .review_wrap .score_current .review_opinion .opinion3 h4 {width:151px;}
+    main .question_wrap {padding:0 50px;}
+}
+@media screen and (max-width:1000px) {
+
+}
+@media screen and (max-width:950px) {
+    main .path {padding:0 15px; font-size:0.63rem; text-align:center;}
+    main #product_wrap {padding:0 15px; display:flex; flex-flow:column nowrap; align-items: center; margin-bottom:80px;}
+    main #product_wrap .photo_thumnail {flex-flow:row nowrap; justify-content: center; align-items: center; width:298px; margin: 0 0 20px 0;}
+    main #product_wrap .photo_thumnail > a img {transform:rotate(270deg);}
+    main #product_wrap .photo_thumnail .thum_swiper {height:50px; width:230px;}
+    main #product_wrap .photo_thumnail > .prev, main #product_wrap .photo_thumnail > .next {margin:0;}
+    main #product_wrap .big_bg {margin-right:0; margin-bottom:40px;}
+    main #product_wrap .big_bg img {width:410px;}
+    main #product_wrap .inform_wrap .product_price {font-size:1.25rem;}
+    main #product_wrap .inform_wrap .product_score {margin-bottom:15px;}
+    main #product_wrap .inform_wrap .help {top:90px; right: -10px;}
+    main #product_wrap .inform_wrap .select_wrap .btn button {width:200px;}
+    main #product_wrap .inform_wrap .select_wrap > * {margin-bottom:20px;}
+    main #product_wrap .inform_wrap .select_wrap > *:nth-child(5) {margin-bottom:30px;}
+    main #product_wrap .inform_wrap .select_wrap > *:last-child {margin-bottom:0;}
+    main .sub_bnr {padding:50px; height:auto; margin-bottom:80px;}
+    main .sub_bnr p {font-size:0.75rem; font-weight:400;}
+    main .benefit {flex-flow:column nowrap; margin-bottom:80px;}
+    main .benefit > * {margin-right:0; margin-bottom:50px;}
+    main .benefit > *:last-child {margin:0;}
+    main .benefit h4 {font-size:1.0rem; margin-bottom:8px;}
+    main .benefit p {font-size:0.75rem;}
+    main .event_promotion {margin-bottom:80px; padding:0 15px;}
+    main .event_promotion .promotion_title {flex-flow:column nowrap;}
+    main .event_promotion .promotion_title h3 {font-size:1.13rem; margin-bottom:10px;}
+    main .event_promotion .promotion_title p {font-size:0.88rem;}
+    main .event_promotion .event_bnr a:first-child {margin-right:0;}
+    main .event_promotion .event_bnr a:last-child {display:none;}
+    main .review_wrap {padding:0 15px;}
+    main .review_wrap .review_title {margin-bottom:20px;}
+    main .review_wrap .review_title h3 {font-size:1.13rem;}
+    main .review_wrap .review_title h3 span {font-size:0.75rem; top:-2px;}
+    main .review_wrap .score_current {flex-flow:column nowrap;}
+    main .review_wrap .score_current .star_score {width:100%;}
+    main .review_wrap .score_current .star_score h4 {font-size:1.0rem; margin-bottom:10px;}
+    main .review_wrap .score_current .star_score .star_grade {padding:24px 0;}
+    main .review_wrap .score_current .score {border:none; margin:20px 0; padding:15px 20px;}
+    main .review_wrap .score_current .score li .score_number .score_bar {height:8px;}
+    main .review_wrap .score_current .review_opinion {padding:20px 15px; width:100%;}
+    main .review_wrap .score_current .review_opinion .opinion1 h4 {width:288px;}
+    main .review_wrap .score_current .review_opinion .opinion2 h4 {width:258px;}
+    main .review_wrap .score_current .review_opinion .opinion3 h4 {width:240px;}
+}
+@media screen and (max-width:700px) {
+
 }

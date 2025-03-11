@@ -7,6 +7,11 @@ const thumSwiper = new Swiper('.thum_swiper',{
     slidesPerView:4,
     spaceBetween:20,
     slidePerGroup:4,
+    breakpoints:{
+        950:{direction:'vertical',},
+        700:{spaceBetween:20,},
+        440:{direction:'horizontal',spaceBetween:10,},
+    },
 });
 console.log(thumSwiper);
 
@@ -54,11 +59,9 @@ thumLink[4].addEventListener('click',(e)=>{
 
 const helpImg = document.querySelector('.deliver a');
 const help = document.querySelector('.help');
-helpImg.addEventListener('mouseover',(e)=>{
-    help.classList.add('active');
-});
-helpImg.addEventListener('mouseout',()=>{
-    help.classList.remove('active')
+helpImg.addEventListener('click',(e)=>{
+    e.preventDefault();
+    help.classList.toggle('active');
 });
 
 const selectLink1 = document.querySelectorAll('.storage a');

@@ -18,7 +18,7 @@ main .sub_bnr .bnr_contents h2 {
     margin-bottom:20px;
 }
 main .sub_bnr .bnr_contents p {font-size:0.88rem; font-weight:500; letter-spacing: -0.02em;}
-main .product_notebook_list {width:1760px; margin:140px auto;}
+main .product_notebook_list {max-width:1760px; margin:140px auto;}
 main .product_notebook_list h2 {
     text-align:center;
     font-size:1.5rem; font-weight:600; letter-spacing:-0.02em;
@@ -32,7 +32,7 @@ main .product_notebook_list .category_list a {
 main .product_notebook_list .category_list a:first-child {padding:8px 30px;}
 main .product_notebook_list .category_list a:nth-child(2) {color:#E34343;}
 main .product_notebook_list .category_list a:last-child {margin-right:0;}
-main .product_notebook_list .category_list a.active {border:none; color:#fff; background-color:#015EC5;}
+main .product_notebook_list .category_list a.active {border:1px solid #015EC5; color:#fff; background-color:#015EC5;}
 main .product_notebook_list .list_wrap {}
 /* list 공통 선택자 */
 main .product_notebook_list .list_wrap .list {display:flex; justify-content: space-between; margin-bottom:50px;}
@@ -60,7 +60,7 @@ main .product_notebook_list .list_wrap .list .product > p {
     color:#777; font-size:0.88rem; font-weight:600; letter-spacing: -0.02em;
     margin-bottom:5px;
 }
-main .product_notebook_list .list_wrap .list .product > p:nth-child(5) {margin-bottom:0;}
+main .product_notebook_list .list_wrap .list .product > p:nth-child(6) {margin-bottom:0;}
 main .product_notebook_list .list_wrap .list .product .product_price {float:right; margin-top:25px; font-size:1.13rem; color:#000;}
 main .product_notebook_list .list_wrap .list .product .product_price span {
     color:#aaa; text-decoration-line:line-through; font-weight:600;

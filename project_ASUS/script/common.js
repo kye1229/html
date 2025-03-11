@@ -33,25 +33,32 @@ moreTab2.addEventListener('click',()=>{
 function removeMsub() {
 
 }
-subMh2[0].addEventListener('click',()=>{
+subMh2[1].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[0].classList.toggle('active');
 })
-subMh2[1].addEventListener('click',()=>{
+subMh2[2].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[1].classList.toggle('active');
 })
-subMh2[2].addEventListener('click',()=>{
+subMh2[3].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[2].classList.toggle('active');
 })
-subMh2[3].addEventListener('click',()=>{
+subMh2[4].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[3].classList.toggle('active');
 })
-subMh2[4].addEventListener('click',()=>{
+subMh2[5].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[4].classList.toggle('active');
 })
-subMh2[5].addEventListener('click',()=>{
+subMh2[6].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[5].classList.toggle('active');
 })
-subMh2[6].addEventListener('click',()=>{
+subMh2[7].addEventListener('click',(e)=>{
+    e.preventDefault();
     subMmenu[6].classList.toggle('active');
 })
 const searchPopup = document.querySelector('header .search_popup');

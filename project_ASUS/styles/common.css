@@ -60,6 +60,7 @@ header .header_right li div.active {display:block;}
 /* sub menu mobile */
 header .header_right .sub_tab_m {display:none; width:350px; position:absolute; background-color:#fff; right:0; top:80px; z-index:999; height:auto; padding:20px;}
 header .header_right .sub_tab_m .sub_contents {}
+header .header_right .sub_tab_m .sub_contents .tab_menu0 .tab_title h2 {color:#015EC5  !important; font-weight:600 !important;}
 header .header_right .sub_tab_m .sub_contents .tab {margin-bottom:10px;}
 header .header_right .sub_tab_m .sub_contents .tab .tab_title {display:flex; justify-content: space-between; align-items: center; padding:15px 10px;}
 header .header_right .sub_tab_m .sub_contents .tab_menu1 .tab_title:nth-child(3) {margin-top:10px;}
@@ -91,7 +92,7 @@ header .search_popup .search_contents .popular_search .popular_list a:hover {bac
 /* searchpopup end, footer start */
 footer {
     background-color:#313131; height:350px; padding:0 80px; display:flex; justify-content: space-between;
-    align-items:center;
+    align-items:center; max-width:1920px;
 }
 footer .footer_left {}
 footer .footer_left .left_top {margin-bottom:80px;}
