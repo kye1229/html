@@ -1,0 +1,16 @@
+main {}
+main .bnr_swiper {}
+main .bnr_swiper .swiper-wrapper {}
+main .bnr_swiper .swiper-wrapper .swiper-slide {}
+main .bnr_swiper .swiper-wrapper .swiper-slide .bnr_txt {}
+main .bnr_swiper .swiper-wrapper .bnr1 {}
+main .bnr_swiper .swiper-wrapper .bnr1 .bnr_txt {}
+main .bnr_swiper .swiper-wrapper .bnr2 {}
+main .bnr_swiper .swiper-wrapper .bnr2 .bnr_txt {}
+main .bnr_swiper .swiper-wrapper .bnr3 {}
+main .bnr_swiper .swiper-wrapper .bnr3 .bnr_txt {}
+main .bnr_swiper .swiper-scrollbar {}
+main .bnr_swiper > a {}
+main .bnr_swiper .prev {}
+main .bnr_swiper .next {}
+main 

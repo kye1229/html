@@ -44,7 +44,7 @@ const dealSlide = new Swiper('.hot_deal_wrap .deal_swiper',{
     slidesPerGroup:4,
     spaceBetween:18,
     breakpoints:{
-        1000:{slidesPerView:4, slidesPerGroup:4,spaceBetween:18,},
+        1250:{slidesPerView:4, slidesPerGroup:4,spaceBetween:18,},
         700:{slidesPerView:3, slidesPerGroup:3,spaceBetween:20,},
         320:{slidesPerView:2, slidesPerGroup:2,spaceBetween:10,},
     }
@@ -101,7 +101,9 @@ const bestSlide = new Swiper('.best_wrap .best_swiper',{
     slidesPerView:3,
     slidesPerGroup:3,
     breakpoints:{
-        700:{slidesPerView:3, slidesPerGroup:3,},
+        1500:{slidesPerView:3, slidesPerGroup:3,},
+        950:{slidesPerView:2, slidesPerGroup:2,},
+        500:{slidesPerView:3, slidesPerGroup:3,},
         320:{slidesPerView:2, slidesPerGroup:2,spaceBetween:15,},
     }
 });

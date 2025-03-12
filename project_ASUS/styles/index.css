@@ -223,7 +223,7 @@ main .hot_deal_wrap .hot_deal_list .deal4 .best_price span {}
 /* hot deal 끝 */
 main .guide_wrap {
     max-width:1920px; margin:0 auto 140px;
-    height:598px; position:relative;
+    position:relative;
 }
 main .guide_wrap a {}
 main .guide_wrap a p img {width:100%;}
