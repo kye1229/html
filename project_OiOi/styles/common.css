@@ -11,7 +11,7 @@ body > * {max-width:1920px; min-width:440px;}
 header {max-width:1920px; height:110px; padding:20px 80px; overflow:hidden; }
 header > a {text-align:center;}
 header > a img {}
-header .h_left {}
+header .h_left {float:left;}
 header .h_left ul {display:flex;}
 header .h_left ul li {margin-right:25px;}
 header .h_left ul li:last-child {margin-right:0;}
@@ -20,6 +20,7 @@ header .h_left ul li:first-child a {color:#002cad;}
 header .h_left ul li:nth-child(2) a {color:#d70000;}
 header .h_right {display:flex; float:right;}
 header .h_right > * {
+    float:right;
     font-size:0.88rem; letter-spacing:-0.02em; font-weight:600; margin-right:20px;
 }
 header .h_right a {}

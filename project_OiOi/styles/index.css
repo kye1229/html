@@ -1,16 +1,31 @@
 main {}
-main .bnr_swiper {}
+main .bnr_swiper {max-width:1920px; height:700px; margin-bottom:180px;}
 main .bnr_swiper .swiper-wrapper {}
 main .bnr_swiper .swiper-wrapper .swiper-slide {}
 main .bnr_swiper .swiper-wrapper .swiper-slide .bnr_txt {}
-main .bnr_swiper .swiper-wrapper .bnr1 {}
+main .bnr_swiper .swiper-wrapper .bnr1 {background-image:url(../images/main_bnr_001.jpg)}
 main .bnr_swiper .swiper-wrapper .bnr1 .bnr_txt {}
 main .bnr_swiper .swiper-wrapper .bnr2 {}
 main .bnr_swiper .swiper-wrapper .bnr2 .bnr_txt {}
 main .bnr_swiper .swiper-wrapper .bnr3 {}
 main .bnr_swiper .swiper-wrapper .bnr3 .bnr_txt {}
-main .bnr_swiper .swiper-scrollbar {}
+main .bnr_swiper .swiper-scrollbar {width:1440px; margin:0 240px 75px;}
 main .bnr_swiper > a {}
 main .bnr_swiper .prev {}
 main .bnr_swiper .next {}
-main 
+main .new_wrap {max-width:1440px; margin:0 auto;}
+main .new_wrap .new_title {overflow:hidden; background-color:red;}
+main .new_wrap .new_title h2 {font-size:2.0rem; letter-spacing:-0.02em; font-weight:600; float:left;}
+main .new_wrap .new_title #new_option {float:right; background-image:url(../images/select_001.png); background-repeat:no-repeat; background-position:88% 40%; padding-left:5px; }
+main .new_wrap .new_title #new_option option {}
+main .new_wrap .new_product {}
+/* new 공통 선택자 */
+main .new_wrap .new_product .new_list {}
+main .new_wrap .new_product .new_list .new_prd {}
+main .new_wrap .new_product .new_list .new_prd {}
+main .new_wrap .new_product .new_list .new_prd a {}
+main .new_wrap .new_product .new_list .new_prd a img {}
+main .new_wrap .new_product .new_list .new_prd .price_list {}
+main .new_wrap .new_product .new_list .new_prd .price_list .discount {}
+main .new_wrap .new_product .new_list .new_prd .price_list .original {}
+main .new_wrap .new_product .new_list .new_prd .price_list .total {}
