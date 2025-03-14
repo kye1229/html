@@ -5,10 +5,53 @@ main .list_bnr {
 }
 main .list_bnr::after {display:block; content:''; z-index:50; background-color: rgba(0,0,0,0.2); position:absolute; left:0; top:0; width:100%; height:100%;}
 main .list_bnr p {color:#fff; font-size:1.5rem; font-weight:600; letter-spacing:-0.02em; position: relative; z-index:70;}
-main .list_wrap {}
-main .list_wrap .cate_list {}
-main .list_wrap .cate_list h2 {}
-main .list_wrap .cate_list .cate_sub_list {}
+main .list_wrap {max-width:1440px; margin: 80px auto 180px; display:flex; justify-content: space-between;}
+main .list_wrap .cate_list {width:220px;}
+main .list_wrap .cate_list h2 {
+    font-size:1.5rem; font-weight:700; letter-spacing:-0.02em; padding-bottom:20px; border-bottom:2px solid #000; margin-bottom:20px;
+}
+main .list_wrap .cate_list .cate_sub_list {display:flex; flex-flow:column nowrap;}
 main .list_wrap .cate_list .cate_sub_list a {}
 main .list_wrap .cate_list .cate_sub_list a:hover {}
 main .list_wrap .cate_list .cate_sub_list a.active {}
+main .list_wrap .list_right {}
+main .list_wrap .list_right .filter {text-align:right; margin-bottom:30px;}
+main .list_wrap .list_right .filter a {margin-right:20px;}
+main .list_wrap .list_right .filter #prd_option {width:70px;}
+main .list_wrap .list_right .filter #prd_option option {}
+/* 공통 */
+main .list_wrap .list_right .prd_list {}
+main .list_wrap .list_right .prd_list .list {display:flex; justify-content: space-between;}
+main .list_wrap .list_right .prd_list .list .prd {}
+main .list_wrap .list_right .prd_list .list .prd a {width:272px;  display:block;}
+main .list_wrap .list_right .prd_list .list .prd a img {width:100%;}
+main .list_wrap .list_right .prd_list .list .prd h3 {}
+main .list_wrap .list_right .prd_list .list .prd h3 span {}
+main .list_wrap .list_right .prd_list .list .prd .price_list {}
+main .list_wrap .list_right .prd_list .list .prd .price_list p {}
+main .list_wrap .list_right .prd_list .list .prd .price_list .discount {}
+main .list_wrap .list_right .prd_list .list .prd .price_list .original {}
+main .list_wrap .list_right .prd_list .list .prd .price_list .total {}
+/* list 개별 */
+main .list_wrap .list_right .prd_list .list1 {}
+main .list_wrap .list_right .prd_list .list1 .prd {}
+main .list_wrap .list_right .prd_list .list1 .prd a {}
+main .list_wrap .list_right .prd_list .list1 .prd h3 {}
+main .list_wrap .list_right .prd_list .list1 .prd h3 span {}
+main .list_wrap .list_right .prd_list .list1 .prd .price_list {}
+main .list_wrap .list_right .prd_list .list1 .prd .price_list p {}
+main .list_wrap .list_right .prd_list .list1 .prd .price_list .discount {}
+main .list_wrap .list_right .prd_list .list1 .prd .price_list .original {}
+main .list_wrap .list_right .prd_list .list1 .prd .price_list .total {}
+/* prd 개별 */
+main .list_wrap .list_right .prd_list {}
+main .list_wrap .list_right .prd_list .list {}
+main .list_wrap .list_right .prd_list .list .prd1 {}
+main .list_wrap .list_right .prd_list .list .prd1 a {}
+main .list_wrap .list_right .prd_list .list .prd1 h3 {}
+main .list_wrap .list_right .prd_list .list .prd1 h3 span {}
+main .list_wrap .list_right .prd_list .list .prd1 .price_list {}
+main .list_wrap .list_right .prd_list .list .prd1 .price_list p {}
+main .list_wrap .list_right .prd_list .list .prd1 .price_list .discount {}
+main .list_wrap .list_right .prd_list .list .prd1 .price_list .original {}
+main .list_wrap .list_right .prd_list .list .prd1 .price_list .total {}
