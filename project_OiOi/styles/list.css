@@ -1,0 +1,14 @@
+main {}
+main .list_bnr {
+    background-image:url(../images/list_bnr_001.jpg); max-width:1920px; height:200px;
+    display:flex; justify-content: center; align-items:center; background-size:cover; background-position:center; position:relative; display:none;
+}
+main .list_bnr::after {display:block; content:''; z-index:50; background-color: rgba(0,0,0,0.2); position:absolute; left:0; top:0; width:100%; height:100%;}
+main .list_bnr p {color:#fff; font-size:1.5rem; font-weight:600; letter-spacing:-0.02em; position: relative; z-index:70;}
+main .list_wrap {}
+main .list_wrap .cate_list {}
+main .list_wrap .cate_list h2 {}
+main .list_wrap .cate_list .cate_sub_list {}
+main .list_wrap .cate_list .cate_sub_list a {}
+main .list_wrap .cate_list .cate_sub_list a:hover {}
+main .list_wrap .cate_list .cate_sub_list a.active {}
