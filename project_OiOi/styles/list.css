@@ -5,33 +5,35 @@ main .list_bnr {
 }
 main .list_bnr::after {display:block; content:''; z-index:50; background-color: rgba(0,0,0,0.2); position:absolute; left:0; top:0; width:100%; height:100%;}
 main .list_bnr p {color:#fff; font-size:1.5rem; font-weight:600; letter-spacing:-0.02em; position: relative; z-index:70;}
-main .list_wrap {max-width:1440px; margin: 80px auto 180px; display:flex; justify-content: space-between;}
+main .list_wrap {max-width:1760px; margin: 80px auto 180px; display:flex; justify-content: space-between;}
 main .list_wrap .cate_list {width:220px;}
 main .list_wrap .cate_list h2 {
     font-size:1.5rem; font-weight:700; letter-spacing:-0.02em; padding-bottom:20px; border-bottom:2px solid #000; margin-bottom:20px;
 }
 main .list_wrap .cate_list .cate_sub_list {display:flex; flex-flow:column nowrap;}
-main .list_wrap .cate_list .cate_sub_list a {}
-main .list_wrap .cate_list .cate_sub_list a:hover {}
-main .list_wrap .cate_list .cate_sub_list a.active {}
+main .list_wrap .cate_list .cate_sub_list a {padding:15px 10px; color:#626262; font-weight:600; letter-spacing:-0.02em;}
+main .list_wrap .cate_list .cate_sub_list a:hover {color:#000;}
+main .list_wrap .cate_list .cate_sub_list a.active { background-color:#C9D7FF; color:#000;}
 main .list_wrap .list_right {}
 main .list_wrap .list_right .filter {text-align:right; margin-bottom:30px;}
 main .list_wrap .list_right .filter a {margin-right:20px;}
-main .list_wrap .list_right .filter #prd_option {width:70px;}
+main .list_wrap .list_right .filter #prd_option {width:70px; background-image:url(../images/select_001.png); background-repeat:no-repeat; background-position:88% 40%; padding:5px;}
 main .list_wrap .list_right .filter #prd_option option {}
 /* 공통 */
 main .list_wrap .list_right .prd_list {}
-main .list_wrap .list_right .prd_list .list {display:flex; justify-content: space-between;}
-main .list_wrap .list_right .prd_list .list .prd {}
-main .list_wrap .list_right .prd_list .list .prd a {width:272px;  display:block;}
-main .list_wrap .list_right .prd_list .list .prd a img {width:100%;}
-main .list_wrap .list_right .prd_list .list .prd h3 {}
-main .list_wrap .list_right .prd_list .list .prd h3 span {}
-main .list_wrap .list_right .prd_list .list .prd .price_list {}
+main .list_wrap .list_right .prd_list .list {display:flex; justify-content: space-between; margin-bottom:80px;}
+main .list_wrap .list_right .prd_list .list4 {margin-bottom:80px;}
+main .list_wrap .list_right .prd_list .list .prd {width:272px; margin-right:20px;}
+main .list_wrap .list_right .prd_list .list .prd a {  display:block;}
+main .list_wrap .list_right .prd_list .list .prd a img {width:100%; margin-bottom:10px; scale:1.0; transition: scale 0.5s ease;}
+main .list_wrap .list_right .prd_list .list .prd a:hover img {width:100%; scale:1.05;}
+main .list_wrap .list_right .prd_list .list .prd h3 {margin-bottom:10px; font-size:0.88rem; font-weight:500; letter-spacing: -0.02em; text-align:left;}
+main .list_wrap .list_right .prd_list .list .prd h3 span {font-size:0.81rem; letter-spacing: -0.02em; margin-right:5px; color:#626262;}
+main .list_wrap .list_right .prd_list .list .prd .price_list {display:flex; align-items:flex-end;}
 main .list_wrap .list_right .prd_list .list .prd .price_list p {}
-main .list_wrap .list_right .prd_list .list .prd .price_list .discount {}
-main .list_wrap .list_right .prd_list .list .prd .price_list .original {}
-main .list_wrap .list_right .prd_list .list .prd .price_list .total {}
+main .list_wrap .list_right .prd_list .list .prd .price_list .discount {margin-right:20px; font-size:1.25rem; font-weight:600; letter-spacing: -0.02em; color:#d70000;}
+main .list_wrap .list_right .prd_list .list .prd .price_list .original {margin-right:10px; font-size:1.0rem; font-weight:500; text-decoration-line:line-through; color:#626262; letter-spacing: -0.02em;}
+main .list_wrap .list_right .prd_list .list .prd .price_list .total {font-size:1.13rem; letter-spacing: -0.02em; font-weight:600;}
 /* list 개별 */
 main .list_wrap .list_right .prd_list .list1 {}
 main .list_wrap .list_right .prd_list .list1 .prd {}
@@ -55,3 +57,8 @@ main .list_wrap .list_right .prd_list .list .prd1 .price_list p {}
 main .list_wrap .list_right .prd_list .list .prd1 .price_list .discount {}
 main .list_wrap .list_right .prd_list .list .prd1 .price_list .original {}
 main .list_wrap .list_right .prd_list .list .prd1 .price_list .total {}
+/* margin:0 */
+main .list_wrap .list_right .prd_list .list .prd5,
+main .list_wrap .list_right .prd_list .list .prd10,
+main .list_wrap .list_right .prd_list .list .prd15,
+main .list_wrap .list_right .prd_list .list .prd20 {margin-right:0;}
