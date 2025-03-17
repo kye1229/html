@@ -62,3 +62,15 @@ main .list_wrap .list_right .prd_list .list .prd5,
 main .list_wrap .list_right .prd_list .list .prd10,
 main .list_wrap .list_right .prd_list .list .prd15,
 main .list_wrap .list_right .prd_list .list .prd20 {margin-right:0;}
+/* prd list end, page wrap start */
+main .list_wrap .page_wrap {display:flex; justify-content: center; align-items:center;}
+main .list_wrap .page_wrap > a {width:25px; opacity:0.4;}
+main .list_wrap .page_wrap > a:hover {opacity:0.8;}
+main .list_wrap .page_wrap > a img {width:100%; position:relative; top:2px;}
+main .list_wrap .page_wrap .prev {margin-right:30px;}
+main .list_wrap .page_wrap .next {margin-left:30px;}
+main .list_wrap .page_wrap .page_list {}
+main .list_wrap .page_wrap .page_list a {font-size:1.25rem; font-weight:500; letter-spacing: -0.02em; color:#626262; margin-right:20px;}
+main .list_wrap .page_wrap .page_list a:nth-of-type(6) {margin-right:0;}
+main .list_wrap .page_wrap .page_list a:hover {color:#000;}
+main .list_wrap .page_wrap .page_list a.active {color:#1A2F6D; font-weight:600;}

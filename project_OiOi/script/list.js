@@ -60,3 +60,43 @@ cateList[7].addEventListener('click',(e)=>{
     cateTitle.innerText = 'ACC';
     cateList[7].classList.add('active');
 })
+
+const pageList = document.querySelectorAll('.page_list a');
+
+function removePage() {
+    pageList[0].classList.remove('active');
+    pageList[1].classList.remove('active');
+    pageList[2].classList.remove('active');
+    pageList[3].classList.remove('active');
+    pageList[4].classList.remove('active');
+    pageList[5].classList.remove('active');
+}
+
+pageList[0].addEventListener('click',(e)=>{
+    e.preventDefault();
+    removePage();
+})
+pageList[1].addEventListener('click',(e)=>{
+    e.preventDefault();
+    removePage();
+})
+pageList[2].addEventListener('click',(e)=>{
+    e.preventDefault();
+    removePage();
+    pageList[2].classList.add('active');
+})
+pageList[3].addEventListener('click',(e)=>{
+    e.preventDefault();
+    removePage();
+    pageList[3].classList.add('active');
+})
+pageList[4].addEventListener('click',(e)=>{
+    e.preventDefault();
+    removePage();
+    pageList[4].classList.add('active');
+})
+pageList[5].addEventListener('click',(e)=>{
+    e.preventDefault();
+    removePage();
+    pageList[5].classList.add('active');
+})
