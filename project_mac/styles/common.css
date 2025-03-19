@@ -33,7 +33,7 @@ header .header_right a span {
 }
 /* header sub menu start */
 header .header_left nav ul li .sub {
-    width:1920px;background-color: #fff;; position:absolute; left:0; top:80px; padding:55px 240px; height:450px; overflow:hidden;
+    width:1920px;background-color:rgba(255,255,255,0.8); position:absolute; left:0; top:80px; padding:55px 240px; height:450px; overflow:hidden;
 }
 header .header_left nav ul li .sub .sub_left > p {
     margin-bottom:33px;

@@ -86,15 +86,27 @@ bestBtn[3].addEventListener('click',(e)=>{
     bestImg[7].src = './images/product_033.jpg';
 })
 
-const colList = document.querySelectorAll('.collection_list p img');
-const colAfter = document.querySelectorAll('.collection_list li a:after');
-const colTxt = document.querySelectorAll('.collection_list .col_txt p');
-
-colList[0].addEventListener('mouseover',()=>{
+const adverSwiper = new Swiper ('.ad_set_wrap .set_swiper',{
+    slidesPerView:3,
+    slidesPerGroup:3,
+    spaceBetween:20,
+    speed:1000,
+    navigation:{
+        prevEl:'.ad_set_wrap .prev',
+        nextEl:'.ad_set_wrap .next',
+    },
+    pagination:{
+        el:'.set_swiper + .swiper-pagination',
+        type:'bullets',
+    },
 })
 
-const adverSwiper = new Swiper ('.ad_set_wrap .set_swiper',{
-    spaceBetween:20,
-    slidesPerview:3,
-    slidesPerGroup:3,
+const mdSwiper = new Swiper('.md_swiper',{
+    slidesPerView:4,
+    slidesPerGroup:4,
+    spaceBetween:18,
+    navigation:{
+        prevEl:'.md_list .prev',
+        nextEl:'.md_list .next',
+    },
 });
