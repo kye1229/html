@@ -57,8 +57,8 @@ n# HTML
 2. 각 이동 대상의 첫번째 요소에 id 설정하기
 3. 위 2번으로 이동시 클릭해야하는 대상에 href속성으로 #아이디명 입력하기
 ## 파비콘 복붙용
-* `<link rel="shortcut icon" href="이미지경로작성위치" type="image/x-icon">
-<link rel="icon" href="이미지경로작성위치" type="image/x-icon">`
+* `<link rel="shortcut icon" href="이미지경로작성위치" type="image/x-icon">`
+`<link rel="icon" href="이미지경로작성위치" type="image/x-icon">`
 
 # CSS
 ## 디자인 속성 순서
